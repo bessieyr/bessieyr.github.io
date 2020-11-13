@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ronyeaf.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="引言 这次在采购路由器上来来回回折腾了许久，先后换了货型，还为了以防万一当场试验了功能。由于我需要的路由器是可以接收手机热点wifi讯号，再对讯号进行延伸发送，因此本篇的内容会主要关于这个方向进行描述。仅此记录，以防后续采坑。  路由器的模式功能  无线路由器 Wireless router mode 中继模式 Repeater mode 无线存取点 AP mode 多媒体桥接器 Media B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="购买路由器前你需要知道">
+<meta property="og:url" content="https://ronyeaf.github.io/router.html">
+<meta property="og:site_name" content="Ronyeaf">
+<meta property="og:description" content="引言 这次在采购路由器上来来回回折腾了许久，先后换了货型，还为了以防万一当场试验了功能。由于我需要的路由器是可以接收手机热点wifi讯号，再对讯号进行延伸发送，因此本篇的内容会主要关于这个方向进行描述。仅此记录，以防后续采坑。  路由器的模式功能  无线路由器 Wireless router mode 中继模式 Repeater mode 无线存取点 AP mode 多媒体桥接器 Media B">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175154.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175252.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/bessieyr/asset/master/img/20200522175316.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175328.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175304.png">
+<meta property="article:published_time" content="2020-05-10T12:26:40.000Z">
+<meta property="article:modified_time" content="2020-06-11T07:30:46.698Z">
+<meta property="article:author" content="青如玉">
+<meta property="article:tag" content="Others">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175154.png">
+
+<link rel="canonical" href="https://ronyeaf.github.io/router">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>购买路由器前你需要知道 | Ronyeaf
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta custom-logo">
+      <div class="site-meta-headline">
+        <a href="/" >
+          <img class="custom-logo-image" src="/images/logo.png" alt="Ronyeaf">
+        </a>
+      </div>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">购买路由器前你需要知道
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <blockquote>
+<p><strong>引言</strong></p>
+<p>这次在采购路由器上来来回回折腾了许久，先后换了货型，还为了以防万一当场试验了功能。由于我需要的路由器是可以接收手机热点wifi讯号，再对讯号进行延伸发送，因此本篇的内容会主要关于这个方向进行描述。仅此记录，以防后续采坑。</p>
+</blockquote>
+<h1 id="路由器的模式功能"><a href="#路由器的模式功能" class="headerlink" title="路由器的模式功能"></a>路由器的模式功能</h1><p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175154.png" alt="image-20200510172646027"></p>
+<ol>
+<li>无线路由器 Wireless router mode</li>
+<li>中继模式 Repeater mode</li>
+<li>无线存取点 AP mode</li>
+<li>多媒体桥接器 Media Bridge</li>
+<li>无线WAN功能 WISP <font color="#aaa">针对tp-link的路由器</font></li>
+</ol>
+<p><strong>专有名词解释</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>路由</td>
+<td>通过互联的网络，把信息从源地址传输到目标地址的活动</td>
+</tr>
+<tr>
+<td>无线访问节点（AP）</td>
+<td>无线网和有线网之间沟通的桥梁</td>
+</tr>
+<tr>
+<td>有线交换机</td>
+<td>用于集中连接网络设备的机器</td>
+</tr>
+</tbody></table>
+<p><strong>无线路由器模式</strong></p>
+<p>这一模式是路由器最基本的使用模式，可以看做是建立具有路由功能的一个无线存取点。可接在宽带光纤等线路上，通过路由器实现自动拨号进入网络，并通过无线功能，使用户可以无线连接使用。主要用于家庭。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175252.png" alt="image-20200510184630361"></p>
+<p><strong>中继模式</strong></p>
+<p>路由器通过无线方式连接至可以上网的设备，从而放大该设备的无线讯号。主要用于扩大wifi讯号范围，但是有着每桥接讯号频宽就会减半一次的绝对缺陷。</p>
+<p><img src="https://raw.githubusercontent.com/bessieyr/asset/master/img/20200522175316.png" alt="image-20200510184554648"></p>
+<p><strong>无线存取点模式</strong></p>
+<p>路由器建立大量的无线访问节点，实现大面积的网络覆盖。接入在有线交换机或者路由器上，将有线网络转换为无线网络，并大面积增加无线覆盖范围。主要用于大范围的学校和企业中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175328.png" alt="image-20200510184526687"></p>
+<p><strong>多媒体桥接模式</strong></p>
+<p>功能运作和中继模式类似，只是在发出无线信号时会使用新的ip地址，因此网络名称SSID会和原设备不一样。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175304.png" alt="image-20200510184427813"></p>
+<p><strong>WISP</strong></p>
+<p>同桥接功能一样。</p>
+<h1 id="要考虑的问题"><a href="#要考虑的问题" class="headerlink" title="要考虑的问题"></a>要考虑的问题</h1><ol>
+<li>需要什么样的功能？</li>
+<li>预期使用的场地是什么样的？</li>
+<li>预算多少？</li>
+<li>售后服务如何？</li>
+</ol>
+<p><strong>需要什么样的功能？</strong></p>
+<p>不同型号的路由器具备的模式功能也会不同，因此这一点至关重要，在向销售人员咨询的时候务必把使用目的清楚告知，否则哪怕是花了大价钱购买，买回的路由器也可能根本没有用。</p>
+<p>像我的需求是扩大手机热点wifi的范围，因此我就需要选择具有中继/桥接/WISP功能的路由器。</p>
+<p><strong>预期使用的场地是什么样的？</strong></p>
+<p>考虑清楚使用场地，才能明确知道自己需要路由器的信号传播范围要有多广。如果场地是有很多高墙障碍物的，那么势必会干扰到信号，因此场地问题决定了你所需要的路由器的品质。</p>
+<p><strong>预算多少？</strong></p>
+<p>这是个非常实际的问题了，钱不一定是万能的，但有钱可以有很多的好处。在预算不够充足的情况下，可能就要考虑是否能接受一定程度地降低所需路由器的品质，或者买个二手的路由器，或者甚至可以考量是否有别种功能更为单一价格更加低廉的产品可以替代路由器。</p>
+<p>由于路由器具有很多模式功能，而这些功能不一定全部都是你所需要的，在这种情况下选择单一功能的产品通常会比多功能的产品要节省不少的成本费用。比如说，我对路由器的需求仅仅是扩大wifi范围这一功能，那么其实也是考虑选择wifi延伸器/强波器这种产品作为替代，甚至说diy自制一个铝罐放拐角处其实都能达到这种扩大信号的目的，但最终选择了价格更高些路由器，还是因为其他产品的发射讯号品质不够理想。</p>
+<p><strong>售后服务如何？</strong></p>
+<p>上述几个问题都是在帮你不断梳理清楚理想的产品货型，但是也许依旧会有很多甚至说多品牌的货型在你的清单上，这时候需要想想售后服务的问题了。不同的商家售后服务的制度也可能不同，有些维修速度快，有些维修速度慢。大品牌的品质一般比较稳定，受众多，服务人员也会多些，但是品牌的来源国家还是会对维修造成一定影响，一般来说买当地品牌的产品，在维修上会更快更有保障性些。</p>
+<p>另外，如果你是第一次购买路由器，还没有把握清楚了解路由器的资讯，那么这里强烈建议选择具有退换服务的商家！毕竟从资料上看的，远不如实际接触来的经验好。</p>
+<h1 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h1><p><strong>我所知道旗下具有延伸wifi讯号功能的路由器产品的品牌</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TP-Link</td>
+<td>华硕</td>
+<td>Tenda</td>
+<td>小米</td>
+<td>D-Link</td>
+</tr>
+</tbody></table>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a target="_blank" rel="noopener" href="https://www.mobile01.com/topicdetail.php?f=18&amp;t=5664797">https://www.mobile01.com/topicdetail.php?f=18&amp;t=5664797</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.tp-link.com/tw/support/faq/679/">https://www.tp-link.com/tw/support/faq/679/</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/32275116">https://zhuanlan.zhihu.com/p/32275116</a></p>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B7%AF%E7%94%B1%E5%99%A8%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8A%9F%E8%83%BD"><span class="nav-text">路由器的模式功能</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A6%81%E8%80%83%E8%99%91%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-text">要考虑的问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%93%81%E7%89%8C"><span class="nav-text">品牌</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-text">参考资料</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="青如玉"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">青如玉</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/categories/"> <!-- <a href="/tags/"> -->
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span>  <!-- <span class="site-state-item-name">tags</span> --></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:ronyeaf@gmail.com" title="E-Mail → mailto:ronyeaf@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fas fa-feather-alt"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">青如玉</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'd42b67d495ed439d5984',
+      clientSecret: '052cf56d6954e6313364b0427cea3811299b716d',
+      repo        : 'ronyeaf.github.io',
+      owner       : 'ronyeaf',
+      admin       : ['ronyeaf'],
+      id          : '3c06c9c9c54397c55a62ead830088f7c',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+    </div>
+</body>
+</html>

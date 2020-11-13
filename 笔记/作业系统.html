@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ronyeaf.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="OS成绩 筆記github    筆記2宅學習 ch1 OS的作用 -2 resource allocator control program   kernel 一個位於電腦OS核心的程式 a program at the core of computer’s OS   bootstrap program 放在ROM、EEPROM中，視爲firmware 作用 設定系統參數初值 load OS f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ronyeaf">
+<meta property="og:url" content="https://ronyeaf.github.io/%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A%E7%B3%BB%E7%BB%9F.html">
+<meta property="og:site_name" content="Ronyeaf">
+<meta property="og:description" content="OS成绩 筆記github    筆記2宅學習 ch1 OS的作用 -2 resource allocator control program   kernel 一個位於電腦OS核心的程式 a program at the core of computer’s OS   bootstrap program 放在ROM、EEPROM中，視爲firmware 作用 設定系統參數初值 load OS f">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201015120130733.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201015120251643.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110160204556.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110160238381.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110162112523.png">
+<meta property="og:image" content="https://i.imgur.com/OFzXWXl.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201028013227682.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201028013130182.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201028013156718.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201028093510393.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110174711726.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201105112833536.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110201115649.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110200925194.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110213048989.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201110222750328.png">
+<meta property="og:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20200929203848206.png">
+<meta property="article:published_time" content="2020-11-11T00:57:37.423Z">
+<meta property="article:modified_time" content="2020-11-11T00:57:37.423Z">
+<meta property="article:author" content="青如玉">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/AAA/AppData/Roaming/Typora/typora-user-images/image-20201015120130733.png">
+
+<link rel="canonical" href="https://ronyeaf.github.io/%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A%E7%B3%BB%E7%BB%9F">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title> | Ronyeaf
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta custom-logo">
+      <div class="site-meta-headline">
+        <a href="/" >
+          <img class="custom-logo-image" src="/images/logo.png" alt="Ronyeaf">
+        </a>
+      </div>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <p><a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1wfQxRlxZrXg_BedkDZgvDrQPnWJ9lQaNv2-YBIjzckE/edit#gid=0">OS成绩</a></p>
+<p><a target="_blank" rel="noopener" href="https://kim85326.github.io/category/#%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1">筆記github</a>    <a target="_blank" rel="noopener" href="https://sls.weco.net/node/21325">筆記2宅學習</a></p>
+<h2 id="ch1"><a href="#ch1" class="headerlink" title="ch1"></a>ch1</h2><ul>
+<li>OS的作用 -2<ul>
+<li>resource allocator</li>
+<li>control program</li>
+</ul>
+</li>
+<li>kernel<ul>
+<li>一個位於電腦OS核心的程式 a program at the core of computer’s OS</li>
+</ul>
+</li>
+<li>bootstrap program<ul>
+<li>放在ROM、EEPROM中，視爲firmware</li>
+<li>作用<ul>
+<li>設定系統參數初值</li>
+<li>load OS from hard disk to memory then exe.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>interrupt<ul>
+<li>trap：当使用者呼叫system call时，軟件產生的中斷</li>
+<li>hardware interrupt：I/O request or completion</li>
+<li>software interrupt：system call</li>
+</ul>
+</li>
+<li>network<ul>
+<li>LAN：ex. campus</li>
+<li>WAN</li>
+</ul>
+</li>
+<li>計算機系統的運作<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201015120130733.png" alt="image-20201015120130733"></li>
+<li>DMA：what device controller do</li>
+</ul>
+</li>
+<li>計算機系統架構<ul>
+<li>Single-Processor System<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201015120251643.png" alt="image-20201015120251643"></li>
+</ul>
+</li>
+<li>Multiprocessor：多個processor，公用memory<ul>
+<li>most common system：SMP(Symmetric multi-processing)</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110160204556.png" alt="image-20201110160204556"></li>
+</ul>
+</li>
+<li>Multicore<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110160238381.png" alt="image-20201110160238381"></li>
+<li>processor 和 chip 主要是表达侧重点不同，processor更强调功能，chip就是肉眼看到的芯片</li>
+</ul>
+</li>
+<li>Cluster System（集成式系統）：通過網路將電腦連成集成，共同分享存儲裝置<ul>
+<li>asymmetric clustering：一臺機器hot-standby mode監督server工作，其餘執行應用程序</li>
+<li>parrallel clustering：一起執行與監督</li>
+</ul>
+</li>
+<li>Distributed System：每個processor都有自己的memory，機器間用network連接</li>
+</ul>
+</li>
+<li>操作系統的運作<ul>
+<li>Multiprogramming：通過CPU scheduling對process排程，儅process有需要了才會interrupt CPU，減少了CPU等待process的時間，讓CPU一直忙碌于運行程式<ul>
+<li>拓展出的概念Multitasking：CPU在多個process中間來回切換，以提供用戶快速的response</li>
+</ul>
+</li>
+<li>Time sharing：OS让很多process可以同时执行，让process能被公平的执行到，隔段时间就interrupt 触发context switch</li>
+<li>Dual-Mode Operation（雙模式運作）：user mode + kernel mode，以划分os code和user-defined code<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110162112523.png" alt="image-20201110162112523"></li>
+</ul>
+</li>
+<li>Timer：設置時間限制去終止程式，防止無窮回圈</li>
+</ul>
+</li>
+<li>OS作用for Resource Management<ul>
+<li>Process Management（行程管理）：新增刪除行程、排程、暫停恢復行程、process synchronization、process communication</li>
+<li>Memory Management（記憶體管理）</li>
+<li>File-System Management（儲存體管理）</li>
+<li>Mass-Storage Management：磁盤的管理</li>
+<li>Cache Management</li>
+<li>I/O System Management：OS會隱藏特定的I/O devices from user，并只讓相關的device driver知道</li>
+</ul>
+</li>
+<li>Computing -3<ul>
+<li>Client-Server</li>
+<li>Pearso-to-Pear（P2P）</li>
+<li>Cloud</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch2"><a href="#ch2" class="headerlink" title="ch2"></a>ch2</h2><ul>
+<li>OS service<ul>
+<li><img src="https://i.imgur.com/OFzXWXl.png" alt="img"></li>
+<li>batch（批處理）</li>
+<li>accounting：記錄哪些user用了哪些resource</li>
+<li>system call<ul>
+<li>提供作業系統服務界面。通過呼叫OS跳到kernel mode，做完後return回system call interface</li>
+<li>參數傳遞的三種方式<ul>
+<li>register：Pass parameters in registers</li>
+<li>block：Registers pass starting addresses of blocks of parameter</li>
+<li>stack：Parameters pushed onto the stack, and popped off</li>
+</ul>
+</li>
+<li>功能<ul>
+<li>process control</li>
+<li>file management</li>
+<li>device management</li>
+<li>information maintenance</li>
+<li>communication<ul>
+<li>兩個基本模型<ul>
+<li>message-passing model：messages exchaged through a common mailbox，no conflict</li>
+<li>shared-memory model：直接獲取access to其他process的memory，max speed適合大數據交換</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>protection</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OS架構<ul>
+<li>monolithic structure：包含了所有system call裏面的東西</li>
+<li>Layer Approach（分層方法）：結構簡單用於除錯</li>
+<li>Microkernels：排除OS非必要的元件，用massage passing溝通</li>
+<li>Modules</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch3-Multiprocess"><a href="#ch3-Multiprocess" class="headerlink" title="ch3 Multiprocess"></a>ch3 Multiprocess</h2><ul>
+<li>Process<ul>
+<li>Stack：temporary data(fuction, local variables)</li>
+<li>data section：global variales</li>
+<li>heap：dynamic allocation</li>
+<li>text：executable code</li>
+</ul>
+</li>
+<li>PCB：在OS中代表一个process的kernel data structure，存放了进程所需的信息<ul>
+<li>Process State</li>
+<li>program counter</li>
+<li>CPU register</li>
+<li>Information<ul>
+<li>I/O status information</li>
+<li>CPU-Scheduling</li>
+<li>Memory-management</li>
+<li>Accounting：CPU数量，运行时间</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>state<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201028013227682.png" alt="image-20201028013227682"></li>
+</ul>
+</li>
+<li>Process Creation<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201028013130182.png" alt="image-20201028013130182"></li>
+</ul>
+</li>
+<li>process scheduler：在core上选择可执行的程式process</li>
+<li>ready queue：行程waiting和ready的地方</li>
+<li>Context Switch<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201028013156718.png" alt="image-20201028013156718"></li>
+</ul>
+</li>
+<li>degree of mutiprogramming: memory中排的行程数</li>
+<li>IPC（Interporcess Communication）<ul>
+<li>shared memory<ul>
+<li>API（应用程式界面）由POSIX（可移植作业系统界面）提供</li>
+<li>由buffer存放shared memory region<ul>
+<li>unbounded buffer</li>
+<li>bounded buffer：有size限制，读空时不能再读，写满时不能再写</li>
+</ul>
+</li>
+<li>有互斥性（conflix），速度快，适合分布式环境可通过网路连接不同的计算机</li>
+</ul>
+</li>
+<li>massage passing<ul>
+<li>通过system call实现，需使用更久的kernel</li>
+<li>types<ul>
+<li>dirrect communication: naming发送及接收方，通过communication link直接传递至process</li>
+<li>indirrect communication: 由两方的mailbox/ports进行传递</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pipe：在Linux中pipe()是system call，属于一种massage passing，用数据线传递<ul>
+<li>ordinary: 用于parent-child relationship process</li>
+<li>named：more general，多行程通信</li>
+</ul>
+</li>
+<li>client-server communicaiton forms<ul>
+<li>socket：允许行程通过网路通信，有独立的ip和port number，属于named pipe</li>
+<li>RPCs（remote procedure call）：每个消息都独立完整</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch4-Thread"><a href="#ch4-Thread" class="headerlink" title="ch4 Thread"></a>ch4 Thread</h2><ul>
+<li>thread<ul>
+<li>thread id</li>
+<li>program counter</li>
+<li>register</li>
+<li>stack</li>
+</ul>
+</li>
+<li>pthread: POSIX綫程</li>
+<li>concurrency：运用在单核，将CPU运行时间段分配给各线程，并不能真正同时进行线程</li>
+<li>parallelism：运用在多核，多线程同时进行<ul>
+<li>data parrallelism</li>
+<li>task parrallelism</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201028093510393.png" alt="image-20201028093510393"></li>
+</ul>
+</li>
+<li>Amdahl’s law：$speedup\leqq\frac{1}{S+(1-S)/N}$ <ul>
+<li>S：serial占比，1-S：parallel占比</li>
+<li>N：cores数</li>
+</ul>
+</li>
+<li>user thread：由app做出，由thread library控制</li>
+<li>kernel thread：由OS控制</li>
+<li>Multithreading Model<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110174711726.png" alt="image-20201110174711726"><ul>
+<li>此处PC为program counter</li>
+</ul>
+</li>
+<li>Many-to-One Model：多user thread争用一个kernel thread，即使多核也无法平行执行，不快</li>
+<li>One-to-One：缺点是会产生过多的kernel thread</li>
+<li>Many-to-Many</li>
+<li>Two-level：既有Many-to-Many，又有One-to-One</li>
+</ul>
+</li>
+<li>LWP（light weight process）：中间数据结构放在user和kernel间，比如Many-to-Many和Two-level<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201105112833536.png" alt="image-20201105112833536"></li>
+</ul>
+</li>
+<li>TLS（thread-local storage）：thread一般共享process的数据，但也可能会需要自己的空间</li>
+<li>scheduler activation：communication between user-thread library and kernel’s</li>
+<li>creating multiple thread<ul>
+<li>asynchronous threading：parrent create child后，两者独立运行，用于感应式用户界面</li>
+<li>synchronous threading：parrent 等待child完成后才会继续运行，用于需要分享重要数据的情形</li>
+</ul>
+</li>
+<li>Implicit threading：将线程的产生与管理从 app developer 转到 compiler（编译器） &amp; run-time library（运行时库）<ul>
+<li>thread pool</li>
+<li>fork-join：parrent thread产生task，等执行完后再join起来，使result可被找回</li>
+<li>OpenMP（open multi-processing）：支持跨平台共享内存的多线程编程API</li>
+<li>GCD（Grand Central Dispatch）：识别运行的parallel tasks放入dispatch queue中管理</li>
+<li>TBB（Intel Thread Building Block）：library支持设计平行app，类似fork-join的方法</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch5-CPU-Scheduling"><a href="#ch5-CPU-Scheduling" class="headerlink" title="ch5 CPU Scheduling"></a>ch5 CPU Scheduling</h2><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/36142302">CPU调度笔记</a></p>
+<ul>
+<li>CPU Scheduling：Scheduler是一种OS function<ul>
+<li>preeptive scheduling：发生于interrupt和I/O completion</li>
+<li>nonpreeptive scheduling：发生于I/O wait和terminate</li>
+</ul>
+</li>
+<li>Dispatcher：一种OS function，把CPU core的控制权交给Scheduler选出的process<ul>
+<li>dispatch latency：停止一个process并切换到另一个process中间所花的时间</li>
+</ul>
+</li>
+<li>Criteria -5<ul>
+<li>CPU utilization</li>
+<li>Throughput 通量：单位时间process完成量</li>
+<li>Turnaround time 周转时间：运行process的时间</li>
+<li>waiting time</li>
+<li>Response time</li>
+</ul>
+</li>
+<li>perdict next CPU burst：$τ<em>{n+1}=\alpha t+(\alpha -1)τ</em>{n}$</li>
+<li>基本的Algorithm<ul>
+<li>FCFS (First-Come First-Served Scheduling)</li>
+<li>SJF (Shortest-Job-First Scheduling)</li>
+<li>RR (Round-Robin Scheduling)<ul>
+<li>在FCFS的基础上，分配每个行程time quantum进行行程的切换</li>
+<li>time quantum large → FCFS，time quantum small → processor sharing</li>
+</ul>
+</li>
+<li>Priority Scheduling<ul>
+<li>按照priority分配CPU，priority相同时按FCFS</li>
+<li>缺点：indefinite blocking/starvation，即低优先权的行程可能永远不会轮到</li>
+<li>解决方案<ol>
+<li>aging：随着时间等待，提升priority</li>
+<li>RR+priority<ul>
+<li>highest priority process会运行完整不参与RR</li>
+<li>两个next-highest priority会用RR轮流运行，当其中一个运行完后，另一个会升为最高优先权来运行</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Multilevel Queue Scheduling<ul>
+<li>按进程属性分成不同priority的队列，各队列使用不同的算法排序</li>
+</ul>
+</li>
+<li>Multilevel Feedback Queue Scheduling<ul>
+<li>进程可以在队列中移动。执行太久的进程会被丢到低优先权的队列，太久没被执行的进程则会被丢到高优先权的队列</li>
+</ul>
+</li>
+<li>Thread Scheduling<ul>
+<li>PCS (Procss-Contention Scope)行程争用：user-level thread争用LWP，由线程库选择</li>
+<li>SCS (System-Contention Scope)系统争用：kernel-level thread争用CPU，one-to-one model仅存在系统争用</li>
+<li>Pthread Scheduling：用的就是contention scope</li>
+</ul>
+</li>
+<li>Muli-Processor Scheduling<ul>
+<li>multiprocessor<ul>
+<li>multicore</li>
+<li>multi-threaded cores<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110201115649.png" alt="image-20201110201115649"></li>
+</ul>
+</li>
+<li>NUMA（non-uniform memory access）非统一内存访问架构：一种多处理的内存架构，属于SMP</li>
+<li>heterogenous multiprocessing 异质多处理器系统：将不同工作性质的处理器整合唯一的处理系统</li>
+</ul>
+</li>
+<li>asymmetric multiprocessing：由一个process core主导所有的存取data</li>
+<li>symmetric multiprocessing（SMP）：processor self-schduling</li>
+<li>CMT（chip multithread）：multithread交错运行，以减少全部等待stall的时间<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110200925194.png" alt="image-20201110200925194"></li>
+<li>memory stall记忆停滞：processor会花很多时间在等待data可使用，因processor的速度通常会比memory的速度快</li>
+</ul>
+</li>
+<li>HMP（Heterogeneous Multiprocessing）：将任务分配给特定的内核来更好的管理功耗</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Real-time CPU：priority-based algorithm，process会间歇性的需要CPU-admission-control algorithem来实现deadline<ul>
+<li>soft real-time system：只保证尽量完成，越关键的行程越优先，real-time tast优先于non-real-time</li>
+<li>hard real-time system：行程一定会在deadline前完成</li>
+<li>event latency：事件发生到它被服务的时间段<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110213048989.png" alt="image-20201110213048989"></li>
+</ul>
+</li>
+<li>Rate Monotonic Scheduling速率单调算法排程<ul>
+<li>依据周期长短来排程，周期越短优先权越高</li>
+<li>worst-case CPU utilization = $N(2^\frac{1}{N} -1)$    N: process数</li>
+<li>缺点：可能会miss deadline，因周期结束前行程未被排完</li>
+</ul>
+</li>
+<li>EDF（Earliest-Deadline-First Scheduling）<ul>
+<li>理论上是最佳的，可满足deadline要求，CPU利用率100%</li>
+</ul>
+</li>
+<li>Proportional Share Scheduling<ul>
+<li>按分享比例分配CPU时间</li>
+</ul>
+</li>
+<li>POSIX Real-time Scheduling<ul>
+<li>FIFO+RR</li>
+<li>linux的算法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Little’s formula：n = λ × w<ul>
+<li>到达queue的新行程数 = queue中新行程的平均达到率 × process waits</li>
+<li>可用于arrival distribution进而simulation</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch6-Synchronization-tool"><a href="#ch6-Synchronization-tool" class="headerlink" title="ch6 Synchronization tool"></a>ch6 Synchronization tool</h2><ul>
+<li>Synchronization tool：race condition会引发同步问题</li>
+<li>critical section：一段特定区域，同一时间只允许一个process使用<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20201110222750328.png" alt="image-20201110222750328"></li>
+<li>entry section：允许process request的code section</li>
+</ul>
+</li>
+<li>解决critical section problem的条件<ol>
+<li>mutual exclusive（mutex）</li>
+<li>progress：选择需要critical section的process进入</li>
+<li>bounded waiting：等待是有限期的</li>
+</ol>
+</li>
+<li>Peterson’s Solution：software-based solution<ul>
+<li>flag[]</li>
+<li>var turn</li>
+</ul>
+</li>
+<li>Hardware solution<ul>
+<li>memory model：决定memory如何配给app<ul>
+<li>Strongly ordered：行程的记忆改变对于其他行程而言是立马可知的</li>
+<li>Weakly ordered</li>
+</ul>
+</li>
+<li>test and set()</li>
+<li>caompare and swap () （CAS）<ul>
+<li>始终返回可变值的初始值</li>
+<li>执行顺序是任意的</li>
+<li>var atomic（原子变量）实现了mutual exclusive ，例如：计数器记录更改次数来阻止发生多个process同时进入临界区</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Higher level software tool：是可被应用程序员访问的<ul>
+<li>mutex locks</li>
+<li>acquire()：acquire lock</li>
+<li>release()：release lock</li>
+<li>var lock：来判断lock是否已正被运行</li>
+<li>缺点：busy waiting</li>
+</ul>
+</li>
+<li>Semaphore：解决busy waiting的问题<ul>
+<li>wait()</li>
+<li>signal()：让process从wait状态转到ready queue</li>
+<li>counting semaphore：可以是任意值</li>
+<li>binary semaphore：只有0、1</li>
+<li>可记录某一资源剩下多少数目可使用，若全使用，则需要等待资源被释放</li>
+<li>busy waiting从entry section移至critical section，critical section区块相对而言更空闲些</li>
+</ul>
+</li>
+<li>Monitor Type：可用于使用高级指令来解决同步工具的error<ul>
+<li>属于ADT（Abstract data type）抽象数据类型</li>
+<li>ADT：用函数封装数据，使数据操作独立于ADT</li>
+</ul>
+</li>
+<li>Liveness<ul>
+<li>liveness failure：process永远wait<ul>
+<li>deadlock</li>
+<li>priority inversion优先级倒置</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://ithelp.ithome.com.tw/articles/10229521">ch3-4作業系統考古</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.salimarfaoui.com/Com310Lectures/Ch2ReviewQuestionsWAnswers.pdf">課本excercise answer</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.sharecourse.net/sharecourse/upload/person/4562/files/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1%E5%B0%8F%E8%80%83A%E7%8F%AD%E8%A9%A6%E5%8D%B7.pdf">作業系統小考 A 班試卷</a></p>
+<p><a target="_blank" rel="noopener" href="https://ithelp.ithome.com.tw/articles/10228947">小考重點考題整理</a></p>
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>OS：使用者与硬体间的中介</p>
+<p>Computer System</p>
+<ul>
+<li>Hardware</li>
+<li>Operating System：有资源管理、控制程序两功能，核心为kernel</li>
+<li>App programs</li>
+<li>Users</li>
+</ul>
+<p>bootstrap program（boot）引导程序：计算机开机后，装载操作系统的程序，储存于ROM or EPROM中，被视作是固件（firmware），其功能如下</p>
+<ul>
+<li>初始化周边设备</li>
+<li>加载操作系统</li>
+</ul>
+<p>Interrupt 中断：通过中断向量（interrupt vector）将控制权转移至中断服务程序（interrupt service routine），操作系统也被称为中断驱动的（interrupt driven）</p>
+<p>interrupt vector：包含中断服务程序的地址</p>
+<p>trap 陷阱 or exception异常：是由错误或用户请求所引发软件产生的中断</p>
+<p>中断的形式：</p>
+<ul>
+<li>polling 轮询：在没有I/O中断的设备，软件必须检查硬件设备的服务状态，定时的，不连续，当检查到请求时将控制权转移给适当的程序</li>
+<li>vectored interrupt system 向量中断：有指定的位置指向能中断设备的程序</li>
+</ul>
+<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200929203848206.png" alt="image-20200929203848206" style="zoom:80%;" />
+
+<p>for interrupt for？</p>
+<p>不能speedupserialpart 最多只能为1/coresnum<br>muticore speedup coudnt？<br>thread library<br>生一个thread跳到functioncall执行而非program，这是两个的区别？<br>生thread比process快，所以用threadpool只是加快一点<br>process生childprocess再生thread再生childthread能否再生childprocess，这是可能的，childprocess也可能是多个thread生的</p>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ch1"><span class="nav-text">ch1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ch2"><span class="nav-text">ch2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ch3-Multiprocess"><span class="nav-text">ch3 Multiprocess</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ch4-Thread"><span class="nav-text">ch4 Thread</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ch5-CPU-Scheduling"><span class="nav-text">ch5 CPU Scheduling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ch6-Synchronization-tool"><span class="nav-text">ch6 Synchronization tool</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction"><span class="nav-text">Introduction</span></a></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="青如玉"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">青如玉</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/categories/"> <!-- <a href="/tags/"> -->
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span>  <!-- <span class="site-state-item-name">tags</span> --></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:ronyeaf@gmail.com" title="E-Mail → mailto:ronyeaf@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fas fa-feather-alt"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">青如玉</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'd42b67d495ed439d5984',
+      clientSecret: '052cf56d6954e6313364b0427cea3811299b716d',
+      repo        : 'ronyeaf.github.io',
+      owner       : 'ronyeaf',
+      admin       : ['ronyeaf'],
+      id          : '7b8c3e7dfb3da35ab02699f705bbc5d4',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+    </div>
+</body>
+</html>
