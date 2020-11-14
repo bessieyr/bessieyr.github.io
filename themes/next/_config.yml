@@ -2,7 +2,7 @@
 # Theme Core Configuration Settings
 # See: https://theme-next.org/docs/theme-settings/
 # 修动文件：
-#   【标题logo】index.swig：移除有custom-logo情况下的title,添加custom-logo的链接
+#   【标题logo】header\brand.swig：添加custom-logo的链接
 #   【用tag来表示分类】site-overview.swig：侧边栏tag的小标名称用_state.categories表示以及前面两个href调整
 #                     tag.sqig：将_title.tag修改为category
 # ---------------------------------------------------------------

@@ -1,7 +1,8 @@
 ---
 title: C++
 date: 2020-06-03 19:02:08
-categories: Computer
+tags: 课程笔记
+mathjax: 
 ---
 
 > 针对pat机考的复习整理。有C语言和java的基础，C++边看边学中。

@@ -1,8 +1,8 @@
 ---
 title: 计算机组成
 date: 2020-05-04 19:14:20
-categories: Computer
-latex: true
+tags: 课程笔记
+mathjax: true
 ---
 
 > **Abstract**

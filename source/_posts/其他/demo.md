@@ -1,8 +1,7 @@
 ---
 title: Demo 测试
 date: 2020-05-01 17:59:42
-tags:
-categories: Others
+tags: hexo
 ---
 
 # 前言

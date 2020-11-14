@@ -15,13 +15,11 @@
         </a>
       </div>
     {%- endif %}
-    {%- if theme.custom_logo == NULL %}
-      <a href="{{ config.root }}" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <h1 class="site-title">{{ title }}</h1>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    {%- endif %}
+    <a href="{{ config.root }}" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">{{ title }}</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
     {%- if subtitle %}
       <p class="site-subtitle" itemprop="description">{{ subtitle }}</p>
     {%- endif %}
