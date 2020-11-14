@@ -29,17 +29,23 @@
 @keyframes bounce{10%{transform:translateY(2px);} 80%{transform:translateY(-10px);} 100%{transform:translateY(-6px);}}
 @-webkit-keyframes bounce{10%{transform:translateY(2px);} 80%{transform:translateY(-10px);} 100%{transform:translateY(-6px);}}
 .tag-cloud-tags a{
-  border-radius: 15px
-  border: 3.5px solid #68ACA3
-  padding: 10px 30px
+  background-image: url('https://i.pinimg.com/564x/3f/c1/fb/3fc1fb7a79c8761c9f12055dc5dba19b.jpg')
+  border-radius: 10px
+  padding: 10px 10px
   width: 100px
+  @media mq-mobile {weight: 200px;} 
+  line-height: 100px
+  font-weight: bold
+  letter-spacing: 3px
+  border: inset 4.5px #0eb5ef
+  box-shadow: inset 0px 0px 20px 0.2px #0eb5ef
+  //opacity: 0.9
   transition: all 0.2s linear;
   &:hover{
-    border: inset 4.5px #f56627
+    box-shadow: inset 0px 0px 10px 0px #222
+    border: 3.5px solid  #f56627
     animation: bounce 0.3s 1 normal ease-out forwards;
     -webkit-animation: bounce 0.3s 1 normal ease-out forwards;
-    box-shadow: 0px 1px 3px 0px #f56627
-    opacity: 0.7
   }  
 }
 //
