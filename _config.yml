@@ -110,5 +110,6 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/ronyeaf/ronyeaf.github.io #git@github.com:ronyeaf/ronyeaf.github.io.git #ssh形式
+  #repo: https://github.com/ronyeaf/ronyeaf.github.io 
+  git@github.com:ronyeaf/ronyeaf.github.io.git #ssh形式
   branch: master
