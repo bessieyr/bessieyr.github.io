@@ -1,7 +1,7 @@
 ---
-title: 练习
+title: B站漫画推荐
 date: 2020-05-04 19:14:20
-tags: 执笔绘世
+tags: 稀奇古怪
 mathjax: 
 ---
 
