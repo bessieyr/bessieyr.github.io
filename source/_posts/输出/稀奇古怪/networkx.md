@@ -27,4 +27,4 @@ mathjax:
 - 继SS后的无声抗议：[V2Ray 配置指南：V2Ray 跟 Shadowsocks 有什么区别](https://guide.v2fly.org/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-q-a)
 - [浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别](https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b)
 
-**The method I currently used?**	[clash](https://github.com/Fndroid/clash_for_windows_pkg/releases)+[GLaDOS机场](https://glados.network/)
+**The method I currently used?**	[clash](https://github.com/Fndroid/clash_for_windows_pkg/releases)+[GLaDOS](https://glados.network/)
