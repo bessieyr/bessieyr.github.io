@@ -23,7 +23,7 @@ mathjax:
   - [无需软路由，Clash、ssr、v2rayN家庭局域网网关模式科学上网网络共享，同一WiFi家里设备都可科学上网。](https://www.youtube.com/watch?v=Y6dDuL73Vxo)
   - [机场还是VPS？选择哪一种更适合你？【硬核翻墙系列】第五期](https://www.youtube.com/watch?v=kf90r28t4f0&list=PLqybz7NWybwUgR-S6m78tfd-lV4sBvGFG&index=5)
     - VPS：[VPS与VPN它们有什么具体的区别](https://cn.hostgator.com/news/product/vps/3957.html#:~:text=VPS%E5%92%8CVPN%E6%98%AF%E4%B8%A4%E4%B8%AA%E7%BB%8F%E5%B8%B8%E6%B7%B7%E6%B7%86%E7%9A%84%E6%9C%AF%E8%AF%AD%E3%80%82&text=%E5%AE%9E%E9%99%85%E4%B8%8A%EF%BC%8C%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8,%E9%80%9A%E5%B8%B8%E8%A2%AB%E7%BB%84%E5%90%88%E5%9C%A8%E4%B8%80%E8%B5%B7%E3%80%82)
-    - 机场：[DuyaoSS-机场测速和简介](https://www.duyaoss.com/)
+    - 机场：[DuyaoSS-机场测速和简介](https://www.duyaoss.com/) 
 
 
 
@@ -37,4 +37,4 @@ mathjax:
 
 ## The method I currently used?
 
-[clash](https://github.com/Fndroid/clash_for_windows_pkg/releases)+[GLaDOS](https://glados.network/)
+[clash](https://github.com/Fndroid/clash_for_windows_pkg/releases)+~~[GLaDOS](https://glados.network/)~~ [Qcrane牛奶批发商 (qcranev2.com)](https://www.qcranev2.com/#/dashboard)
