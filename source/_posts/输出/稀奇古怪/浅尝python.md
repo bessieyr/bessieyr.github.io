@@ -1,7 +1,7 @@
 ---
 title: 浅尝python
 date: 2021-03-14 21:14:27
-tags:稀奇古怪
+tags: 稀奇古怪
 mathjax:
 ---
 
