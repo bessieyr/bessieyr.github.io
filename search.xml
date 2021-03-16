@@ -1,0 +1,3621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>/2021/03/16/%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/82241906">【国际数学竞赛】如何理解组合恒等式？</a></p>
+<p><a href="https://zhidao.baidu.com/question/271327993013335645.html">排列组合的求和proof</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Demo 测试</title>
+    <url>/2020/05/01/%E8%BE%93%E5%87%BA/Hexo/demo/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>This is a demo.<br>这是测试文。</p>
+<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><h1 id="H1-标题"><a href="#H1-标题" class="headerlink" title="H1 标题"></a>H1 标题</h1><h2 id="H2-标题"><a href="#H2-标题" class="headerlink" title="H2 标题"></a>H2 标题</h2><h3 id="H3-标题"><a href="#H3-标题" class="headerlink" title="H3 标题"></a>H3 标题</h3><h4 id="H4-标题"><a href="#H4-标题" class="headerlink" title="H4 标题"></a>H4 标题</h4><h5 id="H5-标题"><a href="#H5-标题" class="headerlink" title="H5 标题"></a>H5 标题</h5><h6 id="H6-标题"><a href="#H6-标题" class="headerlink" title="H6 标题"></a>H6 标题</h6><p>====== 标题<br>—— 标题<br>显然 - &amp; = 号并不适合作为hexo系统下的标题的选择</p>
+<h1 id="字效"><a href="#字效" class="headerlink" title="字效"></a>字效</h1><p><em>斜体</em> <strong>加粗</strong> <del>划线</del></p>
+<h1 id="List"><a href="#List" class="headerlink" title="List"></a>List</h1><ol>
+<li>序列number1</li>
+<li>序列number2</li>
+</ol>
+<ul>
+<li>sublist by -</li>
+</ul>
+<ul>
+<li>sublist by + </li>
+</ul>
+<ul>
+<li>sublist by *</li>
+</ul>
+<ol>
+<li><p>sublist</p>
+<ul>
+<li>sub</li>
+<li>sub<ul>
+<li>sub<ul>
+<li>sub<ul>
+<li>sub<ul>
+<li>sub<ul>
+<li>sub<ul>
+<li>sub</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p><input disabled="" type="checkbox">  选框</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  复选框</p>
+</li>
+</ul>
+<h1 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h1><p>H<sub>2</sub></p>
+<p>H<sup>2</sup></p>
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>[链接]<br><a href="www.baidu.com">链接：百度一下</a><br>[链接：google][<a href="http://www.google.com]">www.google.com]</a><br>[link1][1]<br>可以事后再对link进行补充<br>[1]: <a href="http://www.blank.com/">www.blank.com</a><br>[链接]: <a href="http://www.blank.com/">www.blank.com</a></p>
+<h2 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h2><p>立刻带积分</p>
+<h1 id="图片Images"><a href="#图片Images" class="headerlink" title="图片Images"></a>图片Images</h1><p>Inline-style:<br><img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1"><br>Reference-style:<br>![alt text][logo]<br>[logo]: <a href="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png</a> “Logo Title Text 2”</p>
+<h1 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h1><p><code>Code Heightlight</code><br>Inline <code>Code</code></p>
+<figure class="highlight html"><figcaption><span>html</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;/path/to/styles/default.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;/path/to/highlight.pack.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span>hljs.initHighlightingOnLoad();<span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">No language indicated, so no syntax highlighting. </span><br><span class="line">But let&#39;s throw in a &lt;b&gt;tag&lt;&#x2F;b&gt;.</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> a = b</span><br><span class="line"><span class="keyword">var</span> c = d</span><br><span class="line">class SomeClass:</span><br><span class="line">  pass</span><br><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  $(<span class="string">&#x27;.main-nav-link&#x27;</span>).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="keyword">var</span> scrollID = $(<span class="built_in">this</span>).attr(<span class="string">&quot;id&quot;</span>).substring(<span class="number">1</span>)+<span class="string">&quot;-page&quot;</span>;</span><br><span class="line">      <span class="keyword">var</span> scrollPosition = $(scrollID).offset().top;</span><br><span class="line">      $(<span class="string">&#x27;html, body, .content&#x27;</span>).animate(&#123;<span class="attr">scrollTop</span>: scrollPosition&#125;, <span class="number">300</span>);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;); </span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><figcaption><span>python</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><figcaption><span>css</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">code</span></span><br><span class="line">  <span class="selector-tag">font-size</span>: <span class="selector-tag">font-size</span> * 1<span class="selector-class">.1</span></span><br><span class="line">  <span class="selector-tag">line-height</span>: <span class="selector-tag">text-size</span> * <span class="selector-tag">line-height</span></span><br><span class="line">  <span class="selector-tag">background</span>: <span class="selector-tag">highlight-background</span></span><br><span class="line">  //text-shadow: 0 1px #fff</span><br><span class="line">  <span class="selector-tag">color</span>: <span class="selector-tag">highlight-foreground</span></span><br><span class="line">  <span class="selector-tag">padding</span>: 0 0<span class="selector-class">.3em</span></span><br><span class="line"><span class="selector-tag">pre</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><figcaption><span>css</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.article-entry</span></span><br><span class="line">  <span class="selector-tag">code</span></span><br><span class="line">    <span class="selector-tag">font-size</span>: <span class="selector-tag">font-size</span> * 1<span class="selector-class">.1</span></span><br><span class="line">    <span class="selector-tag">line-height</span>: <span class="selector-tag">text-size</span> * <span class="selector-tag">line-height</span></span><br><span class="line">    <span class="selector-tag">background</span>: <span class="selector-tag">highlight-background</span></span><br><span class="line">    //text-shadow: 0 1px #fff</span><br><span class="line">    <span class="selector-tag">color</span>: <span class="selector-tag">highlight-foreground</span></span><br><span class="line">    <span class="selector-tag">padding</span>: 0 0<span class="selector-class">.3em</span></span><br><span class="line">  <span class="selector-tag">pre</span></span><br></pre></td></tr></table></figure>
+<h1 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h1><table>
+<thead>
+<tr>
+<th>Table</th>
+<th>名称</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>一</td>
+<td>one</td>
+</tr>
+<tr>
+<td>2</td>
+<td>二</td>
+<td>two</td>
+</tr>
+<tr>
+<td>3</td>
+<td>三</td>
+<td>three</td>
+</tr>
+</tbody></table>
+<p>引用Blackquotes</p>
+<blockquote>
+<p>So Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong<br>看看引用是什么样的效果</p>
+</blockquote>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>html标签是可以随便内置使用的</p>
+
+<h1 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h1><hr>
+<hr>
+<p>水平线的使用</p>
+<hr>
+<h1 id="Toggle"><a href="#Toggle" class="headerlink" title="Toggle"></a>Toggle</h1><details>
+<summary>Click Here</summary>
+  这是个可拨动的板块
+  <code style="white-space:nowrap;">Toggle code</code>
+</details>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span> <span class="attr">class</span>=<span class="string">&quot;toc&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#前言&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>前言<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#Title&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#H1-标题&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>H1 标题<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">ol</span> <span class="attr">class</span>=<span class="string">&quot;toc-child&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-2&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#H2-标题&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>H2 标题<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#字效&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>字效<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#List&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>List<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#链接&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>链接<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#图片Images&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>图片Images<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#Code&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>Code<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#Table&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>Table<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#HTML&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>HTML<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#水平线&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>水平线<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;toc-item toc-level-1&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;toc-link&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#Toggle&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;toc-text&quot;</span>&gt;</span>Toggle<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/03/16/%E8%BE%93%E5%87%BA/Hexo/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的blog建立指南</title>
+    <url>/2020/05/04/%E8%BE%93%E5%87%BA/Hexo/%E6%88%91%E7%9A%84blog%E5%BB%BA%E7%AB%8B%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="我的选择"><a href="#我的选择" class="headerlink" title="我的选择"></a>我的选择</h1><p>该怎么说呢，最初用上hexo，只是单纯的希望能便捷的建立一个私人的资料库。但是逐步地发现，hexo就好像个深不见底的地洞，初看以为不过就这点东西，没什么稀奇的，再看就觉得要命，这根本是个通向另外个星球的隧道吧！</p>
+<p>有很多实用的外挂工具，诸如是latex、gitalk等，都是可以跟hexo联系起来使用的，所以本篇的重心不会完全专注于hexo本身，而是从某一个需要的功能出发，进而连结到更多可延伸探讨的工具。我会罗列出我所认为非常有用的工具，至于使用的方法则更多地是放上网络链接，因为网上已有很多大神对使用做出了详尽的解释与说明，相信若是有一个更完整的数据整理库的存在便能帮助大家指引出一条清晰地道路。</p>
+<h1 id="建立部落格"><a href="#建立部落格" class="headerlink" title="建立部落格"></a>建立部落格</h1><h2 id="基本搭建：Github-Pages-Hexo-Next"><a href="#基本搭建：Github-Pages-Hexo-Next" class="headerlink" title="基本搭建：Github Pages + Hexo + Next"></a>基本搭建：Github Pages + Hexo + Next</h2><ul>
+<li><p><strong>Github Pages：</strong>建立属于我们的站点 ✐ <a href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site">github pages使用入门</a></p>
+</li>
+<li><p><strong>Hexo：</strong>作为blog的基本架构，安装hexo后输入一些简单的cmd指令就可以将blog部署到github pages</p>
+</li>
+<li><p>如果想要了解hexo的基本核心，清楚指令背后的意义请参阅 ✪ <a href="https://hexo.io/docs/">Hexo官方API</a></p>
+<ul>
+<li>对那些基本定义不太感兴趣，这里是直接的干货指引 ✐ <a href="https://www.jianshu.com/p/e9aa00eb24bc">如何使用Hexo创建个人博客</a></li>
+<li>如果对于如何用Github Pages + Hexo建立部落格还是晕晕乎乎弄不太清楚，没事，这里还有大神手把手包教包会，甚至还附带了建立完后的网站<font color="red">优化设定</font>! ✐ <a href="https://segmentfault.com/a/1190000017986794">超详细Hexo+Github Page搭建技术博客教程【持续更新】</a> </li>
+</ul>
+</li>
+<li><p><strong>Next：</strong>针对hexo的主题美化，一个\next_config.yml文件，搞定blog的所有外观设定！爸爸再也不用担心我看不懂js、css、html等一系列衍生出的各种电脑语言啦~ <strong>指路</strong> ✪ <a href="https://theme-next.iissnan.com/getting-started.html">Next官方教程</a> ✪ <a href="https://github.com/theme-next/hexo-theme-next">Next的Github站点</a></p>
+<ul>
+<li>Hexo的衍生出的主题是用很多的，甚至你也可以自己写一个Hexo出来。但个人还是推荐Next，毕竟维护人员多使用人员多各种东西使用起来都比较有保障。</li>
+<li>比较霸气粗犷的个性化教程：<a href="https://upload.jianshu.io/users/upload_avatars/5308475/e6473249-62eb-4752-91b4-5fc9f2da8cf9.jpg?imageMogr2/auto-orient/strip%7CimageView2/1/w/80/h/80/format/webp">hexo的next主题个性化教程:打造炫酷网站</a></li>
+<li>比较温柔秀气的个性化教程：<a href="https://blog.typeart.cc/HEXO%E6%90%AD%E9%85%8D%E4%B8%BB%E9%A1%8Cnext%E5%9F%BA%E7%A4%8E%E9%85%8D%E7%BD%AE%E6%95%99%E5%AD%B8/">HEXO搭配主題next基礎配置教學</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="一些我所遇到的坑与建议-Next：v8-0-2"><a href="#一些我所遇到的坑与建议-Next：v8-0-2" class="headerlink" title="一些我所遇到的坑与建议(Next：v8.0.2)"></a>一些我所遇到的坑与建议(Next：v8.0.2)</h2><ul>
+<li>Next主题顶部黑边问题</li>
+<li>git deployer not found</li>
+<li>可能有些啰嗦的建议</li>
+</ul>
+<p><strong>Next主题顶部黑边问题</strong></p>
+<p>查看\next_config.yml文件，取消注释：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.swig</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.swig</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.swig</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.swig</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.swig</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.swig</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span> <span class="comment">#这是我们在这里需要用的文件，取消它的注释</span></span><br></pre></td></tr></table></figure>
+
+<p>在新版的Next中，支持推荐将个人的custom files与next的文件分开，custom file存储位置：根目录/source</p>
+<p>在该位置下新建_data文件夹，进入文件夹，再新建styles.styl</p>
+<p>修改styles.styl文件，添加代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.headband</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果有发现类似于这种的黑方框问题，都可以用这种方法解决。从测试网页的源代码找出它的class name之后取消显示就行。</p>
+<p><strong>git deployer not found</strong></p>
+<p>这个问题一般在新手第一次按教程大礼包建立网站时是不会发生的，而是发生在自己摸摸索索地hexo新建了个资料夹后发现，诶介个资料夹怎么跟上个不一样？傻乎乎的，其实不过就是环境还没安装好，没下载hexo-deployer而已。</p>
+<p>issue指路 ✄ <a href="https://github.com/hexojs/hexo/issues/1040">https://github.com/hexojs/hexo/issues/1040</a></p>
+<p><strong>可能有些啰嗦的建议</strong></p>
+<p>这里不建议<font color="red">直接</font>对原本的next主题文件进行大规模修改，毕竟使用next的优势就是它会不断更新完善，如果对内部进行修改，就会不易于去更新next，反而丢失了它的这项优势。另外，如果是对代码和主题文件并不太了解的孩子们，next的代码结构我认为是比hexo自带主题要繁琐的，因此更建议先从hexo原生的自带主题landscape了解起会更好，虽然了解清楚这些架构在我看来其实都并没有什么多大卵用，这很可能是道花时间而不讨好的工序。</p>
+<p>以下放上一些过去在<strong>使用hexo原生主题landscape</strong>的各种心路历程，存在资料已经过时的可能：</p>
+<ul>
+<li><p>使用<a href="https://hexo.io/docs/helpers#toc">toc功能</a>，将sidebar做成书页目录。<br>值得一提的是，<code>&lt;%#- partial(&#39;_partial/sidebar&#39;, null, &#123;cache: !config.relative_link&#125;) %&gt;</code>中的<code>null</code>要去掉，否则sidebar会是在原有的内容上添加文字</p>
+</li>
+<li><p>添加latex: <a href="https://cps.ninja/2019/03/16/hexo-with-latex/">参考资料</a></p>
+</li>
+<li><p>添加<a href="https://gitalk.github.io/">gitalk评论</a>，可以懒人模式地使用latest来得到最新版本<code>&lt;script src=&quot;https://unpkg.com/gitalk@latest/dist/gitalk.min.js&quot;&gt;&lt;/script&gt;</code></p>
+</li>
+<li><p>添加<a href="https://mermaid-js.github.io/mermaid/#/">mermaid</a>，</p>
+</li>
+<li><p><del>试图在visual studio使用latex，但是由于latex发行版文件过大而暂时停滞</del></p>
+</li>
+<li><p>为blog文章添加更新时间：<a href="https://github.com/hexojs/hexo/issues/3094">参考资料</a></p>
+</li>
+<li><p>添加local-search功能<br>如果只是想简单套用一个搜索插件代码的话可以参考Liam大神发布的资料，使用的帮助插件是<a href="https://github.com/wzpan/hexo-generator-search">hexo-generator-search</a></p>
+<p>如果和我一样有强迫症偏好使用更新颖完善的插件<a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a>的话，提前了解<a href="https://liuyib.github.io/2019/08/20/develop-hexo-theme-from-0-to-1/">配置信息如何交互</a>是非常重要的，这可以处理<code>global CONFIG</code>的需求。~~未来也许可能觉得必要的话会整理出我的编写档案</p>
+</li>
+<li><p><a href="https://www.uisdc.com/dynamic-animations-ui">想给你的网页加上酷炫动效？这有 20 个神器帮你！</a></p>
+</li>
+</ul>
+<h1 id="编辑部落格"><a href="#编辑部落格" class="headerlink" title="编辑部落格"></a>编辑部落格</h1><h2 id="私心推荐的工具搭配：Typro-PicGo-cdn"><a href="#私心推荐的工具搭配：Typro-PicGo-cdn" class="headerlink" title="私心推荐的工具搭配：Typro+PicGo+cdn"></a>私心推荐的工具搭配：Typro+PicGo+cdn</h2><p>要编辑blog通常听起来不是什么麻烦事，不就是写文嘛？有什么难的！</p>
+<p>这就要说到github支持的语法规范是markdown，一种使用惯了后就再也看不上其他写作方式的语法（捂脸）</p>
+<p>markdown的特点就是直接用符号的输入来表示我们在日常对字体格式的输入，更加地直接暴力简洁！</p>
+<p>但是这种简洁快速也是需要搭配好的软件来支持，以下是我日常使用的组合：<strong>Typro+PicGo+cdn</strong></p>
+<ul>
+<li><strong><a href="https://typora.io/">Typro</a>：</strong>markdown即时渲染编辑器。真的炒鸡好用！界面干净，输入起来比word还要快速流畅，达到我写即我思的效果。</li>
+<li><strong><a href="https://molunerfinn.com/PicGo/">PicGo</a>：</strong>用于将typro上的图片快速上传至云端并取得url连接使用于部落格中</li>
+<li><strong>cdn：</strong>用于浏览页面时图片的加速，主要针对于图片上传至海外图床，由于一些不可告人秘密，导致国内使用时会很卡的情形</li>
+<li>保姆级教程 ✐ <a href="https://my.oschina.net/u/4131402/blog/4373012">使用Picgo+GitHub+ jsDelivr搭建CDN加速免费图床</a></li>
+<li>Typro的偏好设定大致上如下图就行</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114182946.png" alt="image-20201114171836942"></p>
+<h2 id="PicGo排坑"><a href="#PicGo排坑" class="headerlink" title="PicGo排坑"></a>PicGo排坑</h2><p>我开始使用picgo的时候，picgo开发可能还不算稳定吧，所以运行时会有不少的问题。</p>
+<p>不确定现在的picgo是否有将这些问题解决完善，但是这边提供一个可能的解决思路。</p>
+<ol>
+<li>检查picgo设置中的设置服务，地址与端口是否与下图一至。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114183016.png" alt="image-20201114170748856"></p>
+<ol start="2">
+<li>检查是否有开启时间戳重命名，没开启的话可能会发生图片修改后再上传但却因重名而产生有图片被遗漏的bug。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114183017.png" alt="image-20201114171028768"></p>
+<ol start="3">
+<li>直接查看它的日志去了解是哪里运行时出了问题。</li>
+</ol>
+<h1 id="云端部落格与本地资料同步"><a href="#云端部落格与本地资料同步" class="headerlink" title="云端部落格与本地资料同步"></a>云端部落格与本地资料同步</h1><p>这一部分存在的意义，对其他人来说可能是为了方便多云端同步或者想要个云端存储库之类的，但对我来说只是纯粹强迫症与龟毛主义。</p>
+<p>不知道有没有小伙伴和我一样，真的很嫌弃cmd的小黑框界面，很讨厌hexo s+hexo deploy+hexo g的部署上传模式。真的，宁愿上网站去干净的界面点击图标上传，而不愿意碰触这些由英文字母组成的指令。很奇怪吧，虽然说耗费时间上算起来可能差不多，但就是被新时代的漂亮UI设计养成了这些坏毛病。</p>
+<p>实现云端部落格与本地资料同步后，就可以直接使用github桌面软件，将更新的档案按按钮push一下就行，更符合现下的操作美学。</p>
+<p>方法主要是：<strong>Clone + GitHub Actions</strong> </p>
+<ul>
+<li><strong>Clone：</strong>在github仓库中新建一个hexo分支，通过克隆的方式，让这个分支能和本地的hexo站点资料库同步。难度不大，主要是需要熟悉github的仓库操作管理，实现思路可参考 ✐ <a href="https://www.jianshu.com/p/937bda9123da">Hexo博客在多台终端同步管理</a></li>
+<li><strong>GitHub Actions：</strong>使用actions让同步后的hexo分支自动向master部署网站。知乎的这位大神写得真的很好，步骤清清楚楚，照着做下来没什么问题 ✐ <a href="https://zhuanlan.zhihu.com/p/133764310">GitHub Actions 自动部署 Hexo</a> ✪ <a href="https://github.com/marketplace/actions/hexo-action">官方指南</a></li>
+<li>排坑：这是在最终push时可能会发生Next主题文件无法上传的问题，请参考issue ✄ <a href="https://github.com/litten/hexo-theme-yilia/issues/734">主题文件无法同步的问题 #734</a>，如果其中有什么问题可使用<code>git status</code>先查看文件状态，确认是否有文件误被ignore</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>B站漫画推荐</title>
+    <url>/2020/05/04/%E8%BE%93%E5%87%BA/%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA/B%E7%AB%99%E6%BC%AB%E7%94%BB%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p><strong>因为是反派大小姐所以养了魔王</strong></p>
+<ul>
+<li><p>搞笑，恋爱</p>
+</li>
+<li><p>[已完结] 共 16 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/8e3300b83e7dbaa9005d6a34ef7df5ec61e7dfb0.jpg@300w.jpg" alt="img"></p>
+<p>转生恶役大小姐的这类题材，算是近期日本少女漫画以及轻小说中十分热门的类型。故事的脉络很简单明了，就同它的篇名一样，是关于反派大小姐攻略魔王然后逆转人生！</p>
+<p>值得一提的是，女主的性格十分吸睛，是会主动出击并且一路自信地前进奋斗的那种！有气质、有实力、内心成熟，这才该是贵族大小姐的风华样貌。</p>
+<p>再加上什么绅士魔王时不时会冒出几句骚话，又或是开心起来会怒放花花的设定，看得简直让人想要土拨鼠式尖叫一句——真是太可爱了！</p>
+<p>这么糖分足足的漫画作品，男女通吃，在B站评论区你甚至可以看到“关于胶佬直男的我居然看完了乙女漫这件事”的肺腑感言。那位发表者是这么说的——“md，明明是乙女向，我作为玩高达的直男胶佬居然看的津津有味，必须得让更多人看。这样就不会只有我一个人尴尬了。”</p>
+<p>希望他的愿望能被实现吧（笑）</p>
+<p>另外，喜欢的孩纸们千万不能错过该作的番外篇，提示有糖哦~</p>
+<p><strong>我家徒弟又挂了</strong></p>
+<ul>
+<li><p>恋爱，玄幻</p>
+</li>
+<li><p>更新至 101 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/a18c541d8ebaf355e999aef72ecf7ec85cbed3e4.jpg@300w.jpg" alt="img"></p>
+<p>原作来自尤前大大的小说，笔者追漫画追着追着不过瘾直接冲去起点刷小说了。刷完，只想感叹句：“是神作啊。”</p>
+<p>该作设定清奇，女主一直死亡、一直重生，每次重生后的身份还都不一样，重生成阿猫阿狗阿草阿石头等等等等也不是不可能？简直是要逼死人的节奏！</p>
+<p>问：到底什么样不亲妈的剧情会需要主角在死亡与重生间来回痛苦地往复？</p>
+<p>答：大概是一个日渐崩坏的世界吧。</p>
+<p>为了拯救世界，哪怕是在无厘头的文风和粗壮的金手指下，女主也依然会死。所以这并不是那种可以以牙还牙为所欲为反正老子天下无敌的“爽文”，它有着它自己的核心思念与规则。若是身为强者，就可以藐视生命，那么注定只会造成硝烟四起，步入世界毁灭的后尘。</p>
+<p>因此这样的女主，虽然可能会因行事不够“狠绝”而被一些人认为是“玛丽苏”，但在我眼中这才像是个现代人的思维。</p>
+<p>身为21世纪的现代人，怎可如此打打杀杀？不妥，甚是不妥。</p>
+<p><strong>《我家大师兄脑子有坑》</strong></p>
+<ul>
+<li><p>搞笑，古风，玄幻</p>
+</li>
+<li><p>更新至 411 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/2dfdb4232707c24948c2adc4aed7c2aa0fa62c2c.jpg@300w.jpg" alt="img"></p>
+<p>一口刀子一口糖，说得就是《兄坑》。多少人以为这是个无厘头的搞笑沙雕漫而看起，却不想后来被糖衣下藏着的玻璃渣子给扎了个泪流满面。</p>
+<p>且论不幸穿越成炮灰NPC的大师兄该如何存活？当然是抱紧主角的大腿！各种姿势都可以，节操什么的统统都不重要，只要能抱大腿！</p>
+<p>但——</p>
+<p>真的……这么简单……就好了吗？</p>
+<p>你以为的好人就是好人坏人就是坏人？你以为天命是你想篡改就能被篡改的？你以为那些和你一样会哭会笑、甚至和你一起走过了漫长岁月的人你真的能做到不管不顾？</p>
+<p>因果线如蛛丝般铺张开来，十分佩服凌宇沫大大操控剧情的能力，给我们呈现了这样一个哪怕是满满玻璃渣子却依旧令人喳喳喳地吃得心甘情愿的《兄坑》。</p>
+<p>PS：就目前的最新剧情来说，还好，我觉得不虐，请放心大胆地食用吧，被虐到了不要打我！(´∀`) 要说起虐，看《兄坑》最令我难受的其实是我每次都会大脑自动拐了999个弯的想到《漫客show》再想到《血族》，然后……唉心塞……我书柜里的单行本都起灰了……</p>
+<p><strong>小魔头暴露啦！</strong></p>
+<ul>
+<li><p>搞笑，热血，后宫</p>
+</li>
+<li><p>更新至 050 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/b8a105199e271739ff975930d3c386c78a826d81.jpg@300w.jpg" alt="img"></p>
+<p>如果喜欢看《入间同学入魔了》的话，那么你一定也会喜欢这部作品！甚至说这部作品要比《入间》更加……更加地骚气(?)</p>
+<p>其实是小魔王的可爱男孩子换上女装，然后把作品氛围都调教地橘里橘气的——莫名就按耐不住自己的小心脏了怎么办？！</p>
+<p>咳，笔者的笑容逐渐猥琐，面壁思过去了。</p>
+<p><strong>你的血很甜</strong></p>
+<ul>
+<li><p>恋爱，校园，奇幻，少女</p>
+</li>
+<li><p>[已完结] 共 85 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/f0edad8a24859563c0d3a5b42cad21bce315677d.jpg@300w.jpg" alt="img"></p>
+<p>大概是每个怀春阶段的少女都会有的幻想吧，希翼在自己人生的抑郁时刻，能有骑士从天而降，为自己斩荆披棘，成为自己的信仰支柱。有他在的地方，便是心安之处。</p>
+<p>吸血鬼菲特西对于莓琳来说正是这样的存在，是莓琳能在不被认同以及霸凌下继续生活下去的勇气。而对于菲特西来说，莓琳也是这样的存在，是他能摆脱吸血鬼这一身份枷锁的希望。</p>
+<p>相互救赎，相互成长。</p>
+<p>算是老漫了，之前在快看上连载。如果没有看过的话，推荐一看，是个温馨治愈的小故事。</p>
+<p>——但愿天下所有温柔的人最终也都能被温柔以待。</p>
+<p><strong>我和总裁相了个亲</strong></p>
+<ul>
+<li><p>恋爱，搞笑，都市</p>
+</li>
+<li><p>更新至 110 话</p>
+</li>
+</ul>
+<p><img src="https://i0.hdslb.com/bfs/manga-static/c614a518fd9ee25a0afefbb9e630ed5e72746873.jpg@300w.jpg" alt="img"></p>
+<p>和前阵子爆火的《金秘书为何那样》，走得同题材的总裁路线，该作的搭配也是小资平凡女+脑回路神奇霸总。</p>
+<p>虽说是俗套的剧情，但耐不住韩漫画风好看，能hold住全场。甜美单纯又高颜值的恋爱，满足广大群众日常的多巴胺分泌需求。</p>
+<p>佛罗伊德曾说：“怕的不是剧情不好，也不是画风不好，而是画风剧情都不好简直闪瞎眼了！”</p>
+]]></content>
+      <tags>
+        <tag>稀奇古怪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calendar</title>
+    <url>/2021/03/16/%E8%BE%93%E5%87%BA/%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA/calendar/</url>
+    <content><![CDATA[<p>最近对智能化上了心，朝着手机的语音助手呼噜呼噜了半天，大概还是童心未泯太幼稚了（笑）</p>
+<p>然后也是就此产生了个idea，希望能有个智能小秘书提醒我下一时段要去做的事。</p>
+<p>我的要求如下：</p>
+<ol>
+<li>手机android电脑windows端互通</li>
+<li>界面简洁美观，操作简单</li>
+<li>行程需要能每周式地循环重复提醒</li>
+<li>打卡记录完成量</li>
+<li>语音自动提醒行程安排</li>
+</ol>
+<p>为了这几项特性我从google折腾到番茄，最后又从worktile折腾回了outlook，兜兜转转了大半天，最终认命，大概只能狠下心把芝麻给丢掉了。</p>
+<p>以下介绍几个我认为还不错可圈可点的日历软件，以及使用相关的心路历程记录。</p>
+<p><strong>google日历</strong></p>
+<p>google日历可以说是真的深得我心，操作起来那叫个顺滑啊~就是被墙阻在了外头这点不做好，使用起来就没这么方便了。</p>
+<p>唯一，真的，唯一要说吹毛求疵些的话，就是为什么都2021年了都还没有个语音智能提醒播报行程的功能？现在文字转换语音也都不是什么障碍了，这么优秀的功能居然还不赶紧出来？</p>
+<p><strong>outlook日历</strong></p>
+<p>outlook日历的操作直觉性我认为比起google是稍稍逊色那么一点的，另外，它的手机端是和outlook mail整合在一起，这点我不太喜欢。在我眼里日历和邮件是没有什么太多关系的，这两个整合在一块就成了大杂烩，很不巧，这口我不好。</p>
+<p>所以最开始我是把它丢入淘汰名单的，但最后在其他各种日历都被我以各种理由剔除后，才又将它从垃圾桶里搬了回来。嗯，手机端虽然成了大杂烩，但我们还是可以把日历的资料同步进手机自带的干净又简洁的日历app不是？</p>
+<p>关于outlook整合可参考✐<a href="https://zhuanlan.zhihu.com/p/129350806">日历同步（手机+电脑） 使用系统原生日历软件</a></p>
+<p>这里不多做介绍，只提一句在outlook设定中Sync calendars的default初始值居然是关闭状态的！记得要打开！！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20210316234053.png" alt="image-20210316232752575"></p>
+<p><strong>worktile</strong></p>
+<p>非常漂亮的打卡界面，能清楚的看到各任务的完成情况，就是这个软件主要是为了企业协作而开发，对个人使用来说功能繁琐，不怎么便捷。</p>
+<p><strong>spendo</strong></p>
+<p>居然是个有语音播报功能的app！！！众多app中唯一一个看到有这功能的！所以多留了点心。主要是以to do list功能为主，跟我需求的日历向功能不太相符，有些可惜了。</p>
+]]></content>
+      <tags>
+        <tag>稀奇古怪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bypass GFW</title>
+    <url>/2021/01/14/%E8%BE%93%E5%87%BA/%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA/networkx/</url>
+    <content><![CDATA[<blockquote>
+<p>前言：</p>
+<p>因获取国际学术信息等的需求，而去了解如何科学上网。网络非法外之地，慎言慎行。</p>
+<p>个人水平有限，本文不做科普介绍，仅收集各大佬的情报进行简单的汇整。</p>
+</blockquote>
+<h2 id="How-to-bypass-GFW"><a href="#How-to-bypass-GFW" class="headerlink" title="How to bypass GFW?"></a>How to bypass GFW?</h2><p><a href="https://www.youtube.com/watch?v=f9ohvZyQrmY&list=PLqybz7NWybwUgR-S6m78tfd-lV4sBvGFG&index=3">翻墙软件 路由器 软路由硬件翻墙 和网关模式翻墙等多种翻墙方式的利弊和特点 你更适合哪一种？【硬核翻墙系列】第三期</a></p>
+<ul>
+<li>软件翻墙：VPN</li>
+<li>硬件翻墙：路由器翻墙、软路由翻墙</li>
+<li>网关翻墙：Clash、Surge等<ul>
+<li><a href="https://www.youtube.com/watch?v=Y6dDuL73Vxo">无需软路由，Clash、ssr、v2rayN家庭局域网网关模式科学上网网络共享，同一WiFi家里设备都可科学上网。</a></li>
+<li><a href="https://www.youtube.com/watch?v=kf90r28t4f0&list=PLqybz7NWybwUgR-S6m78tfd-lV4sBvGFG&index=5">机场还是VPS？选择哪一种更适合你？【硬核翻墙系列】第五期</a><ul>
+<li>VPS：<a href="https://cn.hostgator.com/news/product/vps/3957.html#:~:text=VPS%E5%92%8CVPN%E6%98%AF%E4%B8%A4%E4%B8%AA%E7%BB%8F%E5%B8%B8%E6%B7%B7%E6%B7%86%E7%9A%84%E6%9C%AF%E8%AF%AD%E3%80%82&text=%E5%AE%9E%E9%99%85%E4%B8%8A%EF%BC%8C%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8,%E9%80%9A%E5%B8%B8%E8%A2%AB%E7%BB%84%E5%90%88%E5%9C%A8%E4%B8%80%E8%B5%B7%E3%80%82">VPS与VPN它们有什么具体的区别</a></li>
+<li>机场：<a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="The-history-and-development-of-the-tools-we-used-to-bypass-GFW"><a href="#The-history-and-development-of-the-tools-we-used-to-bypass-GFW" class="headerlink" title="The history and development of  the tools we used to bypass GFW?"></a>The history and development of  the tools we used to bypass GFW?</h2><ul>
+<li>从VPN到SS小火箭：<a href="https://carsonwah.github.io/proxy-vpn-shadowsocks-concept.html">翻牆專題：Proxy、VPN、Shadowsocks概念解釋</a>    </li>
+<li>继SS后的无声抗议：<a href="https://guide.v2fly.org/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-q-a">V2Ray 配置指南：V2Ray 跟 Shadowsocks 有什么区别</a></li>
+<li><a href="https://medium.com/@thomas_summon/%E6%B5%85%E8%B0%88vpn-vps-proxy%E4%BB%A5%E5%8F%8Ashadowsocks%E4%B9%8B%E9%97%B4%E7%9A%84%E8%81%94%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB-b0198f92db1b">浅谈vpn、vps、Proxy以及shadowsocks之间的联系和区别</a></li>
+</ul>
+<h2 id="The-method-I-currently-used"><a href="#The-method-I-currently-used" class="headerlink" title="The method I currently used?"></a>The method I currently used?</h2><p><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">clash</a>+<del><a href="https://glados.network/">GLaDOS</a></del> <a href="https://www.qcranev2.com/#/dashboard">Qcrane牛奶批发商 (qcranev2.com)</a></p>
+]]></content>
+      <tags>
+        <tag>稀奇古怪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>购买路由器前你需要知道</title>
+    <url>/2020/05/10/%E8%BE%93%E5%87%BA/%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA/router/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>引言</strong></p>
+<p>这次在采购路由器上来来回回折腾了许久，先后换了货型，还为了以防万一当场试验了功能。由于我需要的路由器是可以接收手机热点wifi讯号，再对讯号进行延伸发送，因此本篇的内容会主要关于这个方向进行描述。仅此记录，以防后续采坑。</p>
+</blockquote>
+<h1 id="路由器的模式功能"><a href="#路由器的模式功能" class="headerlink" title="路由器的模式功能"></a>路由器的模式功能</h1><p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175154.png" alt="image-20200510172646027"></p>
+<ol>
+<li>无线路由器 Wireless router mode</li>
+<li>中继模式 Repeater mode</li>
+<li>无线存取点 AP mode</li>
+<li>多媒体桥接器 Media Bridge</li>
+<li>无线WAN功能 WISP <font color="#aaa">针对tp-link的路由器</font></li>
+</ol>
+<p><strong>专有名词解释</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>路由</td>
+<td>通过互联的网络，把信息从源地址传输到目标地址的活动</td>
+</tr>
+<tr>
+<td>无线访问节点（AP）</td>
+<td>无线网和有线网之间沟通的桥梁</td>
+</tr>
+<tr>
+<td>有线交换机</td>
+<td>用于集中连接网络设备的机器</td>
+</tr>
+</tbody></table>
+<p><strong>无线路由器模式</strong></p>
+<p>这一模式是路由器最基本的使用模式，可以看做是建立具有路由功能的一个无线存取点。可接在宽带光纤等线路上，通过路由器实现自动拨号进入网络，并通过无线功能，使用户可以无线连接使用。主要用于家庭。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175252.png" alt="image-20200510184630361"></p>
+<p><strong>中继模式</strong></p>
+<p>路由器通过无线方式连接至可以上网的设备，从而放大该设备的无线讯号。主要用于扩大wifi讯号范围，但是有着每桥接讯号频宽就会减半一次的绝对缺陷。</p>
+<p><img src="https://raw.githubusercontent.com/bessieyr/asset/master/img/20200522175316.png" alt="image-20200510184554648"></p>
+<p><strong>无线存取点模式</strong></p>
+<p>路由器建立大量的无线访问节点，实现大面积的网络覆盖。接入在有线交换机或者路由器上，将有线网络转换为无线网络，并大面积增加无线覆盖范围。主要用于大范围的学校和企业中。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175328.png" alt="image-20200510184526687"></p>
+<p><strong>多媒体桥接模式</strong></p>
+<p>功能运作和中继模式类似，只是在发出无线信号时会使用新的ip地址，因此网络名称SSID会和原设备不一样。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175304.png" alt="image-20200510184427813"></p>
+<p><strong>WISP</strong></p>
+<p>同桥接功能一样。</p>
+<h1 id="要考虑的问题"><a href="#要考虑的问题" class="headerlink" title="要考虑的问题"></a>要考虑的问题</h1><ol>
+<li>需要什么样的功能？</li>
+<li>预期使用的场地是什么样的？</li>
+<li>预算多少？</li>
+<li>售后服务如何？</li>
+</ol>
+<p><strong>需要什么样的功能？</strong></p>
+<p>不同型号的路由器具备的模式功能也会不同，因此这一点至关重要，在向销售人员咨询的时候务必把使用目的清楚告知，否则哪怕是花了大价钱购买，买回的路由器也可能根本没有用。</p>
+<p>像我的需求是扩大手机热点wifi的范围，因此我就需要选择具有中继/桥接/WISP功能的路由器。</p>
+<p><strong>预期使用的场地是什么样的？</strong></p>
+<p>考虑清楚使用场地，才能明确知道自己需要路由器的信号传播范围要有多广。如果场地是有很多高墙障碍物的，那么势必会干扰到信号，因此场地问题决定了你所需要的路由器的品质。</p>
+<p><strong>预算多少？</strong></p>
+<p>这是个非常实际的问题了，钱不一定是万能的，但有钱可以有很多的好处。在预算不够充足的情况下，可能就要考虑是否能接受一定程度地降低所需路由器的品质，或者买个二手的路由器，或者甚至可以考量是否有别种功能更为单一价格更加低廉的产品可以替代路由器。</p>
+<p>由于路由器具有很多模式功能，而这些功能不一定全部都是你所需要的，在这种情况下选择单一功能的产品通常会比多功能的产品要节省不少的成本费用。比如说，我对路由器的需求仅仅是扩大wifi范围这一功能，那么其实也是考虑选择wifi延伸器/强波器这种产品作为替代，甚至说diy自制一个铝罐放拐角处其实都能达到这种扩大信号的目的，但最终选择了价格更高些路由器，还是因为其他产品的发射讯号品质不够理想。</p>
+<p><strong>售后服务如何？</strong></p>
+<p>上述几个问题都是在帮你不断梳理清楚理想的产品货型，但是也许依旧会有很多甚至说多品牌的货型在你的清单上，这时候需要想想售后服务的问题了。不同的商家售后服务的制度也可能不同，有些维修速度快，有些维修速度慢。大品牌的品质一般比较稳定，受众多，服务人员也会多些，但是品牌的来源国家还是会对维修造成一定影响，一般来说买当地品牌的产品，在维修上会更快更有保障性些。</p>
+<p>另外，如果你是第一次购买路由器，还没有把握清楚了解路由器的资讯，那么这里强烈建议选择具有退换服务的商家！毕竟从资料上看的，远不如实际接触来的经验好。</p>
+<h1 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h1><p><strong>我所知道旗下具有延伸wifi讯号功能的路由器产品的品牌</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TP-Link</td>
+<td>华硕</td>
+<td>Tenda</td>
+<td>小米</td>
+<td>D-Link</td>
+</tr>
+</tbody></table>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.mobile01.com/topicdetail.php?f=18&amp;t=5664797">https://www.mobile01.com/topicdetail.php?f=18&amp;t=5664797</a></p>
+<p><a href="https://www.tp-link.com/tw/support/faq/679/">https://www.tp-link.com/tw/support/faq/679/</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/32275116">https://zhuanlan.zhihu.com/p/32275116</a></p>
+]]></content>
+      <tags>
+        <tag>稀奇古怪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅尝python</title>
+    <url>/2021/03/14/%E8%BE%93%E5%87%BA/%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA/%E6%B5%85%E5%B0%9Dpython/</url>
+    <content><![CDATA[<p><strong>前因</strong></p>
+<p>帮母亲整理邮件时，突然意识到这种大量重复的单调工作如果可以由机器自动化实现，这会带来很大的便利。</p>
+<p>虽然最后的结果来看，似乎特地学个程式来处理事情反而是多此一举，还增添了不少乱子，但是若下次有类似的事情发生，我想我一定可以处理得很好。</p>
+<p><strong>python安装南瓜包</strong></p>
+<p><a href="https://blog.csdn.net/u014314850/article/details/88352794">python3 初次使用pyuserinput鼠标键盘消息包的踩坑记录_让他让的博客-CSDN博客</a></p>
+<p><a href="https://www.cnblogs.com/yinhaiping/p/13375375.html">pip安装第三方包报错：There was a problem confirming the ssl certificate - YinMan - 博客园 (cnblogs.com)</a></p>
+<p><strong>本次安装使用的第三方包</strong></p>
+<p>pip install <a href="https://pypi.org/project/PyUserInput/0.1.9/">pyuserinput</a></p>
+<p>pip install pyautogui</p>
+<p><strong>程式整理</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os,time,sys</span><br><span class="line"><span class="keyword">import</span> pyautogui <span class="comment">#自动化</span></span><br><span class="line"><span class="keyword">from</span> pymouse <span class="keyword">import</span> PyMouse <span class="comment">#鼠标控制</span></span><br><span class="line"><span class="keyword">from</span> pynput.mouse <span class="keyword">import</span> Listener, Button <span class="comment">#鼠标监听</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 鼠标控制方式 #</span></span><br><span class="line">m = PyMouse()</span><br><span class="line">m.move(x, y)</span><br><span class="line">m.click(x, y)</span><br><span class="line">time.sleep(t)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 监听 #</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_click</span>(<span class="params">x, y, button, is_press</span>):</span> <span class="comment">#宣告function</span></span><br><span class="line">    <span class="keyword">if</span> button == Button.right:</span><br><span class="line">        print(<span class="string">&quot;鼠标右键，停止监听&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span> <span class="comment">#返回False，停止事件</span></span><br><span class="line">    print(<span class="string">f&quot;鼠标<span class="subst">&#123;button&#125;</span>键在(<span class="subst">&#123;x&#125;</span>, <span class="subst">&#123;y&#125;</span>)处<span class="subst">&#123;<span class="string">&#x27;按下&#x27;</span> <span class="keyword">if</span> is_press <span class="keyword">else</span> <span class="string">&#x27;松开&#x27;</span>&#125;</span>&quot;</span>)</span><br><span class="line">listener = Listener(</span><br><span class="line">    on_click=on_click</span><br><span class="line">)</span><br><span class="line">listener.start()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 鼠标坐标显示 #</span></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span></span><br><span class="line">        print(<span class="string">&quot;Press Ctrl-C to end&quot;</span>)</span><br><span class="line">        x,y = pyautogui.position() <span class="comment">#返回鼠标的坐标</span></span><br><span class="line">        posStr=<span class="string">&quot;Position:&quot;</span>+<span class="built_in">str</span>(x).rjust(<span class="number">4</span>)+<span class="string">&#x27;,&#x27;</span>+<span class="built_in">str</span>(y).rjust(<span class="number">4</span>)</span><br><span class="line">        <span class="built_in">print</span> (posStr) <span class="comment">#打印坐标</span></span><br><span class="line">        time.sleep(<span class="number">0.2</span>)</span><br><span class="line">        os.system(<span class="string">&#x27;cls&#x27;</span>) <span class="comment">#清楚屏幕</span></span><br><span class="line"><span class="keyword">except</span>  KeyboardInterrupt:</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&#x27;end....&#x27;</span>)</span><br><span class="line">    </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>稀奇古怪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++</title>
+    <url>/2020/06/03/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/C++/</url>
+    <content><![CDATA[<blockquote>
+<p>针对pat机考的复习整理。有C语言和java的基础，C++边看边学中。</p>
+</blockquote>
+<h1 id="PAT-甲级-Pactice"><a href="#PAT-甲级-Pactice" class="headerlink" title="PAT 甲级 Pactice"></a>PAT 甲级 Pactice</h1><h2 id="1001-A-B-Format"><a href="#1001-A-B-Format" class="headerlink" title="1001 A+B Format"></a><strong>1001</strong> A+B Format</h2><blockquote>
+<p><strong>要点</strong></p>
+<ol>
+<li><a href="https://www.systutorials.com/convert-string-to-int-and-reverse/">string to int and int to string</a></li>
+<li>字串处理（提取substring、erase）<a href="http://www.cplusplus.com/reference/string/basic_string/">更多string function请参阅</a></li>
+</ol>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sstream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="built_in">string</span> <span class="title">ToString</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">long</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="built_in">stringstream</span> s;</span><br><span class="line">    s &lt;&lt; sum;</span><br><span class="line">    <span class="built_in">string</span> str = s.str();</span><br><span class="line">    <span class="keyword">return</span> str;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">long</span> a, b, sum;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    sum = a + b;</span><br><span class="line">    <span class="comment">//非正数处理&amp;转字串</span></span><br><span class="line">    <span class="keyword">if</span>(sum == <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span> <span class="keyword">if</span>(sum &lt; <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;-&quot;</span>;</span><br><span class="line">        sum = -sum;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">string</span> str = ToString(sum);</span><br><span class="line">    <span class="comment">//切多出头部</span></span><br><span class="line">    <span class="keyword">int</span> n = str.length();</span><br><span class="line">    <span class="keyword">int</span> x = n % <span class="number">3</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; str.substr(<span class="number">0</span>, x);</span><br><span class="line">    str.erase(<span class="number">0</span>, x);</span><br><span class="line">    <span class="keyword">if</span> (n &gt; <span class="number">3</span>) <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;,&quot;</span>;</span><br><span class="line">    <span class="comment">//3个一output</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n/<span class="number">3</span> - <span class="number">1</span>; i++)&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; str.substr(<span class="number">0</span>, <span class="number">3</span>) &lt;&lt; <span class="string">&quot;,&quot;</span>;</span><br><span class="line">        str.erase(<span class="number">0</span>, <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; str;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="1002-A-B-for-Polynomials"><a href="#1002-A-B-for-Polynomials" class="headerlink" title="1002 A+B for Polynomials"></a><strong>1002</strong> A+B for Polynomials</h2><blockquote>
+<p><strong>Tips</strong></p>
+<ol>
+<li><a href="https://blog.csdn.net/a845717607/article/details/86508227">使用map</a>存储资料或许是不错的方法，但我习惯了使用struct（大概是冥顽不化叭 ╮(￣▽￣”)╭ ）</li>
+<li><a href="https://blog.csdn.net/qq_36667170/article/details/79265224">保留位数的表示</a>（C++的表示方法略麻烦，我希望我可以记得住！）</li>
+<li>注意归零后的细节处理</li>
+<li>边读入边计算 v.s 统整完所有资料后再计算</li>
+</ol>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt; //控制输出</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">POLY</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> ex;</span><br><span class="line">    <span class="keyword">double</span> coe;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">(POLY* p, <span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span>.setf(ios::fixed);</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)&#123; <span class="built_in">cout</span> &lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;p[i].ex &lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt; setprecision(<span class="number">1</span>)&lt;&lt;p[i].coe; &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> N1, N2;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; N1;</span><br><span class="line">    POLY* p1 = (POLY*) <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(POLY) * N1);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N1; i++)&#123; <span class="built_in">cin</span> &gt;&gt; p1[i].ex &gt;&gt; p1[i].coe; &#125;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; N2;</span><br><span class="line">    POLY p2, *p = (POLY*) <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(POLY) * (N1+N2));</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">0</span>, k = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N2; i++)&#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; p2.ex &gt;&gt; p2.coe;</span><br><span class="line">        <span class="comment">//sum</span></span><br><span class="line">        <span class="keyword">while</span>(p1[j].ex &gt; p2.ex) p[k++] = p1[j++]; <span class="comment">//大于</span></span><br><span class="line">        <span class="keyword">if</span>(p1[j].ex == p2.ex)&#123; <span class="comment">//exponent相同</span></span><br><span class="line">            p[k] = p2;</span><br><span class="line">            p[k].coe = p1[j++].coe+p2.coe;</span><br><span class="line">            <span class="keyword">if</span> (p[k].coe != <span class="number">0</span>) k++;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        p[k++] = p2; <span class="comment">//小于</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(j &lt; N1) p[k++] = p1[j++]; <span class="comment">//剩余的</span></span><br><span class="line">    Print(p, k);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="1003-Emergency"><a href="#1003-Emergency" class="headerlink" title="1003 Emergency"></a>1003 Emergency</h2><blockquote>
+<p><strong>Tips</strong></p>
+<ol>
+<li><a href="https://www.itread01.com/content/1544347654.html">关于vector sort的补充</a>  （这个看起来就超级实用的）</li>
+<li><a href="https://cloud.tencent.com/developer/ask/96717">infinite的表示</a></li>
+<li>审题，我最开始想当然的以为shortest path题要印出的当然是shortest path的长度啦！然后被piapia打脸，debug了N久(*ﾟДﾟ)つﾐ</li>
+<li>Dijkstra Algorithm（lec6）</li>
+</ol>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 1. N M C1 C2: 城市数，道路数，当前位置，目标位置 2. 各城市的救援队数 3. c1 c2 l...</span></span><br><span class="line"><span class="comment">   -&gt; shortest path数量，最大救援数 */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;limits&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> INF = numeric_limits&lt;<span class="keyword">int</span>&gt;::max();</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">PATH</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> c;</span><br><span class="line">    <span class="keyword">int</span> l;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; totR; <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; totP;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(<span class="keyword">const</span> PATH &amp;a, <span class="keyword">const</span> PATH &amp;b)</span> </span>&#123; <span class="keyword">return</span> a.l &gt; b.l; &#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Dijkstra</span><span class="params">(<span class="built_in">vector</span>&lt;PATH&gt; que, <span class="built_in">vector</span>&lt; <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &gt; l, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; r)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(que.size())&#123;</span><br><span class="line">        <span class="comment">//sort and get the minimum vertex</span></span><br><span class="line">        sort(que.begin(), que.end(), cmp);</span><br><span class="line">        <span class="built_in">vector</span>&lt;PATH&gt;::iterator qit = que.end()<span class="number">-1</span>; que.pop_back();</span><br><span class="line">        <span class="keyword">int</span> ca = qit-&gt;c, la = qit-&gt;l;</span><br><span class="line">        <span class="comment">//every edge of the vertex</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">vector</span>&lt;PATH&gt;::iterator it = que.begin(); it != que.end(); it++)&#123;</span><br><span class="line">            <span class="keyword">int</span> cb = it-&gt;c, lb = it-&gt;l, length = l[ca][cb];</span><br><span class="line">            <span class="keyword">if</span>(length == INF) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">if</span>(la+length == lb) &#123;</span><br><span class="line">                <span class="keyword">if</span>(totR[cb] &lt; totR[ca] + r[cb]) totR[cb] = totR[ca] + r[cb];</span><br><span class="line">                totP[cb] += totP[ca];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(la+length &lt; lb) &#123; </span><br><span class="line">                it-&gt;l = la+length; </span><br><span class="line">                totR[cb] = totR[ca] + r[cb]; </span><br><span class="line">                totP[cb] = totP[ca]; </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> N,M,C1,C2; <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; rescue;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;N&gt;&gt;M&gt;&gt;C1&gt;&gt;C2;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> a, b, c; <span class="function"><span class="built_in">vector</span>&lt; <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &gt; <span class="title">l</span><span class="params">(N, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;(N, INF))</span></span>; </span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++) &#123; <span class="built_in">cin</span>&gt;&gt;a; rescue.push_back(a); &#125; </span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b&gt;&gt;c) &#123; l[a][b] = c; l[b][a] = c; &#125; l[C1][C1] = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    totR.resize(N, <span class="number">0</span>); totP.resize(N, <span class="number">0</span>);</span><br><span class="line">    totR[C1] = rescue[C1]; totP[C1] = <span class="number">1</span>;</span><br><span class="line">    PATH p; <span class="built_in">vector</span>&lt;PATH&gt; pQue;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++) &#123; p.c = i, p.l = l[C1][i]; pQue.push_back(p); &#125;</span><br><span class="line">    Dijkstra(pQue, l, rescue);</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;totP[C2]&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;totR[C2]&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随机存取存储器（RAM）</title>
+    <url>/2020/06/07/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/RandomAccessMemory/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th></th>
+<th>存储原理</th>
+<th>集成度</th>
+<th>芯片引脚</th>
+<th>功耗</th>
+<th>价格</th>
+<th>速度</th>
+<th>刷新</th>
+<th>主要用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SRAM</td>
+<td>触发器</td>
+<td>低<font color="#aaa">（电路复杂）</font><br>单元电路=6个晶体管</td>
+<td>多</td>
+<td>大</td>
+<td>高</td>
+<td>快</td>
+<td>无</td>
+<td>缓存Cash</td>
+</tr>
+<tr>
+<td>DRAM</td>
+<td>电容</td>
+<td>高<br>单元电路=1晶体管+1电容</td>
+<td>少$\Rightarrow$封装体积小<br>行地址、列地址分别传送<br>∴ 地址线的条数/=2</td>
+<td>小</td>
+<td>低</td>
+<td>慢</td>
+<td>需要</td>
+<td>主存</td>
+</tr>
+</tbody></table>
+<p><font color="#aaa">单元电路体积小、电路简单→单位芯片上能集成较多的基本单元电路→集成度高</font></p>
+<p><strong>静态RAM（SRAM）</strong></p>
+<p>基本存储电路为触发器，利用<font color="blue">双稳态触发器</font>存放一位二进制数，若干个触发器组成存储元件。并有行地址选择与列地址选择作为开关，当电路导通时就可以进行读/写操作。</p>
+<p><strong>动态RAM（DRAM）</strong></p>
+<p>利用<font color="blue">电容</font>来储存二进制数，由于电容会漏电，隔段时间后电容上的电荷信号会消失，需要采用刷新/再生放大器来对电容中的保存的信息进行重现。</p>
+<ul>
+<li><p><strong>分类</strong></p>
+<ul>
+<li>单管动态RAM：当电容充电时，数据线有电流，表示“1”，放电时，数据线无电流，表示存放的是“0”。</li>
+<li>三管动态RAM：读/写 选择/数据线分开运作，且存在一个预充电信号，使读数据线初始为“1”。<ul>
+<li>读出时，电容作为开关使用。当电容充电，电路接地–&gt;读数据线会变为“0”。因此，读出数据和原本存入的数据相反，还需要在通过读出放大器进行反相再送往数据总线。</li>
+<li>写入部分的电路和单管动态RAM的电路基本相同，写入数据与原本输入的数据一致，电容充电时就表示“1”，放电时为“0”。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>刷新</strong>：每次刷新，只与<font color="blue">行地址</font>有关，刷新的是动态RAM中一行所有的基本单元电路。<font color="#aaa">给出行地址以后，某一行就会被选中，这一行所有基本单元的信息都会被送到读数据线上，读数据线与写数据线间每一列都存在刷新放大器，通过刷新放大器，就可以完成对一整行的数据刷新。</font></p>
+<ol>
+<li>集中式刷新：把刷新时间集中在一个相对集中时间段里面进行操作。在集中刷新时间段中，无论是CPU还是I/O都无法和动态RAM进行信息交换，因而称这段时间为区域<font color="red">” 死区“</font>。<br>存取周期=刷新一行的时间</li>
+<li>分散刷新：拉长存取周期的时间，<font color="blue">无死区</font>。但会存在过度刷新，同时因加长了读写周期，导致芯片性能下降。<br>存取周期=读写时间+刷新一行的时间</li>
+<li>异步刷新：结合了集中式和分散刷新，拉长了刷新一行的时间间隔。<br>刷新一行的时间间隔=读写时间+1个存取周期的集中刷新(死区)<br><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200525185808.png">若将刷新安排在指令译码阶段（CPU和I/O不访存的时候），就可避免死区的影响。</li>
+</ol>
+<p>☆【举例比较刷新方法】：假设动态RAM刷新时间间隔为2ms，存储芯片为128×128。（128行的矩阵需要128个存取周期）</p>
+<ul>
+<li>集中式刷新：存取周期为0.5μs。死区为64μs，<font color="red">死亡时间率</font>=$\frac{\text{128个存取周期}}{\text{4000个存取周期}}$=3.2%</li>
+<li>分散刷新：存取周期为1μs。2ms内每行会刷新15.6次（2ms÷128÷1μs）。</li>
+<li>异步刷新：存取周期为0.5s。每隔15.6μs刷新1行，15.6μs中会有0.5μs是死区。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>会计学</title>
+    <url>/2020/11/14/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E4%BC%9A%E8%AE%A1%E5%AD%A6/</url>
+    <content><![CDATA[<blockquote>
+<p>资料统整：<a href="https://drive.google.com/drive/folders/1TleO6PzXxRUuRuJ5f9a4MuAQExydoYUH?usp=sharing">googledrive</a></p>
+</blockquote>
+<h2 id="会计基础与假设"><a href="#会计基础与假设" class="headerlink" title="# 会计基础与假设"></a># 会计基础与假设</h2><ul>
+<li>Accounting Standards and their based -2<ul>
+<li>GAAP: historical cost principle, rules-based</li>
+<li>IFRS: fair value principle, principle-based</li>
+</ul>
+</li>
+<li>Measurement Principles and their different usage position -2<ul>
+<li>historical cost principle: for record assets</li>
+<li>fair value principle: for report investment market</li>
+</ul>
+</li>
+<li>Assumptions -2<ul>
+<li>Monetary unit assumption</li>
+<li>Economic entity assumption</li>
+<li>Going Concern Assumption: for cost allocation</li>
+<li>Time Period Assumption: for accrual based</li>
+</ul>
+</li>
+<li>Principle of Financial Reporting -3<ul>
+<li>revenue recognition principle</li>
+<li>expense recognition principle</li>
+<li>full disclosure principle</li>
+</ul>
+</li>
+<li>Quality of Information -5<ul>
+<li>Relevance: 可影响决策的资讯</li>
+<li>Materiality</li>
+<li>Reliability<ul>
+<li>Confirmable</li>
+<li>Faithful Representation</li>
+<li>Neutral</li>
+</ul>
+</li>
+<li>Comparability: different company use same account principle for others to prepare</li>
+<li>Consistency: 一致性</li>
+</ul>
+</li>
+</ul>
+<h2 id="Ch1-Accounting-in-action"><a href="#Ch1-Accounting-in-action" class="headerlink" title="Ch1 Accounting in action"></a>Ch1 Accounting in action</h2><ul>
+<li>Accounting Equation</li>
+<li>Financial Statements -4<ul>
+<li>Income Statement: just revenues and expenses</li>
+<li>Retained Earning Statement</li>
+<li>Statement of Financial Position</li>
+<li>Statement of Cash Flows</li>
+</ul>
+</li>
+</ul>
+<h2 id="Ch2-The-recording-process"><a href="#Ch2-The-recording-process" class="headerlink" title="Ch2 The recording process"></a>Ch2 The recording process</h2><ul>
+<li>Accounting Forms -3<ul>
+<li>Journal Entry</li>
+<li>Ledger(for posting): Account</li>
+<li>Trial Balance</li>
+</ul>
+</li>
+</ul>
+<h2 id="Ch3-Adjusting-the-accounts"><a href="#Ch3-Adjusting-the-accounts" class="headerlink" title="Ch3 Adjusting the accounts"></a>Ch3 Adjusting the accounts</h2><ul>
+<li>Adjust<ul>
+<li>Deferrals<ul>
+<li>prepaid expenses: Assets(+)</li>
+<li>unearned revenues: Liability(+)</li>
+<li>accumulated depreciation: Assets(-) / contra account: depreciation expenses</li>
+</ul>
+</li>
+<li>Accruals (预估，本身不计入账本，accounts后才计入)<ul>
+<li>accrued expenses: Salaries and wages Payable, Rent Payable, Accounts Payable</li>
+<li>accrued revenues</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Ch4-Completing-the-counting-cycle"><a href="#Ch4-Completing-the-counting-cycle" class="headerlink" title="Ch4 Completing the counting cycle"></a>Ch4 Completing the counting cycle</h2><ul>
+<li>Accounting Cycle<ol>
+<li>analyze transactions</li>
+<li>journalize</li>
+<li>post</li>
+<li>Trial Balence</li>
+<li>adjusting enty <ul>
+<li>办公用品、预付保险、预收租金、薪资费用、应计劳务收入、折旧费用</li>
+</ul>
+</li>
+<li>adjusted trial balence</li>
+<li>financial statement</li>
+<li>closing entry</li>
+<li>post-closing trial balence</li>
+</ol>
+</li>
+<li>Assets<ul>
+<li>Intangible assets</li>
+<li>Property, plant and equipment（PPE）土地厂房和设备</li>
+<li>Long-term investments</li>
+<li>Current assets</li>
+</ul>
+</li>
+<li>Liabilities<ul>
+<li>Non-current liabilities</li>
+<li>Current liabilities</li>
+</ul>
+</li>
+</ul>
+<h2 id="Ch5-Accounting-for-merchandising-operation"><a href="#Ch5-Accounting-for-merchandising-operation" class="headerlink" title="Ch5 Accounting for merchandising operation"></a>Ch5 Accounting for merchandising operation</h2>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资料结构</title>
+    <url>/2019/07/14/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%B5%84%E6%96%99%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114191800.png" alt="image-20200601222811344"></p>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>作业系统</title>
+    <url>/2020/11/14/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<blockquote>
+<p>笔记整理：<a href="https://kim85326.github.io/category/#%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1">筆記github</a>    <a href="https://sls.weco.net/node/21325">筆記2宅學習</a>    <a href="https://ithelp.ithome.com.tw/articles/10228947">小白馬的OS筆記</a>    <a href="http://www.salimarfaoui.com/Com310Lectures/Ch2ReviewQuestionsWAnswers.pdf">課本excercise answer</a>    </p>
+<p>课程资料统整：<a href="https://drive.google.com/drive/folders/1nju9O_tHiFaBVW3u03haojRNfpVTuSEG?usp=sharing">googledrive</a></p>
+</blockquote>
+<h2 id="ch1-OS"><a href="#ch1-OS" class="headerlink" title="ch1 OS"></a>ch1 OS</h2><ul>
+<li>OS的作用 -2<ul>
+<li>resource allocator</li>
+<li>control program</li>
+</ul>
+</li>
+<li>kernel<ul>
+<li>一個位於電腦OS核心的程式 a program at the core of computer’s OS</li>
+</ul>
+</li>
+<li>bootstrap program<ul>
+<li>放在ROM、EEPROM中，視爲firmware</li>
+<li>作用<ul>
+<li>設定系統參數初值</li>
+<li>load OS from hard disk to memory then exe.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>interrupt<ul>
+<li>trap：当使用者呼叫system call时，軟件產生的中斷</li>
+<li>hardware interrupt：I/O request or completion</li>
+<li>software interrupt：system call</li>
+</ul>
+</li>
+<li>network<ul>
+<li>LAN：ex. campus</li>
+<li>WAN</li>
+</ul>
+</li>
+<li>計算機系統的運作<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193713.png" alt="image-20201015120130733"></li>
+<li>DMA：what device controller do</li>
+</ul>
+</li>
+<li>計算機系統架構<ul>
+<li>Single-Processor System<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193714.png" alt="image-20201015120251643"></li>
+</ul>
+</li>
+<li>Multiprocessor：多個processor，公用memory<ul>
+<li>most common system：SMP(Symmetric multi-processing)</li>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193715.png" alt="image-20201110160204556"></li>
+</ul>
+</li>
+<li>Multicore<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193716.png" alt="image-20201110160238381"></li>
+<li>processor 和 chip 主要是表达侧重点不同，processor更强调功能，chip就是肉眼看到的芯片</li>
+</ul>
+</li>
+<li>Cluster System（集成式系統）：通過網路將電腦連成集成，共同分享存儲裝置<ul>
+<li>asymmetric clustering：一臺機器hot-standby mode監督server工作，其餘執行應用程序</li>
+<li>parrallel clustering：一起執行與監督</li>
+</ul>
+</li>
+<li>Distributed System：每個processor都有自己的memory，機器間用network連接</li>
+</ul>
+</li>
+<li>操作系統的運作<ul>
+<li>Multiprogramming：通過CPU scheduling對process排程，儅process有需要了才會interrupt CPU，減少了CPU等待process的時間，讓CPU一直忙碌于運行程式<ul>
+<li>拓展出的概念Multitasking：CPU在多個process中間來回切換，以提供用戶快速的response</li>
+</ul>
+</li>
+<li>Time sharing：OS让很多process可以同时执行，让process能被公平的执行到，隔段时间就interrupt 触发context switch</li>
+<li>Dual-Mode Operation（雙模式運作）：user mode + kernel mode，以划分os code和user-defined code<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193717.png" alt="image-20201110162112523"></li>
+</ul>
+</li>
+<li>Timer：設置時間限制去終止程式，防止無窮回圈</li>
+</ul>
+</li>
+<li>OS作用for Resource Management<ul>
+<li>Process Management（行程管理）：新增刪除行程、排程、暫停恢復行程、process synchronization、process communication</li>
+<li>Memory Management（記憶體管理）</li>
+<li>File-System Management（儲存體管理）</li>
+<li>Mass-Storage Management：磁盤的管理</li>
+<li>Cache Management</li>
+<li>I/O System Management：OS會隱藏特定的I/O devices from user，并只讓相關的device driver知道</li>
+</ul>
+</li>
+<li>Computing -3<ul>
+<li>Client-Server</li>
+<li>Pearso-to-Pear（P2P）</li>
+<li>Cloud</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch2-OS"><a href="#ch2-OS" class="headerlink" title="ch2 OS"></a>ch2 OS</h2><ul>
+<li>OS service<ul>
+<li><img src="https://i.imgur.com/OFzXWXl.png" alt="img"></li>
+<li>batch（批處理）</li>
+<li>accounting：記錄哪些user用了哪些resource</li>
+<li>system call<ul>
+<li>提供作業系統服務界面。通過呼叫OS跳到kernel mode，做完後return回system call interface</li>
+<li>參數傳遞的三種方式<ul>
+<li>register：Pass parameters in registers</li>
+<li>block：Registers pass starting addresses of blocks of parameter</li>
+<li>stack：Parameters pushed onto the stack, and popped off</li>
+</ul>
+</li>
+<li>功能<ul>
+<li>process control</li>
+<li>file management</li>
+<li>device management</li>
+<li>information maintenance</li>
+<li>communication<ul>
+<li>兩個基本模型<ul>
+<li>message-passing model：messages exchaged through a common mailbox，no conflict</li>
+<li>shared-memory model：直接獲取access to其他process的memory，max speed適合大數據交換</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>protection</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OS架構<ul>
+<li>monolithic structure：包含了所有system call裏面的東西</li>
+<li>Layer Approach（分層方法）：結構簡單用於除錯</li>
+<li>Microkernels：排除OS非必要的元件，用massage passing溝通</li>
+<li>Modules</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch3-Multiprocess"><a href="#ch3-Multiprocess" class="headerlink" title="ch3 Multiprocess"></a>ch3 Multiprocess</h2><ul>
+<li>Process<ul>
+<li>Stack：temporary data(fuction, local variables)</li>
+<li>data section：global variales</li>
+<li>heap：dynamic allocation</li>
+<li>text：executable code</li>
+</ul>
+</li>
+<li>PCB：在OS中代表一个process的kernel data structure，存放了进程所需的信息<ul>
+<li>Process State</li>
+<li>program counter</li>
+<li>CPU register</li>
+<li>Information<ul>
+<li>I/O status information</li>
+<li>CPU-Scheduling</li>
+<li>Memory-management</li>
+<li>Accounting：CPU数量，运行时间</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>state<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193718.png" alt="image-20201028013227682"></li>
+</ul>
+</li>
+<li>Process Creation<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193719.png" alt="image-20201028013130182"></li>
+</ul>
+</li>
+<li>process scheduler：在core上选择可执行的程式process</li>
+<li>ready queue：行程waiting和ready的地方</li>
+<li>Context Switch<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193720.png" alt="image-20201028013156718"></li>
+</ul>
+</li>
+<li>degree of mutiprogramming: memory中排的行程数</li>
+<li>IPC（Interporcess Communication）<ul>
+<li>shared memory<ul>
+<li>API（应用程式界面）由POSIX（可移植作业系统界面）提供</li>
+<li>由buffer存放shared memory region<ul>
+<li>unbounded buffer</li>
+<li>bounded buffer：有size限制，读空时不能再读，写满时不能再写</li>
+</ul>
+</li>
+<li>有互斥性（conflix），速度快，适合分布式环境可通过网路连接不同的计算机</li>
+</ul>
+</li>
+<li>massage passing<ul>
+<li>通过system call实现，需使用更久的kernel</li>
+<li>types<ul>
+<li>dirrect communication: naming发送及接收方，通过communication link直接传递至process</li>
+<li>indirrect communication: 由两方的mailbox/ports进行传递</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pipe：在Linux中pipe()是system call，属于一种massage passing，用数据线传递<ul>
+<li>ordinary: 用于parent-child relationship process</li>
+<li>named：more general，多行程通信</li>
+</ul>
+</li>
+<li>client-server communicaiton forms<ul>
+<li>socket：允许行程通过网路通信，有独立的ip和port number，属于named pipe</li>
+<li>RPCs（remote procedure call）：每个消息都独立完整</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch4-Thread"><a href="#ch4-Thread" class="headerlink" title="ch4 Thread"></a>ch4 Thread</h2><ul>
+<li>thread<ul>
+<li>thread id</li>
+<li>program counter</li>
+<li>register</li>
+<li>stack</li>
+</ul>
+</li>
+<li>pthread: POSIX綫程</li>
+<li>concurrency：运用在单核，将CPU运行时间段分配给各线程，并不能真正同时进行线程</li>
+<li>parallelism：运用在多核，多线程同时进行<ul>
+<li>data parrallelism</li>
+<li>task parrallelism</li>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193721.png" alt="image-20201028093510393"></li>
+</ul>
+</li>
+<li>Amdahl’s law：$speedup\leqq\frac{1}{S+(1-S)/N}$ <ul>
+<li>S：serial占比，1-S：parallel占比</li>
+<li>N：cores数</li>
+</ul>
+</li>
+<li>user thread：由app做出，由thread library控制</li>
+<li>kernel thread：由OS控制</li>
+<li>Multithreading Model<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193722.png" alt="image-20201110174711726"><ul>
+<li>此处PC为program counter</li>
+</ul>
+</li>
+<li>Many-to-One Model：多user thread争用一个kernel thread，即使多核也无法平行执行，不快</li>
+<li>One-to-One：缺点是会产生过多的kernel thread</li>
+<li>Many-to-Many</li>
+<li>Two-level：既有Many-to-Many，又有One-to-One</li>
+</ul>
+</li>
+<li>LWP（light weight process）：中间数据结构放在user和kernel间，比如Many-to-Many和Two-level<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193723.png" alt="image-20201105112833536"></li>
+</ul>
+</li>
+<li>TLS（thread-local storage）：thread一般共享process的数据，但也可能会需要自己的空间</li>
+<li>scheduler activation：communication between user-thread library and kernel’s</li>
+<li>creating multiple thread<ul>
+<li>asynchronous threading：parrent create child后，两者独立运行，用于感应式用户界面</li>
+<li>synchronous threading：parrent 等待child完成后才会继续运行，用于需要分享重要数据的情形</li>
+</ul>
+</li>
+<li>Implicit threading：将线程的产生与管理从 app developer 转到 compiler（编译器） &amp; run-time library（运行时库）<ul>
+<li>thread pool</li>
+<li>fork-join：parrent thread产生task，等执行完后再join起来，使result可被找回</li>
+<li>OpenMP（open multi-processing）：支持跨平台共享内存的多线程编程API</li>
+<li>GCD（Grand Central Dispatch）：识别运行的parallel tasks放入dispatch queue中管理</li>
+<li>TBB（Intel Thread Building Block）：library支持设计平行app，类似fork-join的方法</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://ithelp.ithome.com.tw/articles/10229521">ch3-4练习</a></p>
+<h2 id="ch5-CPU-Scheduling"><a href="#ch5-CPU-Scheduling" class="headerlink" title="ch5 CPU Scheduling"></a>ch5 CPU Scheduling</h2><p><a href="https://zhuanlan.zhihu.com/p/36142302">CPU调度笔记</a></p>
+<ul>
+<li>CPU Scheduling：Scheduler是一种OS function<ul>
+<li>preeptive scheduling：发生于interrupt和I/O completion</li>
+<li>nonpreeptive scheduling：发生于I/O wait和terminate</li>
+</ul>
+</li>
+<li>Dispatcher：一种OS function，把CPU core的控制权交给Scheduler选出的process<ul>
+<li>dispatch latency：停止一个process并切换到另一个process中间所花的时间</li>
+</ul>
+</li>
+<li>Criteria -5<ul>
+<li>CPU utilization</li>
+<li>Throughput 通量：单位时间process完成量</li>
+<li>Turnaround time 周转时间：运行process的时间</li>
+<li>waiting time</li>
+<li>Response time</li>
+</ul>
+</li>
+<li>perdict next CPU burst：$τ<em>{n+1}=\alpha t+(\alpha -1)τ</em>{n}$</li>
+<li>基本的Algorithm<ul>
+<li>FCFS (First-Come First-Served Scheduling)</li>
+<li>SJF (Shortest-Job-First Scheduling)</li>
+<li>RR (Round-Robin Scheduling)<ul>
+<li>在FCFS的基础上，分配每个行程time quantum进行行程的切换</li>
+<li>time quantum large → FCFS，time quantum small → processor sharing</li>
+</ul>
+</li>
+<li>Priority Scheduling<ul>
+<li>按照priority分配CPU，priority相同时按FCFS</li>
+<li>缺点：indefinite blocking/starvation，即低优先权的行程可能永远不会轮到</li>
+<li>解决方案<ol>
+<li>aging：随着时间等待，提升priority</li>
+<li>RR+priority<ul>
+<li>highest priority process会运行完整不参与RR</li>
+<li>两个next-highest priority会用RR轮流运行，当其中一个运行完后，另一个会升为最高优先权来运行</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Multilevel Queue Scheduling<ul>
+<li>按进程属性分成不同priority的队列，各队列使用不同的算法排序</li>
+</ul>
+</li>
+<li>Multilevel Feedback Queue Scheduling<ul>
+<li>进程可以在队列中移动。执行太久的进程会被丢到低优先权的队列，太久没被执行的进程则会被丢到高优先权的队列</li>
+</ul>
+</li>
+<li>Thread Scheduling<ul>
+<li>PCS (Procss-Contention Scope)行程争用：user-level thread争用LWP，由线程库选择</li>
+<li>SCS (System-Contention Scope)系统争用：kernel-level thread争用CPU，one-to-one model仅存在系统争用</li>
+<li>Pthread Scheduling：用的就是contention scope</li>
+</ul>
+</li>
+<li>Muli-Processor Scheduling<ul>
+<li>multiprocessor<ul>
+<li>multicore</li>
+<li>multi-threaded cores<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193724.png" alt="image-20201110201115649"></li>
+</ul>
+</li>
+<li>NUMA（non-uniform memory access）非统一内存访问架构：一种多处理的内存架构，属于SMP</li>
+<li>heterogenous multiprocessing 异质多处理器系统：将不同工作性质的处理器整合唯一的处理系统</li>
+</ul>
+</li>
+<li>asymmetric multiprocessing：由一个process core主导所有的存取data</li>
+<li>symmetric multiprocessing（SMP）：processor self-schduling</li>
+<li>CMT（chip multithread）：multithread交错运行，以减少全部等待stall的时间<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193725.png" alt="image-20201110200925194"></li>
+<li>memory stall记忆停滞：processor会花很多时间在等待data可使用，因processor的速度通常会比memory的速度快</li>
+</ul>
+</li>
+<li>HMP（Heterogeneous Multiprocessing）：将任务分配给特定的内核来更好的管理功耗</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Real-time CPU：priority-based algorithm，process会间歇性的需要CPU-admission-control algorithem来实现deadline<ul>
+<li>soft real-time system：只保证尽量完成，越关键的行程越优先，real-time tast优先于non-real-time</li>
+<li>hard real-time system：行程一定会在deadline前完成</li>
+<li>event latency：事件发生到它被服务的时间段<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193726.png" alt="image-20201110213048989"></li>
+</ul>
+</li>
+<li>Rate Monotonic Scheduling速率单调算法排程<ul>
+<li>依据周期长短来排程，周期越短优先权越高</li>
+<li>worst-case CPU utilization = $N(2^\frac{1}{N} -1)$    N: process数</li>
+<li>缺点：可能会miss deadline，因周期结束前行程未被排完</li>
+</ul>
+</li>
+<li>EDF（Earliest-Deadline-First Scheduling）<ul>
+<li>理论上是最佳的，可满足deadline要求，CPU利用率100%</li>
+</ul>
+</li>
+<li>Proportional Share Scheduling<ul>
+<li>按分享比例分配CPU时间</li>
+</ul>
+</li>
+<li>POSIX Real-time Scheduling<ul>
+<li>FIFO+RR</li>
+<li>linux的算法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Little’s formula：n = λ × w<ul>
+<li>到达queue的新行程数 = queue中新行程的平均达到率 × process waits</li>
+<li>可用于arrival distribution进而simulation</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch6-Synchronization-tool"><a href="#ch6-Synchronization-tool" class="headerlink" title="ch6 Synchronization tool"></a>ch6 Synchronization tool</h2><ul>
+<li>Synchronization tool：race condition会引发同步问题</li>
+<li>critical section：一段特定区域，同一时间只允许一个process使用<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201114193727.png" alt="image-20201110222750328"></li>
+<li>entry section：允许process request的code section</li>
+</ul>
+</li>
+<li>解决critical section problem的条件<ol>
+<li>mutual exclusive（mutex）</li>
+<li>progress：选择需要critical section的process进入</li>
+<li>bounded waiting：等待是有限期的</li>
+</ol>
+</li>
+<li>Peterson’s Solution：software-based solution<ul>
+<li>flag[]</li>
+<li>var turn</li>
+</ul>
+</li>
+<li>Hardware solution<ul>
+<li>memory model：决定memory如何配给app<ul>
+<li>Strongly ordered：行程的记忆改变对于其他行程而言是立马可知的</li>
+<li>Weakly ordered</li>
+</ul>
+</li>
+<li>test and set()</li>
+<li>caompare and swap () （CAS）<ul>
+<li>始终返回可变值的初始值</li>
+<li>执行顺序是任意的</li>
+<li>var atomic（原子变量）实现了mutual exclusive ，例如：计数器记录更改次数来阻止发生多个process同时进入临界区</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mutex - Higher level software tool：是可被应用程序员访问的<ul>
+<li>Mutex是一把钥匙，一个人拿了就可以进一个房间，出来的时候把钥匙交给队列的第一个</li>
+<li>mutex locks</li>
+<li>acquire()：acquire lock</li>
+<li>release()：release lock</li>
+<li>var lock：来判断lock是否已正被运行</li>
+<li>缺点：busy waiting</li>
+</ul>
+</li>
+<li>Semaphore：解决busy waiting的问题<ul>
+<li>Semaphore是一个可容纳N人的空间，如果人不满可以进去，如果人满了，就要等人出来</li>
+<li>wait()</li>
+<li>signal()：让process从wait状态转到ready queue</li>
+<li>counting semaphore：可以是任意值</li>
+<li>binary semaphore：只有0、1</li>
+<li>可记录某一资源剩下多少数目可使用，若全使用，则需要等待资源被释放</li>
+<li>busy waiting从entry section移至critical section，critical section区块相对而言更空闲些</li>
+</ul>
+</li>
+<li>Monitor Type：可用于使用高级指令来解决同步工具的error<ul>
+<li>属于ADT（Abstract data type）抽象数据类型</li>
+<li>ADT：用函数封装数据，使数据操作独立于ADT</li>
+</ul>
+</li>
+<li>Liveness<ul>
+<li>liveness failure：process永远wait<ul>
+<li>deadlock</li>
+<li>priority inversion优先级倒置</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch8-Deadlock"><a href="#ch8-Deadlock" class="headerlink" title="ch8 Deadlock"></a>ch8 Deadlock</h2><p><a href="http://www.csie.ntnu.edu.tw/~swanky/os/chap5.htm">ch8笔记</a></p>
+<ul>
+<li><p>lock</p>
+<ul>
+<li>deadlock：会导致throuphput↓，CPU utilization↓<ul>
+<li>mutex lock</li>
+<li>semaphore</li>
+</ul>
+</li>
+<li>livelock</li>
+</ul>
+</li>
+<li><p>deadlock四必条件</p>
+<ul>
+<li>mutual exclusion</li>
+<li>hold and wait</li>
+<li>no preemption</li>
+<li>circular wait</li>
+</ul>
+</li>
+<li><p>deadlock解决方式</p>
+<ul>
+<li>无视</li>
+<li>deadlock prevention</li>
+<li>deadlock avoidance：Banker‘s algorithm</li>
+<li>deadlock detection</li>
+</ul>
+</li>
+<li><p>Banker’s algorithm</p>
+</li>
+<li><p>Safety algorithm</p>
+</li>
+<li><p>Deadlock Detection Algorithm</p>
+</li>
+</ul>
+<h2 id="ch9-Memory-Management"><a href="#ch9-Memory-Management" class="headerlink" title="ch9 Memory Management"></a>ch9 Memory Management</h2><ul>
+<li>base register：用于记录进程的起始记忆体地址</li>
+<li>limit register：记录地址范围</li>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201204144525.png" alt="image-20201204144130891"></li>
+<li>MMU（memory management unit）：通过硬体实现run-time mapping，从logical→physical<img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201204144526.png" alt="image-20201204143357195"></li>
+<li>Fragmentaion<ul>
+<li>50-percent rule</li>
+<li>solutions：Compaction、noncontiguous logical address space of process<ul>
+<li>external：paging</li>
+<li>internal：segmentation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Paging：管理memory，提升资源利用率<ul>
+<li>page table：位于main memory的PRBR（page-table base register）内<img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201204141724.png" alt="image-20201204141710012"></li>
+<li>frame table：allocation details of physical memory，比如哪些frame是已被分配的，哪些没有</li>
+<li>TLB translation look-aside buffer：access memory会分为access page-table entry+access the actual data，通过提升硬件Cache支援，associative高速内存，来提升速度。</li>
+</ul>
+</li>
+<li>Swapping<br><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20201204144527.png" alt="image-20201204142348507"></li>
+<li>Segmentation：使使用者的view一致</li>
+</ul>
+<h2 id="ch10-Virtual-Machine"><a href="#ch10-Virtual-Machine" class="headerlink" title="ch10 Virtual Machine"></a>ch10 Virtual Machine</h2><ul>
+<li>virtual memory：在program看来是连续的记忆体，但实际分割成多个实体记忆体碎片</li>
+<li>使用paging和COW（copy-on-write）写入时复制</li>
+<li>Page Replacement<ul>
+<li>FIFO</li>
+<li>Optimal</li>
+<li>LRU</li>
+<li>LRU-Approximation：用reference bit记录过去使用过哪些分页</li>
+<li>Counting-Based Page Replacement<ul>
+<li>LFU</li>
+<li>MFU</li>
+</ul>
+</li>
+<li>Page-Buffering Algorithms<ul>
+<li>原本次序：pick victim page → page out → 取得free frame → page in</li>
+<li>更动为：page fault → get free frame from list → page in → page victim page for future event → page out</li>
+</ul>
+</li>
+<li>Applications and Page Replacement</li>
+</ul>
+</li>
+<li>page fault：page table无法找到对应的frame<ul>
+<li>sol：OS需要进入disk查找资料，将资料搬入memory中，生成新的page table，再另process重新进入工作。</li>
+</ul>
+</li>
+<li>Global replacement and Local repacement<ul>
+<li>global：process间共用frame，throughput↑，需要的maintain time较多</li>
+<li>local：process只能使用自有的allocated frame</li>
+</ul>
+</li>
+<li>NUMA（Non-Uniform Memory Access）：split CPU memory，CPU有他自己的local memory<ul>
+<li>若要访问其他的memory需要across bus → time↑</li>
+</ul>
+</li>
+<li>Thrashing：process没有enough page or frame，allocated submission&gt;memory<ul>
+<li>page-fault rate会变得很高</li>
+<li>page fault太多使得low CPU utilization</li>
+<li>process busy sweeping page in and out</li>
+</ul>
+</li>
+<li>Memory-Mapped Files：用mapping copy进file</li>
+<li>Allocating Kernel Memory：kernel space和user memory需要分开对待<ul>
+<li>Buddy System：按2的次方倍的空间分配，会有部分空间浪费，但可快速merge back来获得larger space</li>
+<li>Slab Allocation<ul>
+<li>slab：contiguous frame</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Demand paging and Prepaging<ul>
+<li>demand paging：需要时再paging</li>
+<li>prepaging：if $s\alpha&gt;s(1-\alpha)$<ul>
+<li>s：page fault，α：used pages</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://ithelp.ithome.com.tw/articles/10229522">ch9-10练习</a></p>
+<h2 id="ch11-Mass-Storage-Structure"><a href="#ch11-Mass-Storage-Structure" class="headerlink" title="ch11 Mass Storage Structure"></a>ch11 Mass Storage Structure</h2><ul>
+<li>Hard Disk Drives<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20210109131918.png" alt="image-20210109105331791"></li>
+<li>disk platter 磁盘：表面是圆形轨道</li>
+<li>转速：60-250 s/次</li>
+<li>transfer rate</li>
+<li>positioning time 定位时间/random-access time随机存取时间 = seek time + rotational latency<ul>
+<li>seek time：移动disk arm到指定cylinder的时间</li>
+<li>rotational time：section旋转到disk head的时间</li>
+</ul>
+</li>
+<li>head crash：head损坏了disk表面</li>
+<li>CAV（constant angualr velocity）</li>
+</ul>
+</li>
+<li>NVM（Nonvolatile Memory Devices）<ul>
+<li>属于闪存，faster than HDDs，使用于SSD内</li>
+<li>闪存：NAND、NOR</li>
+<li>NAND Flash Controller Algorithm<ul>
+<li>NAND一旦写入无法覆盖，因此存在包含无效数据的页面，须由controller去辨别FTL中哪些页面可用</li>
+<li>FTL：flash translation layer快闪记忆转换层，是介于SSD前端和后端的转换层</li>
+</ul>
+</li>
+<li>Secondary Storage Connection Methods：可选择连接的bus来链接NVMe（NVM express）一种快速界面，应对NVM的速度需求而产生<ul>
+<li>ATA（advanced technology attachment）</li>
+<li>SATA（serial ATA）：最通用</li>
+<li>SAS（serial attached SCSI）</li>
+<li>USB（universal serial bus）</li>
+<li>FC（fiber channel）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>HDD Scheduling：希望能减少access time，增加data transfer bandwith传递的总bytes数<ul>
+<li>FCFS/FIFO algorithm</li>
+<li>SCAN/elevator Scheduling：来回依序</li>
+<li>C-SCAN（circular scan）：反复从头依序<ul>
+<li>SCAN和C-SCAN在heavy load有starvation问题的情况下表现较好</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Storage Device Management<ul>
+<li>low-level formatting/physical formatting：针对NVM pages的初始化以及FTL而建立，会给设备的各储存位一个特定的data structure</li>
+<li>OS记录data structure<ol>
+<li>partition：device分割成多个blocks或pages</li>
+<li>volumn creation and management</li>
+<li>logical formatting/creation of a file system</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Swap-space management<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20210109131919.png" alt="image-20210109105416605"></li>
+</ul>
+</li>
+<li>RAID Structure<ul>
+<li>RAID：redundant arrays of independent disks 独立的冗余陈列磁盘</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch12-I-O-Systems"><a href="#ch12-I-O-Systems" class="headerlink" title="ch12 I/O Systems"></a>ch12 I/O Systems</h2><ul>
+<li>Hardware<ul>
+<li>port：connection point</li>
+<li>bus：connection wires<ul>
+<li>PCIe bus：for fast device</li>
+<li>expansion bus：for slow device</li>
+</ul>
+</li>
+<li>CPU和外部设备输入输出的方法<ul>
+<li>Memory-mapped I/O：I/O内存映射到地址内存空间</li>
+<li>Port-mapped I/O：I/O有专门的地址空间独立于内存</li>
+<li>Dedicated I/O processor</li>
+</ul>
+</li>
+<li>register for I/O device control：data-in register, data-out register, status register, control register</li>
+<li>polling：可能会一直find但却无device ready for service，不太有效率</li>
+<li>interrupt<ul>
+<li>maskable：中断可被取消</li>
+<li>nonmaskable</li>
+<li>interrupt vector：table of用于选择特定interrupt-handling routine来执行的数字偏移量</li>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20210109131920.png" alt="image-20210109115043927"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DMA（dirrect memory access）<ul>
+<li><img src="https://cdn.jsdelivr.net/gh/ronyeaf/asset/img/20210109131921.png" alt="image-20210109115130683"></li>
+</ul>
+</li>
+<li>Nonblocking and Asynchronous I/O<ul>
+<li>blocking application code写起来更简单，因此OS在app interface多使用blocking system call</li>
+<li>bypass：using Raw I/O，direct I/O</li>
+<li>synchronous I/O：wait for the next data transfer<ul>
+<li>blocking I/O</li>
+<li>nonblocking I/O：无论data是否许可，直接读取，faster than blocking</li>
+</ul>
+</li>
+<li>asynchronous：issue the command and return，因此期间process可做其他事情，但必须有专门的handler去处理interrupt</li>
+</ul>
+</li>
+<li>Kernel I/O subsystem<ul>
+<li>Caching：用于加速</li>
+<li>Spooling：hold output</li>
+<li>Device reservation：provide exclusive access to a device，reserve the device</li>
+</ul>
+</li>
+<li>Power Management：unused device can be turn off<ul>
+<li>wake lock：防止特定的设备sleep</li>
+<li>power collapse：让device deep sleep，该状态下device still on but just deep sleep，如果有讯息，能马上做出反应</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的人气肯定出现了问题</title>
+    <url>/2021/01/26/%E7%AC%94%E8%AE%B0/%E6%88%91%E7%9A%84%E4%BA%BA%E6%B0%94%E8%82%AF%E5%AE%9A%E5%87%BA%E7%8E%B0%E4%BA%86%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p><a href="https://manga.bilibili.com/detail/mc28062?from=manga_homepage">https://manga.bilibili.com/detail/mc28062?from=manga_homepage</a></p>
+<h2 id="1-我居然不是主角？"><a href="#1-我居然不是主角？" class="headerlink" title="1. 我居然不是主角？"></a>1. 我居然不是主角？</h2><p>10岁的车秋远眉眼还没长开，哭鼻子的时候，那鼻孔一开一合的真像只小粉猪。</p>
+<p>母亲方美倩问道：“儿子，你哭什么？”</p>
+<p>一边的妹妹车秋英，正嚼着棒棒糖，没说话，但她后脑勺上的两小揪揪一翘一翘的，也正表示着大大的疑惑。</p>
+<p>车秋远一把鼻涕一把泪地哭诉起刚才发生的事，虽然讲得断断续续的，但思路都还清楚，能听得明白。</p>
+<p>就在刚才两个小时前，他们刚刚放了学。车秋远鼓起他毕生的勇气，喊住了走在他前头的小姑娘：“乐，乐菱！”</p>
+<p>乐菱的背包是糖果粉色，链子上挂着可爱的草莓熊，那是他送的生日礼物。听到他的叫喊，草莓熊随风转了一个圈子，露出了笑着的治愈表情，乐菱抓着她的书包肩带，转过身，柔柔弱弱地问了句：“嗯？”</p>
+<p>扑通。</p>
+<p>车秋远觉得自己一定可以的，他深吸了口气，鼓足了力气。</p>
+<p>“其实，我……”</p>
+<p>扑通。</p>
+<p>心脏在鼓动着，感觉就要从胸口蹦出来似的。车秋远肉嘟嘟的脸蛋上一片通红，像是已经熟透了的苹果，透过皮面能也想象到内里的果肉必定是鲜嫩多汁。</p>
+<p>“我……”</p>
+<p>扑通。</p>
+<p>心脏都跳到了嗓子眼了，再跳得高些，他就喘不过气了。</p>
+<p>“喜欢……”</p>
+<p>扑通。</p>
+<p>不管了。</p>
+<p>车秋远闭紧眼睛，既然话都说已经到这里了，他就不管了！</p>
+<p>“喜欢你很久了！”</p>
+<p>终于是说出来了，车秋远微微睁开眼，小心翼翼地瞄着前面乐菱的表情。他的心脏还在躁动着，四肢却感觉冰冷到了低谷。</p>
+<p>那个眉眼都温温柔柔的小姑娘笑着说道：“我最讨厌你这种大猩猩了！”</p>
+<p>小姑娘还甩了甩她的长发补刀：“浑身肥肉，长得丑，学习不好，胆子也很小，根本没有任何优点！以后不许跟我说话！”</p>
+<p>车秋远把这些事都告诉了母亲，被女孩子说像大猩猩什么的实在是太难受了。又羞耻，又悲哀，又气愤。</p>
+<p>还有的小事，他没告诉母亲，比如乐菱后背包的草莓熊是他自己偷偷攒零花钱买材料包扎羊毛毡扎的。他一个男孩子，哪里会弄羊毛毡，小针头戳伤了好几次手心，他没有哭也没有喊过疼，把草莓熊的嘴巴戳歪了，那他就重新再来一次。他只是觉得像乐菱这样柔弱的女孩子，就该温柔体贴地把最好的送给她。</p>
+<p>可是他这样珍重的感情，却被一句大猩猩给砸了个稀巴烂。他努力咬住下唇，不发出哭泣声。在他心目中，男子汉大丈夫，哭鼻子是件丢脸的事情。但他却无法克制住眼角稀里哗啦留下的泪水，那原本嫩嫩的白馒头脸蛋都给淋得湿漉漉的。</p>
+<p>“儿子，别哭了。”母亲安慰道，“如果她只注重外表，就算交往了，也没什么意思，你又何在意那种人呢？”</p>
+<p>车秋远抬起头来，望着母亲，他有些被方美倩的话感动到了。</p>
+<p>那头的妹妹却笑得差点把棒棒糖给卡到了喉咙里，“哈哈哈哈哈哈哈！大猩猩！大猩猩！”</p>
+<p>“你笑得也太夸张了吧。”</p>
+<p>“哥哥是大猩猩，哈哈哈哈！”</p>
+<p>万恶的亲兄妹。</p>
+<p>车秋远刚刚稍稍复活了的信心，瞬间又阵亡了。</p>
+<p>“真的太像了哈哈哈哈哈。”车秋英还没笑够。</p>
+<p>车秋远觉得，这个世界实在是对他太残忍了。无论是谁，除了最爱他的母亲，都是一个样子。“呜啊啊啊啊啊啊啊啊啊啊——”他终是号啕大哭了起来。</p>
+<p>……</p>
+<p>8年后，颂文大学。</p>
+<p>今天是新生祭，到处都洋溢着浓浓的青春感。染了头漂亮时髦的茶色发的女大学生激动得眉飞色舞，仿佛都可以看到她周身时不时散发出的粉红色小爱心，“怎么办？我好期待啊！”</p>
+<p>她的好闺蜜忍不住吐槽道：“你是变态吗……”</p>
+<p>“不，我说的是新生会啦——听说我们这一届有很多帅哥！”</p>
+<p>“那也跟你没关系，而且，普通人的颜值都差不多。”好闺蜜无情地摆了摆手，“除非是艺人，否则不可能会特别帅。”</p>
+<p>闺密正滔滔不绝的说着自己的大论，没看到身边正好有人同她一起拉上了大门的门把。手指轻微碰触，她慌忙抬起头来，正要道歉，却被对方抢了先。</p>
+<p>“抱歉，我太着急，所以没有看见你。”</p>
+<p>闯入眼帘的是个高高的黑发男生，穿着身剪裁利落的制服，内搭灰绿色衬衫，十分的养眼舒服。说起来这个牌子的制服有这么好看的吗？明明也不是什么特别热门的牌子啊……</p>
+<p>“没，没关系……你先进去吧。”还好脑子还在运作，没看傻到都忘了回应，她这么心想着，脸颊上腾起两团粉晕。</p>
+<p>“谢谢。”男生微微笑了笑，温暖而礼貌。阳光洒下来，似乎都在冲着要去亲吻他的嘴角，看起来竟是那样耀眼。</p>
+<p>啊，妈妈啊，她觉得她看到了天使。</p>
+<p>然后天使笑着在她的论点上批了个大大的叉。</p>
+<p>女生的想法全都明明白白地写在脸上，男生对此当然清楚的很。当然，不光是这位女同学的想法，还有她身边茶色头发的，还有周围更多更多的人，他都是清楚的。</p>
+<p>这种被钦慕的目光交集的感觉真是令人身心愉悦，真好，今天的车秋远也是完美的！</p>
+<p>他到现在还记得10年前被叫大猩猩的耻辱，虽然那时候大家都说是乐菱的错，连嘲笑了他的妹妹后来也向他道了歉，但那天的事情被传出去以后，他就被同学们孤立了。从那时候开始，他就下定决心要改变自己。运动、穿着、饮食、学习、皮肤护理，就像当初他可以不怕被扎手地做出草莓熊，那他也一定可以不嫌麻烦得将自己调整成大家都会觉得帅气的模样！</p>
+<p>仅仅是变瘦了，容貌长得英俊了，这还不够！</p>
+<p>拿到了模范生的奖杯，这也还是不够！</p>
+<p>跑步，健身，打理发型，一个都不能落下！</p>
+<p>然后，慢慢地，被同学们投票推选为班长。球队里的队员们会勾肩搭背把他当成好哥们，并由衷地称赞他的球技。</p>
+<p>呵，这些都是成长路上的小意思。不值得挂齿。</p>
+<p>总之，他要让所有人，喜欢上他，换句话说，就是立志成为最受欢迎的人！</p>
+<p>“天呐，这颜值真的好高啊。”</p>
+<p>车秋远推开门听到的就是这么一句直白而又悦耳的称赞。</p>
+<p>这里是学校的交际酒吧，正在为新生举办庆祝会，人群聚集，因此十分热闹。</p>
+<p>“天呐。”</p>
+<p>“这颜值也太高了吧？”</p>
+<p>“他长得好帅啊。”</p>
+<p>车秋远努力憋住了叫嚣要和太阳肩并肩的嘴角，寻了一处中间的位置坐下，拿起酒杯，酌了口小酒。嗯，还是跟以前一样，大家对他的印象还是这么的强烈。</p>
+<p>“真养眼。”</p>
+<p>“感觉在发光。”</p>
+<p>不错不错，朋友们会说话，就多夸点。红酒的香醇在他的舌后根缠绕，他舒服得半眯起眼睛。</p>
+<p>“还以为是艺人呢。”</p>
+<p>“我的心脏快受不了了！”</p>
+<p>不过这反应是不是有些太激烈了？难道说他最近变得更帅了些？车秋远若有所思地将五指向后插入脑后的黑发，顺了顺发型。</p>
+<p>“跟那个金发男搭个话吧，说不定能要到手机号呢！”</p>
+<p>金——</p>
+<p>车秋远的大脑有些宕机。</p>
+<p>“啊啊啊冲冲冲！”</p>
+<p>金发——男？</p>
+<p>车秋远还搭在后脑勺的指头瞬间僵硬，一时间不知道是要顺完头发好，还是直接收回去好。他朝着女学生奔走的方向看去，十分轻松地就找到了她们口中的“金发男”——毕竟那实在是太耀眼了，不不，甚至可以用刺眼来形容？明明是在酒馆里，没有外头的烈阳，只有暖暖而温馨的橘灯，但这金发男周身夺目的圣光是怎么回事？</p>
+<p>“啊……”金发男似乎是感觉到了周遭的动静，抬起眼眸，长长的睫毛向上卷起，裸露出内里琥珀色的瞳仁，“我是不是打扰到大家了？”</p>
+<p>艾晨曦抬手碰过自己的脸庞，修长的指节将滑落的汗珠巧妙地擦去。他望着在相形对比下已经歪扭成挪威名画《呐喊》的众人，嘴角噙着似乎是要将那些奇形怪状的众人送去普渡了的良善笑意。</p>
+<p>小小的酒吧，此时此刻，竟像是塞了上百颗超大功率的白炽灯泡，如此光辉夺目，连外面的人都会不由得驻足好奇的程度吧。</p>
+<h2 id="2-应聘学生会"><a href="#2-应聘学生会" class="headerlink" title="2. 应聘学生会"></a>2. 应聘学生会</h2><p>“晨曦很有名，是黄奕集团董事长的独生子。”</p>
+<p>“他是我们外交专业第一名吧？”</p>
+<p>“我俩说过几句话，感觉他的性格很好。”</p>
+<p>“天呐，也太完美了吧？”</p>
+<p>“晨曦刚进来的时候真的很耀眼。”</p>
+<p>车秋远听着大家的谈论声，仰头喝了口闷酒——啊，真苦。原来金发男叫艾晨曦，还很不凑巧地正好跟他同一个专业。</p>
+<p>“我们专业怎么来了个这么个妖孽啊。”他郁郁地托着下巴，有些嫉妒地看着艾晨曦被大家包裹在中间，模样是那般璀璨。</p>
+<p>“你也很帅啊，看来我们专业这次有很多帅哥啊。”有人听到车秋远的话，不由得发笑道。</p>
+<p>他转过头回道：“哎，我可没那么出众。”</p>
+<p>“是啊，真谦虚~”那人表示完全理解，像这样谦虚有礼貌的态度仿佛就该配上如此高的颜值，真令人赏心悦目呢。</p>
+<p>车秋远一笑置之，并不打心底里认同那人的看法。艾晨曦身上所散发出的那种金灿灿的圣光，那是他能相比的？那是人能比的？</p>
+<p>好烦啊，他直接完败了。</p>
+<p>他抬起眼，忍不住去偷瞄金发男。上帝这么会这么偏心？怎么会创造出家世、学业、样貌、性格养样都好的——怪物！</p>
+<p>嗯？</p>
+<p>视线刚刚好和艾晨曦对上了。</p>
+<p>那样金光闪闪的人怎么会盯着自己啊？</p>
+<p>“怎么了？”好奇宝宝车秋远直接出言问道。</p>
+<p>盯什么盯啊，真以为自己长得帅就可以为所欲为了吗？车秋远的思想扭曲了，也不想想先前偷瞄人家的是哪个样貌堂堂但内心猥琐的家伙。</p>
+<p>“你看起来好像模特！”艾晨曦这样称赞。</p>
+<p>笑容是那样真挚友善，看得车秋远立马背叛了自己的立场。好人爸爸！车秋远的小内心感动得稀里哗啦的。当然，面上他还是抱持着礼貌，风轻云淡地笑道：“可别说这种话，我感觉你更像模特。”</p>
+<p>两人互相呵呵地轻笑着，你一来，我一语，自带光罩，将周围人都阻隔在了外头。</p>
+<p>“该死，”光罩外的人都看不下去了，“两个帅哥竟然在互相吹捧……我们还是少说话多喝酒吧！”</p>
+<p>“别听他的，大家只要喝到尽兴才行。”</p>
+<p>有帅哥在，更是要闹哄哄地才好，最好把帅哥灌醉！或许其中哪位的心声就是这样的。</p>
+<p>“干杯吧！”</p>
+<p>车秋远被这样兴奋的情绪给感染了，也跟着高兴地举起酒杯。也是这时，冷不防地听到艾晨曦在身边低语了句：“噗，模特？可真有意思。”</p>
+<p>车秋远举杯的手顿了下，他看向艾晨曦。那个一直散发出慈善金光的男人，此刻嘴角挂着凉凉的笑，看着闹腾的众人，也不加入进去，只是优雅地坐着，不沾染半分这种热闹的烟火气。比起参与者，倒更像是个旁观者。</p>
+<p>这一认知让车秋远忽地寒毛耸立。</p>
+<p>“大家干杯！”大一的新生们齐声说道，酒杯相撞在一起，祝愿大学美好的开始。</p>
+<p>紧接着，车秋远看到艾晨曦又大大地笑了，露出干净的白齿，似乎还是那个人畜无害的好人爸爸。</p>
+<p>车秋远咕噜咕噜地喝下酒，脑子里乱成了一团浆糊。所以刚刚那句——模特可真有意思——到底是什么情况？</p>
+<p>是他夸得不对吗？</p>
+<p>还是他夸得不够多？</p>
+<p>那句话到底是什么意思啊！</p>
+<p>……</p>
+<p>喝得太多了，车秋远的脑袋软趴趴地瘫在桌上，胃里一整翻江倒海。</p>
+<p>间歇性的零星意识轻轻敲打着他的脑壳，迫使他睁开厚重的眼皮——别人都走了，他也该回去了。</p>
+<p>双手撑着桌子，好不容易站了起来，却是一个踉跄。</p>
+<p>天旋地转。</p>
+<p>这么晕乎，这是摔了还是没摔？</p>
+<p>好像是有人扶住了他。</p>
+<p>他抬起头来，脑袋里像浆糊一样。眼前的真个人，好像艾晨曦啊……</p>
+<p>他挪了挪身子找到身侧一处有力的支点，并冲着那个支点靠了过去，心想这个支点这么结实，估计是他看错了，不是什么艾晨曦，而是块柱子吧。但愿如此，毕竟他是真的站不住了。</p>
+<p>但那柱子怎么看都是有手的，指节分明而修长。手里还拿着……好像是他的手机？</p>
+<p>小偷……</p>
+<p>不要跑……</p>
+<p>他也不太清楚自己在想些什么了……</p>
+<p>“车秋远。”</p>
+<p>老师的点名声将车秋远从朦胧中点醒，他猛得坐直了身子，“啊，到！”</p>
+<p>唉昨天喝得真的有些多了，到现在还没完全缓过来，他搓了搓脸蛋想道。</p>
+<p>“艾晨曦。”</p>
+<p>“到！”</p>
+<p>是那个奇怪的家伙呢，车秋远打了个哈欠，但愿不会跟那家伙有什么交集。</p>
+<p>有人戳了戳车秋远的后背。</p>
+<p>是谁？车秋远回过头看去，然后他看到某个他内心深处极其不愿见到的金发美男子带着一脸仿佛春花都开了遍山野灿烂笑容冲他说道：“你的名字就在我前面呢！”</p>
+<p>车秋远扯起嘴角，微笑：“是啊，真巧，哈哈。”</p>
+<p>巧屁巧！</p>
+<p>害怕自己语气不够真诚的小怂包车秋远紧接着又干笑了几声：“哈哈哈哈哈哈哈。”</p>
+<p>所以这家伙为什么要跟他装熟啊！</p>
+<p>车秋远的内心宇宙快要爆炸了。</p>
+<p>脑子里乱乱的，连一向最喜欢的数学符号也变成了天书，似乎在抖胳膊抖腿地嘲笑着他的无知。越想就越是一肚子的恼火，不过好在一节课也不算长，老师放下了手里的粉笔头，宣布下课。</p>
+<p>“老师辛苦了。”陆陆续续从教室出来的学生有礼貌地向教授道别。</p>
+<p>车秋远飞快地跟着冲出了教室。</p>
+<p>八米的大长腿哒哒哒地摆动着，仿佛是在害怕什么，不过呵，他可不会承认是在躲避艾晨曦那家伙！</p>
+<p>仔细想想，那小子肯定有问题！</p>
+<p>到底为什么要缠着自己？</p>
+<p>难道是在提防自己？</p>
+<p>车秋远撩起额前的碎发，露出了干净而明亮如秋水的瞳色。果然是因为一山容不得二虎，怕他风头过大了呢。也对，虽然他车秋远没有那轮金闪闪的圣光普渡，但更有种平易近人的亲和魅力在，也是人群里极受欢迎的仔呢——</p>
+<p>“喂，车秋远！”</p>
+<p>该死的，这个熟悉的声音。车秋远刚刚恢复起得那种神采奕奕的精气神，瞬间消失得一干二净。</p>
+<p>呃啊啊啊！他内心的小火山又开始冒烟了，然而转过身，又是一副温润君子嘴角含笑的好模样，“有什么事吗，艾晨曦同学？”</p>
+<p>“聚会那天回家的路上没出什么意外吧。”艾晨曦走上前，来到车秋远身侧，歪头问道。</p>
+<p>车秋远的小心脏咯噔了一下，“托你的福，听说是你送我上出租车的，多谢了。”</p>
+<p>“我只是按照你妹妹给的地址，让司机师傅送你回家而已。”艾晨曦眯眼笑着，露出了他的小虎牙，“啊，我要往这边走了。”</p>
+<p>“那我们得分开了。”车秋远点点头，觉得这真是太棒了。</p>
+<p>“拜拜！”</p>
+<p>车秋远挥了挥手，在目送艾晨曦远去后，面部快僵硬到抽搐的嘴角终于支撑不住地瘫软下来，“……”</p>
+<p>什么托你的福，什么送他上的出租车，什么让师傅送他回家而已？</p>
+<p>他统统没有印象！</p>
+<p>完完全全地喝断片了！</p>
+<p>所以那个好像是柱子又好像不是的那个是艾晨曦没错吧！</p>
+<p>天哪，他就这么靠在了那家伙的身上，没干什么失态的事吧！</p>
+<p>不过，说真的，那家伙真的好帅啊。哪怕是隔得这么远了，他也依然能快速地在熙熙攘攘的人群中抓住他的身影。尤其是在白天，阳光的亲吻下，那白皙的肌理加上流畅的下颚线轮廓，精致地让人想把他当作漂亮的娃娃收藏在有小彩灯作装饰的玻璃柜里。</p>
+<p>咦？</p>
+<p>他在乱七八糟地想什么呢！</p>
+<p>啊不行，哪怕是面对这样近乎完美地家伙，他也不能示弱，得打起精神来。或许做不到像他那样好看，但可以比他更受关注！</p>
+<p>得想个办法引起大家的关注……有了，学生会！</p>
+<p>车秋远灵光一闪，立马找到了学校的社团招募告示板。</p>
+<p>他盯着告示板上那张学生会的招募单子，眼中满是美好的希冀。</p>
+<p>经常组织学生活动的话，一定可以备受关注的。他边这么想着，便按照招募单上的指示给学生会发了短信：您好，看到学生会招人，我想申请报名。</p>
+<p>那边也很快传来了回复：嗯，您好，目前正在颂文楼201号进行面试呢，欢迎前来~</p>
+<p>车秋远整理了下自己的妆容，确认自己的形象没什么问题后来到了201号房间。他敲了三下门，推开了它，文质彬彬地说道：“打扰了，我是来面试……”</p>
+<p>“啊。”</p>
+<p>有个该死而熟悉的声音一如记忆中一贯的模式打断了车秋远的思路。</p>
+<p>不期然地，看到这个被他视为“没有那家伙打扰”造就美好未来的学生会招生室内，端坐着一个金发飘飘自带圣光的身影。</p>
+<p>“是车秋远！”那家伙看起来似乎很开心地笑道。</p>
+<p>所以到底为什么那家伙也在这里啊！</p>
+<p>冤家路窄，又撞上艾晨曦的车秋远，身心都受到了一万点暴击！</p>
+<p>魂都快被吓出来了喂！</p>
+<h2 id="3-告白？"><a href="#3-告白？" class="headerlink" title="3. 告白？"></a>3. 告白？</h2><p>为什么会这样？</p>
+<p>昔日有塞翁失马，今日有他车秋远撞上了艾晨曦。</p>
+<p>此情此景，令人逐渐石化……</p>
+<p>“哎哟，我们部门要主打颜值？”学生会里工作地学长可不了解这两人私下里的恩恩怨怨，只觉得学生会里又要多一位大帅哥，这真是件极好的事情，能给学生会的整体形象带来正面的效果！</p>
+<p>“他跟我同届！”艾晨曦俨然一副把车秋远当成自家人的样子，兴奋地说明着。</p>
+<p>“哈哈，这种事一看就知道。”</p>
+<p>车秋远没有介入他们的对话，他如木鸡般地站在门口，只觉得十分地尴尬，脚趾头都想把地板给扣穿出一个地洞，好把自己给埋了。</p>
+<p>直到学长说了句“先进来吧”，他才叹了口气，认命地坐到了艾晨曦旁边的空位上。</p>
+<p>学生会的面试不难，大抵就是问了几个类似于为什么会想来学生会，有什么兴趣特长的问题，很快就结束了。艾晨曦和车秋远，也都顺利入选为学生会成员。</p>
+<p>面试结束后，学长说道：“现在大一的班长一职还是空缺的，因为班长需要积极和学生会沟通，所以会在学生会内部有先做选拔，你们有没有自告奋勇的？”</p>
+<p>车秋远眼睛一亮，这或许是个压制艾晨曦的机会！他举起手：“我想试试。”</p>
+<p>“这位学弟好积极啊！”</p>
+<p>“我喜欢工作，就当是积累经验吧。”车秋远自信地笑着，毕竟勤奋又积极的人永远是受欢迎的。</p>
+<p>他认真的模样全被那头的艾晨曦收在眼底，艾晨曦垂了垂眼眸，而后也举起手，“既然如此，我来当副班长吧！”</p>
+<p>“很好！反正又不给班长发奖学金，分担一下工作也不错。”</p>
+<p>学长不假思索地同意了艾晨曦的提议，这让车秋远虎躯一震，脚趾头直想把地心都给扣个对穿！</p>
+<p>看到新生代的学弟们一个个如此“积极振奋”，学长对此颇为满意，轻点着头宣布道：“会议就到这里……”</p>
+<p>车秋远收拾了下他的背包，然后离开了学生会招生室。刚踏出没几步，就有人叫住了他——</p>
+<p>“车秋远！”</p>
+<p>熟悉的声音，熟悉的话，一切都似曾相识。</p>
+<p>车秋远极度不情愿地转身，看到那个金光闪闪的艾晨曦朝他奔来。啊，爸爸啊，他到底是遭了什么罪啊，要让他承受这个自带圣光的男人！</p>
+<p>“等一下！”艾晨曦跑得急了些，气息都有些喘。</p>
+<p>“没事，你慢慢说。”车秋远十分体贴地说道，心底里却是一阵嫌弃，这家伙的身体素质怎么这么差！男生长这么白白嫩嫩的果然就是不大行！</p>
+<p>艾晨曦双手撑着膝盖，算是缓过了气。他抬起头，尽管金色的中短发有些微乱，却也掩盖不住底下灿烂明媚的笑：“我们要不要约个时间。”</p>
+<p>车秋远看到有晶莹的汗珠从艾晨曦的额前滑落，然后隐没在了他那勾人地轻翘着的眼角。可能是刚刚跑步的缘故，艾晨曦那奶白的肤色里整个透出点淡红的暖调，连带着那眼角也看起来粉嫩嫩的，莫名地有些形似车秋远最喜欢的海棠花。</p>
+<p>白里透粉，芽中更成粉红。</p>
+<p>在那里，满是自己的身影。</p>
+<p>……</p>
+<p>家里，妹妹车秋英正双手举着她粉色的哑铃在客厅做健身。</p>
+<p>大门突然被人打开，然后一具僵硬的人体就这么生生地倒在了地上。</p>
+<p>啊真是的，好歹也注意点形象啊！要趴也趴沙发去，倒地上当挺尸啊！都这么大的人了，像什么话！门也不关一下，被邻居看到了她可不想承认这是她哥！</p>
+<p>车秋英一脸嫌弃地抹了把脸上的汗水：“你怎么了？注意形象！难道又想变回丑八怪吗？”</p>
+<p>车秋远无力地抖了抖嘴巴：“都怪那家伙。”</p>
+<p>“谁？”</p>
+<p>“某个小白脸。该死。”</p>
+<p>“那天送你回来的帅哥？”车秋英对车秋远身边新同学的印象就只有这位了，想想那可真是完美的帅气啊，不过怎么会招惹上她哥的，“他干了什么？”</p>
+<p>“如果没有他……”车秋远握紧了拳头，撑起上半身，然后咆哮道，“我早就是人气王了！”</p>
+<p>猛男落泪。</p>
+<p>这真是。</p>
+<p>“啊哈哈哈哈哈哈哈哈！”车秋英捧着肚子，笑得上气不接下气，“人气王？你可真老土！”</p>
+<p>“嗡——”</p>
+<p>车秋远的手机响了，他掏出手机看到了上面的新短信。是艾晨曦在学生会的群组发的，上面写着：下周大家见。同时加上了一个今天在学生会大家一起拍的合照。</p>
+<p>看着合照里艾晨曦坐在自己身边时的灿烂笑脸，车秋远想到，好像似乎每次看着他的时候，他总是这么笑着。</p>
+<p>——感觉你特别像模特！</p>
+<p>艾晨曦曾这么称赞过自己。</p>
+<p>——他跟我同届~</p>
+<p>也曾这么在那些学长们面前把自己护在了同一阵营。</p>
+<p>除去个别某些奇奇怪怪的时刻，艾晨曦简直就跟天使一样。</p>
+<p>“……”车秋远眼里还可怜兮兮地挂着泪水，却是若有所思地喃喃了一句：“人倒是不坏。”</p>
+<p>妹妹歪了歪脑袋，“你到底是喜欢还是讨厌啊？”</p>
+<p>这一问题让车秋远清醒了过来，舞着拳头焦急声明立场：“我讨厌他！”</p>
+<p>“哦~”小打小闹，相亲相爱。看透一切的车秋英摊手转身找她的粉红小哑铃去了。</p>
+<p>又隔了阵子，车秋远收到了艾晨曦发来的私聊。</p>
+<p>【艾晨曦】我是艾晨曦~</p>
+<p>【艾晨曦】别忘了周五一起整理这学期的日程~</p>
+<p>车秋远看着讯息，删删改改想了很久的回复。</p>
+<p>等到艾晨曦那边收到回复的时候，他已经去洗了趟澡回来了。室内开着空调，他就单单系了条浴巾在腰间。头发还湿漉漉的，滴落的水珠淌过柔美的蝴蝶骨，没入挺拔的背脊间。</p>
+<p>【车秋远】我不会忘的，哈哈，周五见。</p>
+<p>艾晨曦看着回复，轻轻勾起了嘴角。可能是室内灯光不够明亮的缘故，比起往常那种天使般无害的笑容，此刻多了几分邪气。</p>
+<p>车秋远。</p>
+<p>艾晨曦的大拇指指腹来回抚摸着手机屏幕上车秋远的头像，心底里默默念着他的名字。</p>
+<p>有些期待呢，周五赶紧到来，艾晨曦想。</p>
+<p>……</p>
+<p>周五，车秋远如约和艾晨曦一起整理学期日程。</p>
+<p>忙了一整个下午，总算是差不多了。车秋远看了看整理事项表说：“第一学期的日程就这样吧。”</p>
+<p>艾晨曦：“很完美了，辛苦了~”</p>
+<p>“你也是。”好不想承认，虽然艾晨曦很碍眼，但工作能力真的特别强，不愧是专业第一的学霸。</p>
+<p>艾晨曦伸了个懒腰，“肚子好饿~你吃完饭了吗？不介意的话不如一起吃吧。”</p>
+<p>“不用了。”车秋远客气地回道，他凭什么要跟这个金发的奇怪男一起——</p>
+<p>“有人给我送了高级牛肉，正愁吃不完呢。”</p>
+<p>——高级牛肉！</p>
+<p>啊爱了爱了！</p>
+<p>车秋远和艾晨曦一道走在了去吃牛肉的路上。</p>
+<p>要是仔细看的话，能看得出来，车秋远的脸颊上浮着橘红色的两团红晕。他又是兴奋又是懊恼，内心的小人在打架。</p>
+<p>居然就这么败给了牛肉！</p>
+<p>但就就只是吃一顿饭而已应该没关系的吧！</p>
+<p>挣扎，纠结，心跳得有些快。</p>
+<p>“我住的地方离学校很近。”这时，艾晨曦说，“就在那边。”</p>
+<p>艾晨曦伸手指了个方向，车秋远便顺着那个方向抬头望去，然后他看到了一栋相当豪华的玻璃水晶大厦！</p>
+<p>啊这该死的玻璃水晶大楼的。</p>
+<p>接着他跟着艾晨曦进了大厦，来到了艾晨曦的家中，里面是欧式贵族风的设计，大理石大餐桌，上面摆着一瓶深海蓝色的蝴蝶纹路镂空花瓶，花瓶里插着几束素雅饱满的薰衣草。稍微抬高些视线，能看到天花板上那豪华的大吊灯，蜿蜒开的金色金属制藤蔓上绽放着耀眼的光花，将整个大厅照耀得熠熠生辉。</p>
+<p>啊这该死的熠熠生辉。</p>
+<p>“稍等，我现在就去做饭。”艾晨曦轻松地挽起了袖子。</p>
+<p>“啊那个，”车秋远连忙转身，试图做些什么表现下自己，来抵消掉心中的这种不适感，“我也来帮忙吧。”</p>
+<p>但当车秋远看到艾晨曦掂着锅子，像耍杂技般将里面的菜色腾空跳了个蔬菜版华尔兹，那种游刃有余的帅气模样，令他决定老老实实地闭上嘴巴。</p>
+<p>一道道摆盘精致的佳肴陈列上了餐桌，车秋远觉得自己好像坐在五星级的餐馆里，负责招待的帅哥还恭恭敬敬地弯下了他那挺拔的背脊，用他那咬字清晰又带了点少年娇嫩如海棠的嗓音说道：“招待不周，请多包涵！”</p>
+<p>这……</p>
+<p>车秋远额前的细发滑过眉尾，他笑了。</p>
+<p>“好哒！”笑得真心实意，无所顾忌。差距实在太大，车秋远宣告彻底放弃抵抗。</p>
+<p>“多吃点！”艾晨曦也很开心。</p>
+<p>所以之前到底为什么要生气呢？车秋远一边夹着他最爱的牛肉，一边心想。他将牛肉塞入口中，嫩嫩的肉块碎在口腔里，立马便爆开得肉汁香气绕着咽喉内的穴口一路直窜鼻尖儿！</p>
+<p>啊果然放弃使人快乐。</p>
+<p>“对了，我有件事情特别好奇。”艾晨曦似乎想到了什么，突然说。</p>
+<p>“什么事？”车秋远笑眯眯的，拿人的手短，吃人的嘴甜。现在的他知无不言，言无不尽。</p>
+<p>“你……”艾晨曦一手托着下巴，深深地望着车秋远，“为什么那么喜欢我？”</p>
+<h2 id="4-黑历史"><a href="#4-黑历史" class="headerlink" title="4. 黑历史"></a>4. 黑历史</h2><p>啪。</p>
+<p>是筷子掉了的声音。</p>
+<p>车秋远都忘了要去把筷子捡起来，只是惊恐地想着，他是不是乱入了一个平行宇宙。</p>
+<p>这是恶魔奶奶的甜心饼干？</p>
+<p>是白雪公主吃了继母和小矮人？</p>
+<p>是喜羊羊爱上了灰太狼？</p>
+<p>什么跟什么啊？</p>
+<p>他他他他艾晨曦喜欢自己？</p>
+<p>“……”车秋远惊恐的问：“什么意思？”</p>
+<p>艾晨曦笑了：“上次团建的事情你不记得了吗？”</p>
+<p>那天晚上，大家都走了，只剩下醉得快不省人事的车秋远和艾晨曦在。</p>
+<p>车秋远跌在艾晨曦的怀中，那一刻的他满脸潮红，细长的眸子含着股少女般的娇羞，只是抬眼一瞅，有流光四溢，艾晨曦觉得自己的心脏要跳出胸口搬家了。</p>
+<p>醉乎乎的车秋远迷迷迷糊糊地问：“你叫什么名字？”</p>
+<p>“艾晨曦。”</p>
+<p>“连名字都这么好听~”</p>
+<p>“是吗？”</p>
+<p>“真羡慕你的颜值。”车秋远嘟囔道。</p>
+<p>“哈哈哈，别人听了还以我脸上——”艾晨曦被猛得一拉，“贴金……”</p>
+<p>很近，太靠近了。</p>
+<p>车秋远的眼眸就贴着艾晨曦的鼻尖，那眸子里仿佛有深情，要将人拉入玫瑰色的花海。“天哪，是真的。”车秋远细细地看着艾晨曦的脸庞，出神道：“被光线依照会变成金发，眼睛像两颗亮晶晶的宝石。嘴唇很性感，眼睫毛也很长。仿佛像一座雕像，就算看一眼都会幸福感爆棚。”</p>
+<p>……</p>
+<p>这还不算喜欢吗？</p>
+<p>这不就是在表达心意吗？</p>
+<p>回到已经过完了团建，车秋远来到艾晨曦家中蹭牛肉的现实里。艾晨曦的心情十分不错：“当时你不是说喜欢我吗？”</p>
+<p>车秋远整个愣住。</p>
+<p>天呐，他肯定是疯了！还在别人面前失态！</p>
+<p>“那天我喝多了，你别当真，”车秋远绞尽脑汁地组织着语言来挽回失态所带来的羞耻，“真的很抱歉，给你添麻烦了。我一定会好好报答你的。”</p>
+<p>“报答？”艾晨曦歪了歪脑袋，“哈哈，不用这么客气~”</p>
+<p>这个轻松欢快的态度让车秋远松了口气——太好了，他没当真！</p>
+<p>“都怪我太优秀让你无法自拔。”艾晨曦继续轻笑着说。</p>
+<p>？？？转折来的太突然，车秋远有些没反应过来。</p>
+<p>“一见面就说我像模特，我刚开始还觉得很奇怪。毕竟我的身躯，能跟‘罗马雕像’相媲美，比喻成‘天使也很恰当，其实我也知道自己的美丽有多致命。”</p>
+<p>车秋远呆滞了。</p>
+<p>“我现在明白了，其实你真正的目的是为了接近我吧？”</p>
+<p>“不是！”车秋远连忙否决。</p>
+<p>但艾晨曦显然沉浸在自己的世界中，完全无视了这个微不足道的否决声，他垂下眼眸，金发下露出的耳垂微微泛红，“我还是第一次遇到，能了解我存在价值的人。”</p>
+<p>爸爸啊，这是个自恋狂！</p>
+<p>强烈的第六感高速车秋远，要是再待下去，怕是要出大事情，连忙慌张地起身，“你误会了！今天谢谢你，我先走了！”</p>
+<p>但脚下却刚好踢到了椅子腿，一个踉跄，然后被艾晨曦拉住，转了个圈子。</p>
+<p>艾晨曦一手握上车秋远的精瘦有肉的腰，另一手相扣着车秋远的手心，就这样以浪漫的像是童话故事里王子要亲吻公主时的姿势那样，居高临下又极其温柔地宣布：“我也喜欢，了解我价值的——你~”</p>
+<p>这个满含爱心泡泡的少女式桥段，终于令车秋远内心的防线彻底崩溃，“我……我……我X！”</p>
+<p>久违的爆出了脏话。</p>
+<p>脏话爆出后，就什么形象问题都不在乎了。</p>
+<p>“啊啊啊啊啊啊你闭嘴！啊啊啊啊啊啊啊啊！”</p>
+<h2 id="5-自恋狂"><a href="#5-自恋狂" class="headerlink" title="5. 自恋狂"></a>5. 自恋狂</h2><p>又是一个天气晴朗的早晨，同学们来到教室，相互打着招呼。</p>
+<p>艾晨曦踏入教学楼，看到不远处的车秋远正和他人交谈着，便上前挥了挥手：“车秋远！早……”</p>
+<p>车秋远立马落荒而逃。</p>
+<p>艾晨曦的手僵在晨风中：“？”</p>
+<p>艾晨曦不明白车秋远逃跑的举动，不过他很快怀着灿烂的笑容追了上去，速度还巨快，“我们为什么要跑啊？这是什么速度游戏吗？”</p>
+<p>“你别过来啊！”车秋远要抓狂了。</p>
+<p>就这样，从教学楼追到了教室，上课的时候坐在一块，连午饭的时候也故意挤着面对面地坐，终于车秋远忍无可忍，“你让我压力太大了！”</p>
+<p>“压力？”艾晨曦有些困惑，他托着下巴沉思了一会儿，突然开悟，“抱歉！都怪我太有魅力了！我不是故意的！”</p>
+<p>“……”车秋远满头黑线，无话可说。</p>
+<p>对面这位看着金闪闪的样子，怕不是底子里是个神经病吧。</p>
+<p>有几个同班的同学刚好路过，看到他们坐在教室里便喊道：“车秋远！艾~晨曦！”</p>
+<p>车秋远立马端坐了起来，眯眼笑着望去，心底里却是嘟囔着：为什么叫艾晨曦的时候要拉长音调啊？凭什么？</p>
+<p>其中一个同学问道：“我们这次去哪里聚餐啊？”</p>
+<p>聚餐的地点是学生会这边决定的，艾晨曦回说：“现在暂定是去南山。”</p>
+<p>听到南山，同学们显得不太高兴。</p>
+<p>“该死，我家就住在南山附近！”</p>
+<p>“啊，怎么是南山啊，我无聊的！”</p>
+<p>车秋远笑着安慰：“放心，我们准备了很多的节目。”</p>
+<p>艾晨曦也说：“为了大家玩得尽兴，我们正在努力做准备呢~”</p>
+<p>他们的讨论声吸引了其他人的注意，渐渐的大家都围了过来，讨论起这次的聚餐活动。</p>
+<p>“怎么？在讨论什么事呢？”有完全不知情地问。</p>
+<p>“聚会？”有听了几个字眼却没整个听完整的跟着问。</p>
+<p>“我们这次去南山？”</p>
+<p>“好期待啊~”</p>
+<p>“学长学姐们会来吗？”</p>
+<p>“大家平时会聊什么？”</p>
+]]></content>
+      <tags>
+        <tag>执笔绘世</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>骷髅骑士没能守住副本</title>
+    <url>/2020/11/14/%E8%BE%93%E5%87%BA/%E6%89%A7%E7%AC%94%E7%BB%98%E4%B8%96/%E9%AA%B7%E9%AB%85%E9%AA%91%E5%A3%AB%E6%B2%A1%E8%83%BD%E5%AE%88%E4%BD%8F%E5%89%AF%E6%9C%AC/</url>
+    <content><![CDATA[<blockquote>
+<p>个人向的文笔练习，由看过的漫画进行写述，不具任何商业性质。</p>
+</blockquote>
+<h2 id="1-守不住的副本"><a href="#1-守不住的副本" class="headerlink" title="1. 守不住的副本"></a>1. 守不住的副本</h2><p>“恨。”</p>
+<p>他的脑袋里回响着这样的声音。</p>
+<p>眼前遍地是一片的猩红色，他的主人，美丽的赛希斯大人倒在一片血珀中，双瞳已经无神，红色的长发与污血交融在一起。</p>
+<p>“该死的，那种肮脏的颜色怎可以染指赛希斯大人的长发。”</p>
+<p>他想伸手挽起大人的红发将上面难看的血渍洗去，但他做不到。就在前几分钟，他的头颅与身躯刚被人类的法阵给搞分家了。</p>
+<p>他身为骷颅守卫，却守不住自己的副本。只能眼睁睁地看着赛希斯大人倒在自己的跟前，甚至人类的战士还要拿圣水祝福过的银剑再往她的胸前刺去！</p>
+<p>“真是可恨！”</p>
+<p>恨自己的弱小，恨自己的东躲西藏，恨自己的无能为力。</p>
+<p>但即便如此，即便他只是个骷颅士兵，即便他连身躯都没了，只要他还有意识在，他便会挣扎到底！</p>
+<p>他拼命张开下颚，一口咬穿跟前的战士的脚踝。</p>
+<p>战士吃痛地踢开骷颅头，怒骂道：“混蛋！区区骷颅还敢反抗？”</p>
+<p>他竖着头颅立在血迹中，神色不变。战士一小块的脚骨被他咬在嘴中，这是他最后守下的一点尊严。</p>
+<p>结束了，他绝望地想着。</p>
+<p>战士一脚踩下，轻而易举地碾碎了他的脑袋。</p>
+<p>都结束了。</p>
+<p>“条件已满足。”</p>
+<p>“同化率下降。”</p>
+<p>“90%”</p>
+<p>“60%”</p>
+<p>“30%”</p>
+<p>……</p>
+<p>轰——</p>
+<p>好吵。</p>
+<p>隆隆——</p>
+<p>什么呀。</p>
+<p>不是该灰飞烟灭了吗？</p>
+<p>他动了动指头，直起身子，难以置信的环顾着四周。</p>
+<p>这是……棺椁？</p>
+<p>雨水打在他的指尖，冰凉凉地刺着他的骨头，叫他认清这一切的真实。他仰起头来，有些困惑。</p>
+<p>这是什么地方？</p>
+<p>但是，感觉好熟悉。</p>
+<p>突然脑海中一阵机器的声音响起：“继承成功。”</p>
+<p>他的眼前颇为荒谬地凭空生出了泛着淡蓝色光芒的面板，上面写着：“姓名，无。骷髅士兵，LV.1。体力29，力量23，敏捷18，智力9。”</p>
+<p>这是他的属性面板没错了，但他明明是36级的骷髅士兵，怎么变回了1级？而且这面板怎么会自行跳出？</p>
+<p>到底是怎么回事？</p>
+<p>“仿徨的亡者！”</p>
+<p>女人的声音打断了他的思绪，他循着声音的方向望去，看到了不远处的说话者。那女人披着亚麻绿色的斗篷，腰间配着把短剑。她双手朝天，大步走来，皱起的眉宇间似乎有几分焦虑：“我叫露比亚，是我唤醒了你。”</p>
+<p>女人的声音十分熟悉，骷髅士兵敢肯定在哪里见过她。</p>
+<p>该不会是20年前唤醒他的那个菜鸟死灵法师吧？</p>
+<p>他好像明白了些什么，虽然还是有点难以置信，但如果他没想错的话，他应该重生了——回到了20年前。</p>
+<p>那时候他第一次醒来便是在这里，被这位叫露比亚的法师唤醒，按照记忆，过一会这里会被山贼盘踞，露比亚也会因此命丧在山贼的手中。至于他，则在这场争斗中受到重创，并为了再生又花费了一年的时间。</p>
+<p>必须得赶紧离开这里。他心下当即有了判断，站起身子。</p>
+<p>既然回到了过去，就代表赛希斯大人也活着，要赶紧找到主人，把未来即将发生的事情告诉她——</p>
+<p>不。</p>
+<p>他想起了赛希斯大人倒在血泊中那双空洞的双眸，而他连把主人洗去污血的能力都没有的那份悲哀无助。</p>
+<p>这世上有个词名为“绝望”。</p>
+<p>就算告诉了又能如何？未来能被改变吗？</p>
+<p>他能守住谁吗？</p>
+<p>——他守住过谁吗？</p>
+<p>他的目光落在了跟前的这个女人身上，女人在大雨中显得格外瘦弱无助。</p>
+<p>不再犹豫，他一把将她抱起，抗在了肩上。</p>
+<p>“啊！”露比亚小小惊呼了下，随即反抗道：“放，放肆！放开我！我可是未来的……”</p>
+<p>骷髅士兵打断了女人的话，“我会守护你的。”</p>
+<p>他会守护住的。他在心底里许下了这样真挚的承诺。</p>
+<p>重来一次，他要撕碎绝望。</p>
+<p>等这场大雨结束，他想看见阳光。</p>
+<h2 id="2-逃不开的命运"><a href="#2-逃不开的命运" class="headerlink" title="2. 逃不开的命运"></a>2. 逃不开的命运</h2><p>“骷髅居然，居然会说话！”露比亚颤抖了。</p>
+<p>“有什么可大惊小怪的？”骷髅士兵表示十分淡定。</p>
+<p>“好，好吧。”露比亚咽下了满肚子的疑惑，强迫自己接受了这个设定。</p>
+<p>这时，骷髅的眼前又跳出了那个颇为古怪的蓝色面板：“S级剧情，【莱西·露比亚】已开启。”</p>
+<p>原来她全名叫莱西·露比亚啊。</p>
+<p>面板闪烁了一下，更新了文字：“姓名，莱西·露比亚。死灵法师LV1。体力6，力量5，敏捷6，智力12。好感度3，露比亚对自己唤醒的骷髅充满了眷恋。”</p>
+<p>什么情况？</p>
+<p>如果不使用特殊魔法，通常情况下，面板做多只能看到自己的等级和属性值吧？</p>
+<p>“请问，能放我下来了吗？”被骷髅扛着好一会儿，露比亚觉得有些尴尬，她已经过了那个奶声奶气动不动就想叫人抱在肩上好不用自己走路的年纪。</p>
+<p>“嘘！”骷髅那没有眼珠的眼眶是深不见底的黑，“我们得藏起来。”</p>
+<p>哒，哒，哒。</p>
+<p>是马蹄声。</p>
+<p>好些穿着精良装备的佣兵骑着马而来，其中一个脑门发亮的老头似乎是他们中的头，有条有理地下达着搜查的指令。</p>
+<p>该死的，当年他怎么会以为这些人是山贼呢？</p>
+<p>他们分明是挑准了露比亚有备而来。</p>
+<p>骷髅带着露比亚躲在岩石后头，大气不敢出。</p>
+<p>好在那些人并没有搜查到这里，这片树林毕竟很大，他们四处打探了下没发现什么踪迹线索后便去了别处探查。</p>
+<p>看着他们远去后，骷髅和露比亚这才敢从岩石后走出。露比亚深深地吸了口气：“呼，终于走了。好险，差点被发现。”</p>
+<p>骷髅问道：“你是逃亡者？”</p>
+<p>这似乎刺激到了露比亚的某根神经，露比亚起身大声道：“胡说！我可是大领主的继承人！”</p>
+<p>也就是在这个刹那，一支极快的冷箭从她的后背袭来。她张大了嘴想要放声痛叫，却失了声音，无处宣泄。</p>
+<p>怎么回事？</p>
+<p>那些人只是假装离开吗？</p>
+<p>她一手按着受伤的肩膀，咬住因紧绷而发颤的下唇，硬逼自己抬起头来去直视前方的敌人。那个领头的正拿着刚射出箭支的弓箭，咧嘴，眼中是盯准了猎物志在必得的自信。</p>
+<p>“大领主的继承人？哈哈！喂，我就是现任大领主大人派来的死神。”领头的旁边有位拿着大铁锤的猛汉，他挺着他那肥大的肚子奸笑着靠近受伤的露比亚。</p>
+<p>“让本大爷杀你前，先尝尝鲜吧！”</p>
+<p>他粗鲁地按住露比亚另一边完好而圆润的肩头，将她摁在地上，无法动弹。隐藏在斗篷下的肥满胸乳挺立了出来，能看见肉色柔软的肤质被裙束前领上的绳子扎出微微泛红的印记，那样诱人，想叫人挑了绳子好生欺负一翻。</p>
+<p>壮汉眼中翻涌的念头越发的不堪，令人作恶。</p>
+<p>雨下得极大，有惊雷在天空中划过，像极了露比亚此刻的无助与绝望。还不如死了算了！</p>
+<p>然后她看见在惊雷的余光尚未消散前，骷髅士兵站了起来，仿若天神般手举着巨石，朝那充满罪恶的男人降下天罚！</p>
+<p>血光过后，壮汉倒下了，骷髅朝着还在惊惧中的露比亚伸出了手，曲单膝下跪：“放心吧，我会守护你的。”</p>
+<p>这是他许下的誓言。</p>
+<p>“那么，我们快点，逃走……”他如此说着，也如此期盼着。</p>
+<p>可是巨锤猛得砸向了他的大脑，砸碎了他的头骨。</p>
+<p>那倒下的壮汉又站了起来，他的脑壳上留着刚才被骷颅所砸出的大裂口，血液从头颅顶部一路流至脸颊两侧，更显得面容狰狞。</p>
+<p>“该死的，我们未来的领主大人，居然还会使用死灵术？”</p>
+<p>“可恶，这个骷髅也太厉害了吧？”</p>
+<p>“色字头上一把刀，你差点栽在一个骷髅手里，”旁边领头的说道，“真是个废物。”</p>
+<p>“该死，你以为是巫妖召唤的骷髅王吗？”</p>
+<p>他们站立着，聊得火热，而倒着的骷髅却因无法动弹而狠狠地自责着。</p>
+<p>骷髅努力地试图动动指尖，可是骨头好像已经不听使唤，不，应该说他已经感觉不到手了，甚至连视觉都在逐渐涣散。难道他好不容易得到的机会，就要这样被浪费了吗？</p>
+<p>多么不甘心，却又，无能为力。</p>
+<p>唉！</p>
+<p>又没有，守住……</p>
+<p>……</p>
+<p>叮铃！</p>
+<p>从一片荒芜的漆黑中跳出了那不合时宜的透明蓝框面板：是否保存死亡记录？[Y/N]</p>
+<p>轰隆隆！</p>
+<p>是天上的雷鸣声在响，雨水打落在骨头上，那种刺刺的冰凉，惊得骷髅猛得睁眼。</p>
+<p>怎……怎么回事？</p>
+<p>他又一次地从棺椁中坐起，无比诧异。</p>
+<p>他难道又没死吗？</p>
+<p>“仿徨的王者！”近处传来露比亚的声音，她完好地站在自己跟前，肩头也没什么伤口。</p>
+<p>紧接着，他看见她双手朝天，说着他已经听了两回的话：“我叫露比亚，是我唤醒了你。”</p>
+<p>什么？！</p>
+<h2 id="3-再次复活"><a href="#3-再次复活" class="headerlink" title="3. 再次复活"></a>3. 再次复活</h2><p>骷髅战士举起了他的双手，他清楚得意识到自己再度复活了。</p>
+<p>带着之前的记忆，重新，复活了。</p>
+<p>除了一件事情，其他都没什么变化。</p>
+<p>那就是在眼熟却又突兀的蓝色面板上清楚地记录了他的死亡记录，上面写着“为死灵法师献出了生命”以及“被钝器敲碎脑袋”。并在记录的最末尾这样写道：请选择这次要附加的属性[1.所有死灵法师好感度+20] [2.所有钝器类武器物理抗性+40]</p>
+<p>[确认]</p>
+<p>附加属性？看起来好像有些莫名其妙，但又那么得令人心动。</p>
+<p>若是他可以拥有钝器类武器物理抗性的话……那或许当初就不会被已经受了重伤的壮汉轻而易举地就碾碎了头骨……或许他可以拯救露比亚……或许……</p>
+<p>骷颅类怪物最怕的就是钝器，选择这个应该会很有帮助。</p>
+<p>虽然仍旧对眼前的面板抱有怀疑，但骷颅士兵仍旧果断地点击了确认。</p>
+<p>那些敌人马上就要出现了，他必须立即采取行动。想到这里，他抬起头，看向了露比亚。</p>
+<p>不能再坐以待毙了。</p>
+<p>“露比亚。”他的嗓音有些沙哑。</p>
+<p>“骷，骷髅说话了？！”</p>
+<p>骷颅打断了露比亚的惊恐，现在不是扯这些没用的时候，“你快藏到石头后面。”</p>
+<p>“为什么？”</p>
+<p>“人类佣兵就要到了？”</p>
+<p>“佣兵？”</p>
+<p>“嗯，相信我，然后快点藏起来吧。”</p>
+<p>露比亚皱起了眉头，她有些不明白骷髅的举动，但随即她想到了她的那些敌人，或许已经在不远的路上了。难道骷颅说得是那些人？可是——“你怎么会知道？”</p>
+<p>这个问题令骷颅士兵有些为难，他光溜溜的脑壳想不出该如何向眼前的这位女人解释重生这种遥不可及的事情，只好相当敷衍地说道：“猜的。”</p>
+<p>“……”露比亚当然不会相信这见了鬼的粗糙解释，她挑着眉头打量骷颅士兵。确实，这是她召唤出来的骷颅士兵，也就只是个新生的1级小骷髅罢了，可偏偏怎么感觉起来这么神秘呢？越是细看下去，越觉得骷髅的眼眶中心深不见底。</p>
+<p>她可以信任他吗？</p>
+<p>她还在思虑中，但是树林间越发嘈杂的动静却提醒着他们必须快速行动。</p>
+<p>“没时间了，请把你的短剑借给我。”骷髅士兵微微俯下身子，恭敬而又郑重地许诺道，“我会，守护你的。”</p>
+<p>露比亚觉得这话十分耳熟，似乎遥远的曾经在哪里听过，话里头藏着令人安心的力量。罢了，反正也逃不开，便信他一回。露比亚做出了决定，果断的将腰间护身的短剑取出，交给了骷髅士兵。</p>
+<p>“谢谢。”骷髅士兵接过了短剑，并将露比亚藏在了一块巨岩背后。</p>
+<p>他转过身，望向了那片骚动的树林，漆黑的眼窝孔中闪过一丝红光。</p>
+<p>……</p>
+<p>树林间一群佣兵正在寻找露比亚的线索。此时下着雨，并不利于女人逃跑，或许她就躲在附近哪里避雨。领头的翻身下了马，制止了其余人的前进，“在这里等一下，我去附近转转。”</p>
+<p>他独自一人潜入密林深处，忽而似乎听到了什么动静，立马抱起了怀里的弩弓，谨慎地四处张望。</p>
+<p>“喵呜——”一声细弱的猫叫渐渐隐于雨声中。</p>
+<p>切，原来就是只猫咪。他卸下了心防，没注意脚边躺在地上的骷颅。毕竟深山老林的，偶尔有几具被人随意丢弃的尸体，也不是什么稀罕事。只是这家伙估计是太不讨人喜欢，连个坟墓都懒得挖了，就这么任凭林中的野兽食去了血肉，只剩一具骨头。</p>
+<p>当然，这也不是他该在意的事，老板花了重金要那女人的命，他得尽快处理完交差才是。他心情烦躁地收回弩弓，嘟囔道：“这个臭女人，竟然没影了。”</p>
+<p>卧倒在地的骷髅轻轻地抽出隐藏在手臂骨头下的利剑，然后乘着那佣兵背对自己的时候立马站起，不给他任何反应的时间，一剑刺入佣兵头子的胸膛。</p>
+<p>“呃啊啊啊！”</p>
+<p>佣兵倒在了地上，手指轻微抽搐了一下，随即就不再动弹，任由血液漫过指尖。</p>
+<p>成功了！</p>
+<p>骷髅士兵龇着牙，他的属性面板跳了出来，显示：“您的等级已提升，请分配属性点。”</p>
+<p>##　4. 守护成功</p>
+<p>接下来，该对付那个拿锤子的了。</p>
+<p>正这么想着，猝不及防地后脑受到了重创。</p>
+<p>身后是锤子大汉的声音：“这个骷髅是从哪里冒出来的，脑袋竟然没碎？”</p>
+<p>男人握紧了手里的锤头，他知道自己的锤头相当于一个成年男子的重量，这一锤子下去，哪怕是硬度相当高的玄铁，也得变形。</p>
+<p>可眼前这个区区１级的骷髅小兵居然只是受伤？</p>
+<p>难不成是他平日训练松散了？</p>
+<p>男人心下有些奇怪，但这些都无所谓了，一次没烂的话，就再砸第二次，把他打到碎裂为止！</p>
+<p>大汉大力挥起了手中的锤子，这回他会使上百分百的力气！</p>
+<p>骷髅知道他即将面临什么，他也有心想要躲避，但是身体动不了了。虽然脑袋没彻底碎裂，但冲击力太大了，一时间大脑似乎跟身体切断了联系，无法动弹。</p>
+<p>重锤而下。</p>
+<p>又一次地，他死了。</p>
+<p>然后又回到了初始地——他的棺材板。</p>
+<p>他坐在他的棺椁中有些发怵，他真的该救露比亚吗？</p>
+<p>反正那些佣兵的目标是露比亚，根本不会对他感兴趣，他只要逃跑就行。看看，多么轻松！那他一次又一次地体验死亡的痛苦，就为了就那么个女人，真的有必要吗？</p>
+<p>要不……逃了算了吧……</p>
+<p>但，逃了又能怎样？</p>
+<p>难道他就能如愿以偿地得到幸福吗？</p>
+<p>二十年来的经历还历历在目，若是连这点事情都改变不了，他拿什么去改变结局？</p>
+<p>像他们这样的“怪物”对人类而言就是一群移动的经验值而已，怎么也逃不开被砍死的命运……</p>
+<p>骷髅垂下头，黑漆漆的眼眶深不见底。静默了几秒后，他将杀死“佣兵-弓箭手”后获得的属性点，大部分都加在了敏捷上。</p>
+<p>此时，他的面板属性：“骸骨士兵LV.1 体力29，力量24，敏捷23，智力9。”</p>
+<p>随着属性值得增加，这一次他不但轻易地解决了佣兵头子，还顺利躲开了锤子壮汉的偷袭。</p>
+<p>“不可能，你只是一个骷髅而已！”壮汉难以置信地惊呼，他握紧了手中的锤子，一定是凑巧这个骷髅躲开了而已，对，一定是凑巧而已。</p>
+<p>随即他又砸下了一锤——</p>
+<p>但骷髅的速度明显比他更快，在锤子还没落下前，骷髅就已俯下身子，贴着地面抄进壮汉的跟前，一剑迎着壮汉的胸膛刺去。</p>
+<p>啪得一声，锤头落在了骷髅的脚侧，壮汉也紧随着到底。</p>
+<p>骷髅胸前的骨架上被喷了一片的鲜血，若那彼岸的曼珠沙华蔓延盛开，他没有在意，只是挺起了胸膛，心想：总算，总算是保护住某个人了。</p>
+<h2 id="5-保护露比亚"><a href="#5-保护露比亚" class="headerlink" title="5. 保护露比亚"></a>5. 保护露比亚</h2><p>雨还在持续地下着，哗啦啦的雨水声，似是在为荒野间倒下的那两具死尸超度。骷髅站在尸体间，手持滴血长剑，根本就是冷血的杀神！</p>
+<p>露比亚抱着石头，从巨岩后走出。她小心翼翼地揣着石头的样子，看起来很是紧张害怕。</p>
+<p>但她在怕什么呢？</p>
+<p>敌人都已经倒下了，难道——</p>
+<p>骷髅深深的眼眶中透出了几分冷意，“你拿着那个干嘛？”是要将石头投向他吗，像大部分的人类一样，利用过后，就当作经验值抹杀？</p>
+<p>“说不定能帮上忙！如果你有危险，我当然要帮忙！”</p>
+<p>骷髅士兵微怔，他看着露比亚那双单纯又坚定双眼，莫名觉得这双眼睛不像是人类的，更像兔子的，明明那样脆弱……却十分可爱。</p>
+<p>他放松下来，拿过露比亚怀里的石头，随手丢到了一边，然后带着她朝密林深处的洞穴隧道走去。</p>
+<p>佣兵的追杀告一段落，总算可以有心情好好理一理最近发生的事了。</p>
+<p>首先，是重生。一旦死亡，就会回到第一次醒来时的坟地里。</p>
+<p>然后，等级会回到一级，但技能和属性值会持续累积。</p>
+<p>最后是死亡记录，它会根据他复活后遇到的经历，添加全新的附加属性。</p>
+<p>现在，最让他担心地就是重生次数具体还剩多少次。说不准，下次重生时，就会需要一些前置条件。想到这里，骷髅凝神，他必须得好好活下来。</p>
+<p>“请问，你在听我说话吗？”一边的露比亚皱着眉头问道。</p>
+<p>这让骷髅拉回了思绪，“抱歉，我走神了，再跟我说一遍吧。”边说着，边施了个简单的照明法术，一团暖暖的光球便在右手掌上生成。现在他们走在洞穴隧道中，这里太暗了。</p>
+<p>“真是的。”露比亚松开了眉头，“我的父亲是阿特拉地区大领主露比亚伯爵，他是一个刚正不阿的人。几周前新皇继位，硬派的他开始大肆征兵，增加军事训练，并提拔了那些好战分子担任重要职位。”</p>
+<p>“那可真是糟糕。”骷髅评论道，他虽然不是人类，却也不是好战分子。如果没有战争就好了，那么当初他和他的主人赛希斯大人也就不会死。</p>
+<p>“与鹰派对立的鸽派主张和平，就开始抗议，而我的父亲也在其中。最后……”露比亚凝噎，她闭上了眼睛，全身止不住地打颤，脑海里全是父亲死时那满是鲜血的画面！</p>
+<p>察觉到了露比亚状态的不对，骷髅停下了脚步。他记得，皇帝会在这段时期发动战争，新皇为了统一天下，侵略其他国家长达九年时间，随后十六魔王陆续复活。</p>
+<p>看来露比亚的父亲是这残酷战争中的众多牺牲品之一。</p>
+<p>很遗憾，他无法阻止这场战争，但是，他能保护这个女人。</p>
+<p>“放心，以后我保护你。”他宽慰道。</p>
+<p>露比亚揉了揉眼角，破涕为笑，“哈哈，被骷髅保护的感觉好奇妙。”</p>
+<p>骷髅暗暗捏紧了拳头，他必须变强，为了这个女人，为了……他的主人赛希斯大人。</p>
+<p>“我们先去附近的村庄吧。”他说道。</p>
+<p>“好。”露比亚点点头，“对了，你为什么懂这么多东西啊？”</p>
+<p>“不知道。”</p>
+<p>“啊？你不会死了很久吧？或者以前是一个位高权重的人？”</p>
+<p>骷髅有些头疼，女人的话好多啊……该给她编个故事吗？深受诅咒的古老贵族，或是战死沙场的大将军？什么身份听起来会比较能唬人呢？</p>
+<p>骷髅拿不住主意，不过好在隧道也算走到了头，露比亚已被洞外透入的明艳阳光吸引了注意，叹道：“出口到了！”</p>
+<p>她飞快地迎着阳光冲出洞穴，洞外是大好的蓝天，将那微微冷冽的新鲜空气大大地吸入肺腑，直叫人心情愉悦。</p>
+<p>他们正位处一片山脉间，海拔比较高，山上的灌木丛上结满了白色的冰霜。</p>
+<p>“你看，是雪！”露比亚很是兴奋。</p>
+<p>“……”骷髅并不能理解这种兴奋的感觉，他老老实实地说，“只是一堆结晶体。”</p>
+<p>啪！</p>
+<p>露比亚将手中的雪球丢向了骷髅，正中他光溜溜的头颅。“能不能不要这么呆板？”露比亚笑道。</p>
+<p>骷髅伸手拍掉了头上的冰雪，面上的表情就跟那雪一样的冰冷，“这是，我的天性。”</p>
+<p>“……”真是个毁气氛的榆木脑袋！露比亚在心里嘟囔，经历了这么些事，她可不怕骷髅，撇了撇嘴，吐出一个“哦”。</p>
+<p>就挺呛人的。</p>
+<p>呵，如果话语是有温度的话，她要把这骷髅给冻死！</p>
+<p>但骷髅显然没有明白露比亚的想法，刚才的一切好像没有在他身上留下痕迹，他平淡地说道：“我们走吧。”</p>
+<p>露比亚觉得有些气人，但她还是快速地跟了上去。气归气，骷髅可不能丢。</p>
+<p>这一片的山脉显然很少被人踏足，没有什么被开发过的痕迹，必须徒手攀岩而行。爬了一阵子，露比亚就觉得有些喘，小臂的肌肉隐隐发酸，她转头问骷髅：“这里好陡。我们现在要去的地方是纳尔兰吗？”</p>
+<p>“嗯，只要越过山脉，很快就要到达那里。”</p>
+<p>“呼！”露比亚使劲翻上了上方的一处平台，稍作喘息，“那到达目的地后给你买一件盔甲吧！”</p>
+<p>“盔甲？”骷髅有些疑惑。</p>
+<p>“你总不能这样到处乱跑吧？”露比亚揉了揉太阳穴，这真是个榆木脑袋。</p>
+<p>骷髅瞧了瞧自己这一身“白白净净”的骨架子，恍悟：“确实有点引人注目。”</p>
+<p>不是有点！是非常！光是会移动的骨头，就能把三岁大的小孩吓得天天做噩梦了。更别说是这么一具完完整整的骷髅了！不过，露比亚并不打算跟骷髅细细辩论这事，有个更重要的事情憋了她好一阵子了，“那我们先休息一会吧。”</p>
+<p>她舒展开臂膀伸了个大懒腰，连迈开的步子也变得随意了几分。可恰巧脚下的路因积雪而打滑，一个踉跄，她整个人不由得重心向后方跌去——空荡荡的，那是悬崖！</p>
+<p>说时迟那时快，骷髅抓住了她的手腕。</p>
+<h2 id="6-露比亚之死"><a href="#6-露比亚之死" class="headerlink" title="6. 露比亚之死"></a>6. 露比亚之死</h2><p>千钧一发。</p>
+<p>骷髅将露比亚从悬崖处拉了回来。</p>
+<p>露比亚有种死里脱险后的无力，双腿跪在雪地中，心尖还在打颤。不过很快她就缓过神，由衷地向她的骷髅骑士感谢道：“谢谢，你一直在保护着我呢。”</p>
+<p>“……”骷髅答不上话，只是觉得幸亏她不知道他失败过几次，也差点就想要放弃。只是或许是失败的次数太多了，才更显得这番经历的珍贵，忍不住盼着渴望着这次的成功。</p>
+<p>骷髅起身捡起了行囊，“好了走吧，马上就到了。再忍忍，一会儿就好。”</p>
+<p>又是经过了一番不怎么轻松的路程，好在总算有惊无险地到达了他们的目的地——纳尔兰。</p>
+<p>纳尔兰是由大伯爵主导的领地，高耸的城墙象征着庄严与权威。露比亚似乎对这里十分的熟悉，她一改先前的警惕，轻松地道：“好了，现在开始该由我来守护你了！”</p>
+<p>她转身拦下了骷髅说：“你还不能进城，在这里等等我，我很快就回来。”</p>
+<p>骷髅有些担忧：“你一个人没问题吗？”</p>
+<p>“嗯！你帮了我那么多次，这种小事不足挂齿！”露比亚自信地笑着，“一定要等我哦，我很快就回来！”</p>
+<p>骷髅背着行囊，目送着着露比亚进入了城墙中。</p>
+<p>一小时，两小时，露比亚没有回来。</p>
+<p>或许是被什么事情暂且绊住了吧，骷髅这样猜测。露比亚叫他等着，他便在城墙边上扎了脚跟，耐心得等着。</p>
+<p>一天，两天，三天。</p>
+<p>骷髅还在继续等着。</p>
+<p>他其实也没奢望着露比亚会跟他一起漂泊，这段时间她肯定很累，估计早就想找个地方安顿下来了。所以看到城堡时，她显得那样雀跃，迫不及待地就冲入了城中。他也知道在人类眼中，骷髅是多么的渺小与可笑，一路走来，他受够了背叛与冷眼。可是露比亚不同，她是个平易近人的少女，她说过她会回来的，不是什么分道扬镳，而是充满自信地说着，她会回来的。</p>
+<p>一直过于清净的城门口突然传来一阵响动——难道是她回来了？骷髅探出了脑袋。</p>
+<p>可惜看到的却是个小兵，边推着辆木车，一边嘟囔着抱怨：“该死，队长真是的，为什么让我做这种脏活啊，太晦气了！真是的，随便扔完就走吧。”</p>
+<p>他远远地看到士兵将什么东西从车里扔到了灌木丛中，然后头也不回地将小车推走了。</p>
+<p>待士兵回到城内后，骷髅悄悄地前去那片灌木丛查看。他心头有种十分不好的预感，但他不愿相信这是真的。露比亚说过，她会回来的，一定会平平安安地回来的。</p>
+<p>扒开草丛，入眼的赫然是露比亚的身躯——浑身破败不堪，睁开的眼球也不会再转动。</p>
+<p>竟是死不瞑目。</p>
+<h2 id="7-报仇"><a href="#7-报仇" class="headerlink" title="7. 报仇"></a>7. 报仇</h2><p>他又失败了。</p>
+<p>正如那时只能眼睁睁地看着赛希斯大人倒在血泊中般，现在看着露比亚的遗体，也是如此无力。</p>
+<p>好像天命如此，叫他怎么也更改不了命运！天地不仁，以万物为刍狗！</p>
+<p>为何那些手中沾满了鲜血满眼是肮脏污垢的残暴家伙总是可以笑得猖狂，而你看，露比亚，这个善良的女孩，却只能落得如此下场？</p>
+<p>骷髅的眼里闪过一丝猩红。</p>
+<p>这时草丛边上传来脚步声，骷髅警惕地躲了起来。</p>
+<p>那里是两个骷髅没见过的小兵，身上没有骑士徽章，位阶似乎不高。右侧的小兵捂着他肿胀的脸抱怨道：“烦死了，谁能想到她会自杀啊！差点害我被队长打死。”</p>
+<p>左侧的说：“你就知足吧。好不容易抓到一个商品，还没卖出去，就被你害死了，你没被打死不错了。”</p>
+<p>自杀？商品？骷髅静静地听着他们的谈话，眼中的猩红越发明显与张扬。</p>
+<p>“话说，那小子把尸体扔哪里了？”右侧的小兵四处张望。</p>
+<p>“喂，还找那尸体做什么？你该不会真的想来吧？”</p>
+<p>“我都还没开始呢，”小兵伸舌头舔了舔唇角，怎么说那可是个美人啊，虽说肤色黑了点，不过他就喜欢这样的性感健康的麦色肌，想到美人的样子，他又忍不住盼求餍足地喟叹，“这么扔掉实在可惜了。”</p>
+<p>“疯子，被打的半死还没吸取教训。”另个小兵摇摇头并不认同这种行径，却也没阻止，只是说道：“我去给酒馆的老板送钱。”</p>
+<p>呵，装什么正人君子。肿脸的小兵也看不上那个赶着要离开的，随意地摆了摆手算作礼貌性挥别，就兴致勃勃地扒开草丛，“嘿嘿，让我看看，在哪呢？”</p>
+<p>“啊，找到了！”</p>
+<p>赤红色的头发，小麦色的肌理，加上黄昏时落霞的金光雕刻出流畅的下颔线，如此美人，却是没有灵魂地倒在地上，身上的衣服也是破破烂烂的。这种美与丑、正与恶交缠的中间地带最为诱人，挑动着人心头那根名为理智的弦。</p>
+<p>啪。</p>
+<p>弦断了。</p>
+<p>男人撤开了他腰间的皮带，只觉裤头那里肿胀得很，想要马上发泄一番。他咧开嘴，觉得这一刻的自己厉害得仿佛可以去征服世界，“那就让本大爷玩一会吧。”</p>
+<p>他想着算是可以痛痛快快地爽上一番，双腿间的小喷枪正欲喷射，却被胸口处顿生的另一种快感给震得直接软趴了下去。</p>
+<p>快感？不，不对……</p>
+<p>草，好痛！</p>
+<p>钻心的痛，他忍不住叫出了声。</p>
+<p>背后传来冷冷的声音，“安静点，你要是敢乱动就死定了。”</p>
+<p>小兵的背上刺着一把剑，剑已穿破了他的身躯，他低下头，便能瞧见闪着金光、异常锋利的宝剑。那剑身要是再偏离几分，便能将他胸膛的心脏斩破。</p>
+<p>怎么回事？</p>
+<p>小兵的身体微微颤抖着，连同说话声也结巴了起来：“你，你是谁？”</p>
+<p>骷髅没有理会男人的示弱，他现在可没心思跟别人聊天，愤怒值达到了巅峰，既然天地不仁，那便由他化身恶鬼，以这些肮脏的肉躯为食，血洗这个颠倒的世界！</p>
+<p>他手里宝剑似乎也在轻颤着要渴饮血肉，但是现在还不是时候。骷髅按耐下心头的烦躁，咬着牙一字一字地说：“回答我的问题。”</p>
+<p>见小兵仍不做声，骷髅手里的剑旋转了个方向，“看来你还没吸取教训。”</p>
+<p>这种扭动带来的二次伤害，比起第一下的刺穿还要痛上个千百遍，而且有的是时间可以慢慢一点一点地绞碎他身上那团恶心的皮肉，骷髅心想。</p>
+<p>受不住这种酷刑的小兵立马就举起双手示意投降，“知，知道了，我按你说的做，你想知道什么？”</p>
+<p>“第一，为什么这个女人会在这里？”</p>
+<p>“是酒店老板送过来的，我只知道这些！”小兵有些害怕，为什么背后这家伙要关心这个已经没有生气的女人？</p>
+<p>“第二，是谁把她搞成这样的？”</p>
+<p>“警卫队长，我们也只是听从安排而已！”小兵隐隐感觉到这家伙一定跟女人有什么关系，他把一切问题都丢给了队长，对，一切都是队长的问题！跟他没关系！</p>
+<p>“那刚才也是他下的命令吗？”骷髅眼中的猩红化为了真实的怒火，他握紧了剑柄。</p>
+<p>“这，这个……”</p>
+<p>骷髅懒得听男人的废话，直接利索地拔出了剑。</p>
+<p>“呃啊！”胸口处没了支撑点，那些被搅拦的血肉直接随着剑飞溅开来。临死前，小兵不甘地回头看了一眼，他看见没有任何肉体的白骨架站立在身后，手中的宝剑上满是来自于他胸膛的血液。骷髅的脸上看不出任何的表情，但小兵却莫名觉得，光是他的这点血还平息不了骷髅的怒火。</p>
+<p>怎么会？怎么会是骷髅？区区骷髅怎么敢……小兵想不明白，他也永远不会想明白了。</p>
+<p>骷髅一脚踢开了这个正在阎王殿前徘徊的躯体，直接将他无情地打入了没有回头路的地狱中。然后他走到露比亚身边跪了下来，轻轻地伸手，用他那光溜溜的指节小心翼翼地合上了露比亚的双眼。</p>
+<p>“是酒店的老板杀了你吗？”骷髅喃喃着。</p>
+<p>——安息吧。我会替你报仇的。</p>
+<h2 id="8-纳兰绅士会"><a href="#8-纳兰绅士会" class="headerlink" title="8. 纳兰绅士会"></a>8. 纳兰绅士会</h2><p>是夜，他戴着斗笠走在无人的街头。</p>
+<p>月色清清冷冷地照着他那肃杀的背影，街道上回响起哒哒的脚步声。</p>
+<p>哒，哒。他叩响了一侧的酒店店门。</p>
+<p>里面的人不耐烦地打开门回道：“这么晚了，谁呀？”</p>
+<p>他五指并拢，狠狠地一击袭向那人的胸口，将那人推倒在地。</p>
+<p>“咳！”酒店主猛得吐出一口鲜血，彻底醒了。</p>
+<p>哒哒哒，他继续前行靠近，脚步声均匀有力，像极了死神的步伐。</p>
+<p>店主也来不及顾虑伤势，连忙惶恐地跪下抱头道：“别，别打了！我真的什么都不知道！”</p>
+<p>“不知道什么？”他的面孔埋没在宽大的斗篷中，语气也平平的，看不出情绪。</p>
+<p>“我真的不知道追杀阿特拉大领主女儿的两名组员，到底去了哪里！”那人颤抖着，“而，而且我也没能力对付他们啊！”</p>
+<p>“阿特拉？组织？什么意思？”</p>
+<p>“嗯？你不是组织里的人吗？”店主抬起头来。</p>
+<p>他又是一掌下去将那人的脑袋深埋进地板里，语气冷得都快可以结霜，“低头。回答我的问题。”</p>
+<p>“三天前，大领主的女儿来到纳尔兰，然后被警卫队带走了。”店主的脑袋被他捏在手里，不敢不从实说道，却也同时小心翼翼地打量：“你……是他的同伴吗？”</p>
+<p>“没错，但她死了，为什么？”</p>
+<p>该死！店主惶恐得瞪大了双眼，居然是那女人的同伴！那女人死了，那自己还哪里有活路？连忙使出吃奶的劲头，从他手掌下挣脱，就要逃走——</p>
+<p>咔擦。</p>
+<p>对方一剑刺入了店主还尚未来得及抬起的小腿，将那条腿猛得钉在了地上。</p>
+<p>动弹不得，店主疼得转过头，这下他看清了对方的面容——一具眼里满是怒火的骷髅，是死神！</p>
+<p>“放过我吧，你要什么我都给！”店主哀求道。</p>
+<p>“如果你还想保住另一只脚就快点说。”骷髅可不讲什么情面。</p>
+<p>“我只是把那个女人交给了警卫队！我真没想到她会死在那里！”</p>
+<p>“为什么？”</p>
+<p>“因，因为警卫队长想把那个女人送给纳兰绅士会当奴隶。”</p>
+<p>“纳兰绅士会？”骷髅抓住了几个关键字眼。</p>
+<p>也是这时，那人感觉到脖子处有什么在骚动，心中警铃大响，“不，不！我没有说！”</p>
+<p>骷髅有些讶异地看到店主脖子上的蛇纹鼓动着从他的皮肉中活生生地分裂出真实的躯体，而后紧紧地缠住了那人脖子，令他无法呼吸。</p>
+<p>“不……”这是那人最后挣扎的遗言。</p>
+<p>“难道是诅咒？”骷髅看着眼前的情形揣测道。</p>
+<p>纳兰绅士会。</p>
+<p>想起来，无论是派出那两个佣兵的现任大领主，还是害死露比亚的纳尔兰警卫队，好像都跟纳兰绅士会有着千丝万缕的关系。</p>
+<p>他需要一些情报，不然，无论他复活了多少次，露比亚一样会死于非命。</p>
+<p>他许诺过的，要保护她。</p>
+<p>“现在的我……谁也保护不了。”骷髅撇过头叹气。</p>
+<p>眼角的余光恰巧瞄到屋角的架台，那里摆放着一件相当漂亮的盔甲。他慢慢走进，触摸着盔甲的金属质感，脑海里是露比亚的声音——露比亚曾兴奋地规划着：“就在纳尔兰给你买件盔甲吧！”</p>
+<p>那时的她，眨着大大的杏仁眼，眼神里闪烁出的光彩，似乎组合出了些许温暖而又美好的未来图像。</p>
+<p>图像所描绘的大概是个骷髅身穿金紫色镀膜的铠甲，一身略显凄惨的白骨被掩盖住，倒难得显出几分冷酷的帅气。就是那种童话故事里守护公主的骑士形象，人狠话不多，为公主披荆斩棘，所向披靡。</p>
+<p>可事实是，骷髅终于获得了他的铠甲，而他的公主却不在了。</p>
+<p>他要变强，骷髅咬咬牙想道。成为一名强者，不再被人蔑视，不再失去珍惜的人。</p>
+<p>骷髅戴上了头盔，踩过这屋主的头颅，打开房门。</p>
+<p>迎面是银白的月光，清清冷冷。</p>
+<p>然后在不久的未来，他要以强大到百折不屈的身姿，去恭迎他的公主——归来。</p>
+<p>（本文完）</p>
+]]></content>
+      <tags>
+        <tag>执笔绘世</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机组成</title>
+    <url>/2020/05/04/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/computer-organization/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>Abstract</strong></p>
+<p>自学计算机组成与原理，笔记整理自bilibili的<a href="https://www.bilibili.com/video/BV1ix41137Eu?from=search&seid=8515848257907690086">计算机组成原理（哈工大）</a>视频课程内容</p>
+</blockquote>
+<h1 id="第一部分：计算机"><a href="#第一部分：计算机" class="headerlink" title="第一部分：计算机"></a>第一部分：计算机</h1><h1 id="计算机系统概论"><a href="#计算机系统概论" class="headerlink" title="计算机系统概论"></a>计算机系统概论</h1><blockquote>
+<p>自我检测： <a href="https://blog.csdn.net/weixin_45087775/article/details/104582401?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">【计算机组成原理】中国大学MOOC哈工大课程第一章测试题库</a>，<a href="https://blog.csdn.net/weixin_45087775/article/details/104647650">【计算机网络】中国大学MOOC哈工大国家精品课程第一章习题（补充）</a></p>
+</blockquote>
+<h2 id="冯-·-诺依曼计算机"><a href="#冯-·-诺依曼计算机" class="headerlink" title="冯 · 诺依曼计算机"></a>冯 · 诺依曼计算机</h2><iframe frameborder= "no" border= "0" marginwidth= "0" marginheight= "0" width=100% height=230 src= "https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/17395278/share/2020-6-7/1591519991/main.svg"></iframe>
+
+<p><strong>特点</strong></p>
+<ol>
+<li>五大组成 <span style="color:#aaa">  辅存可以参考U盘，属于I/O设备 </span></li>
+<li>混合存储：instruct &amp; data不加以区分，以同等地位存储，并依靠address访问</li>
+<li>instruct &amp; data以二进制表示</li>
+<li>instruct = 操作码（instruct is to do what） + 地址码（操作数所在的地址）</li>
+<li>操作数存于内存中的存储程序，存储程序存于存储器中 <br><span style="color:#aaa"> ☆核心特征（具有存储程序的计算机都称为冯·诺依曼计算机）</span></li>
+<li>以运算器为中心 </li>
+</ol>
+<p><strong>改良</strong></p>
+<p>早期的冯 · 诺依曼计算机是以运算器为中心导致运算器过于繁忙，改良后以存储器为中心，实现I/O设备和存储器间直接的数据交换 。</p>
+<p>现代计算机采系统复杂性管理方法，用层次化的结构来表述计算机系统的硬件结构，如下图所示：</p>
+<p><span style="color:#aaa"> 實綫：數據通過，虛綫：控制和狀態反饋，双线箭头：数据的传输 </span></p>
+<img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200505154317.png" width="40%"/>
+
+<h2 id="主机的基本构成"><a href="#主机的基本构成" class="headerlink" title="主机的基本构成"></a>主机的基本构成</h2><iframe frameborder= "no" border= "0" marginwidth= "0" marginheight= "0" width=100% height=400 src= "https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/17395278/share/2020-6-7/1591520989/main.svg"></iframe>
+
+<p><strong>存储容量的计算</strong></p>
+<p>存储字长 = MDR位数</p>
+<p>存储体内的单元数 = 2<sup>MAR的位数</sup></p>
+<p>存储体的size = 2<sup>MAR位数</sup>×MDR位数</p>
+<p> ☆【单位转化】B：Byte字节，b：bit位，1字节 = 8位（2<sup>3</sup>b=1B，2<sup>30</sup>B=1GB，1K=2<sup>10</sup>）</p>
+<p><strong>指令流程</strong></p>
+<img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200505154251.png" width="60%"/>
+
+<p>取指令：PC→MAR→M→MDR→IR（把指令从给定的内存单元中取出，放入IR），取完指令后(PC)+1→PC</p>
+<p>分析指令：OP(IR)→CU    <span style="color:#aaa">OP表示IR中的操作码，由CU对操作码进行分析</span></p>
+<p>执行指令：Ad(IR)→MAR→M→MDR→ACC    <span style="color:#aaa">Ad：address</span></p>
+<h2 id="机器性能指标"><a href="#机器性能指标" class="headerlink" title="机器性能指标"></a>机器性能指标</h2><table>
+<thead>
+<tr>
+<th>WAYS</th>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 机器字长</td>
+<td>机器字长</td>
+<td>CPU能处理数据的位数</td>
+</tr>
+<tr>
+<td>2. 运行速度</td>
+<td>主频</td>
+<td>机器内部主时钟的频率，是时钟周期的倒数</td>
+</tr>
+<tr>
+<td></td>
+<td>每个核支持的线程数</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>核数</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>吉普森法</td>
+<td>$T_{M}=\sum_{i=1}^nf_{i}t_{i}$</td>
+</tr>
+<tr>
+<td></td>
+<td>CPI</td>
+<td>执行一条指令所需的时钟周期数</td>
+</tr>
+<tr>
+<td></td>
+<td>MIPS</td>
+<td>每秒执行多少百万条指令</td>
+</tr>
+<tr>
+<td></td>
+<td>FLOPS</td>
+<td>每秒浮点运算次数</td>
+</tr>
+<tr>
+<td>3. 存储容量</td>
+<td>主存容量</td>
+<td>表示方法：①存储单元个数 × 存储字长  ②字节数</td>
+</tr>
+<tr>
+<td></td>
+<td>辅存容量</td>
+<td>表示方法：字节数</td>
+</tr>
+</tbody></table>
+<hr>
+<details>
+    <summary>Question：MAR为10位，MDR为8位，问该存储体的容量为多少？（请用两种方式表示）</summary>
+    <br>∴ ①1K × 8位 ②1KB
+</details>
+
+
+<hr>
+<h1 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h1><h2 id="总线的基本概念"><a href="#总线的基本概念" class="headerlink" title="总线的基本概念"></a>总线的基本概念</h2><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522171637.png" width="40%"/>
+
+<p>意义：连接各部件信息的公共传输线，解决分散连接使散线过多系统难以扩展的问题</p>
+<p>由于总线一次只能允许一个部件的使用，<font color="red">单总线结构</font>会造成各部件对总线的争用，因此又衍生出<font color="red">多总线结构</font>。</p>
+<p><strong>总线的信息传送方式</strong></p>
+<ul>
+<li>串行：信息一位一位地传输</li>
+<li>并行：信息多位并行传输 <font color="#aaa">并行方式需要多条数据线进行传输，线与线之间会产生干扰，若传输距离较长，信号会发生变形</font></li>
+</ul>
+<h2 id="总线的分类"><a href="#总线的分类" class="headerlink" title="总线的分类"></a>总线的分类</h2><table>
+<thead>
+<tr>
+<th>WAYS</th>
+<th>CATEGORY</th>
+<th>MEANING</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 按位置功能划分</td>
+<td>片内总线</td>
+<td>在芯片内部的总线</td>
+</tr>
+<tr>
+<td></td>
+<td>系统总线</td>
+<td>位在芯片之外，计算机各部件之间的信息传输线（数据总线+地址总线+控制总线）</td>
+</tr>
+<tr>
+<td></td>
+<td>通信总线</td>
+<td>计算机和计算机或其他系统之间的通信线（串行通信总线+并行通信总线）</td>
+</tr>
+<tr>
+<td>2. 按传送内容划分</td>
+<td>数据总线</td>
+<td>双向传输总线。<font color="blue">位数与机器字长、存储字长有关</font></td>
+</tr>
+<tr>
+<td></td>
+<td>地址总线</td>
+<td>单向传输总线，指出数据所在的地址。<font color="blue">位数与存储单元个数有关</font></td>
+</tr>
+<tr>
+<td></td>
+<td>控制总线</td>
+<td>传输控制信息<br>常见控制信号：时钟（用于同步）、复位（初始化）、总线请求/允许、中断请求/响应、读/写、传输响应（表示数据已被接受）</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>I/O总线</td>
+<td></td>
+</tr>
+<tr>
+<td>主存总线</td>
+<td></td>
+</tr>
+<tr>
+<td>DMA总线</td>
+<td>direct memory access直接内存存取，使外部设备可以直接访问系统内存</td>
+</tr>
+<tr>
+<td>局部总线</td>
+<td>用于 ①cpu和cache高速缓冲区 ②桥的连接</td>
+</tr>
+<tr>
+<td>扩展总线</td>
+<td>连接各种外设</td>
+</tr>
+<tr>
+<td>高速总线</td>
+<td>连接高速设备</td>
+</tr>
+</tbody></table>
+<h2 id="总线特性及性能指标"><a href="#总线特性及性能指标" class="headerlink" title="总线特性及性能指标"></a>总线特性及性能指标</h2><p><strong>性能指标</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>总线宽度</td>
+<td>总线上能同时传输多少<font color="blue">位数</font>的数据，即<font color="red">数据总线的根数</font></td>
+</tr>
+<tr>
+<td>标准传输率</td>
+<td>每秒传输的最大字节数（MBps）</td>
+</tr>
+<tr>
+<td>总线时钟</td>
+<td><strong>总线时钟频率</strong>，是总线时钟周期的倒数，表示<font color="blue">每秒</font>可以传输的次数（ex. 8MHz=每秒可传输8兆次）<br><strong>总线时钟周期</strong>，机器的时钟周期</td>
+</tr>
+<tr>
+<td>总线传输周期</td>
+<td>一次总线操作所需的时间（<font color="blue">申请+寻址+传数+结束</font>），包含若干个时钟周期。<br><strong>总线工作频率</strong>是它的倒数</td>
+</tr>
+<tr>
+<td>带宽</td>
+<td>每单位时间可传输的信息数量<br/><font color="red">带宽 = 总线宽度（每次传输的数据位数）× 总线频率</font></td>
+</tr>
+<tr>
+<td>时钟同步/异步</td>
+<td></td>
+</tr>
+<tr>
+<td>总线复用</td>
+<td>地址线与数据线复用</td>
+</tr>
+<tr>
+<td>信号线数</td>
+<td>地址线、数据线、控制线的总和</td>
+</tr>
+<tr>
+<td>总线控制方式</td>
+<td>突发、自动、仲裁、逻辑、计数</td>
+</tr>
+<tr>
+<td>其他指标</td>
+<td>负载能力</td>
+</tr>
+</tbody></table>
+<p><strong>常见总线标准</strong></p>
+<table>
+<thead>
+<tr>
+<th>总线标准</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ISA</td>
+<td>工业标准体系结构（带宽16MBps = 数据线16×总线时钟8MHz = 2Byte×8MHz）</td>
+</tr>
+<tr>
+<td>EISA</td>
+<td>对ISA的扩展，可兼容ISA卡的使用，数据线宽度32位，传输带宽增加了一倍（<font color="blue">低速总线</font>）</td>
+</tr>
+<tr>
+<td>VESA</td>
+<td>视屏电子标准协会。为应对PC要求高速传输的活动图像而出现的总线类型。很多数据来自CPU，驱动能力较差。（<font color="blue">高速总线</font>）</td>
+</tr>
+<tr>
+<td>PCI</td>
+<td>Peripheral Component Interconnect，外设部件互联标准。是当前计算机用的最多的接口，是独立于处理器的结构，将CPU和外围设备分开，形成中间缓冲器的作用。外面的用户就可以随意添加外围设备，不用担心由于时钟周期的不同，导致系统性能的下降。（高速总线）<br>通过多层PCI桥可实现总线驱动力的提高和总线的扩展</td>
+</tr>
+<tr>
+<td>AGP</td>
+<td>点对点的局部总线，主要用于连接控制芯片和显卡，由PCI发展而成，速度较快最高可达32x133MHz=533MBps</td>
+</tr>
+<tr>
+<td>RS-232</td>
+<td>串行通信总线标准</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>通用串行接口总线</td>
+</tr>
+<tr>
+<td>SCSI</td>
+<td>小型计算机系统接口，用于计算机和智能设备(硬盘、光驱、打印机等）之间系统级接口的独立处理器标准</td>
+</tr>
+<tr>
+<td>SATA</td>
+<td>串行高级技术附件，基于行业标准的串行硬件驱动器接口</td>
+</tr>
+</tbody></table>
+<h2 id="总线控制与通信"><a href="#总线控制与通信" class="headerlink" title="总线控制与通信"></a>总线控制与通信</h2><p>目的：解决主从设备之间的协调配合问题</p>
+<p><font color="#aaa">主设备/模块：对总线有控制权，从设备/模块：要听从响应从主设备发来的总线控制命令</font></p>
+<iframe frameborder= "no" border= "0" marginwidth= "0" marginheight= "0" width=100% height=400 src= "https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/17395278/share/2020-6-7/1591467698/main.svg"></iframe>
+
+<p><strong>总线控制</strong></p>
+<table>
+<thead>
+<tr>
+<th>链式查询</th>
+<th>计时器定时查询</th>
+<th>独立请求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200606174006.png"></td>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200606174022.png"></td>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200606174017.png"></td>
+</tr>
+</tbody></table>
+<p><strong>总线通信</strong></p>
+<table>
+<thead>
+<tr>
+<th>同步通信</th>
+<th>异步通信</th>
+<th>半同步通信</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522174819.png"></td>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522174848.png"></td>
+<td><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175002.png"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th><strong>总线传输周期</strong></th>
+<th><strong>同/异/半同步通信的一个总线传输周期</strong></th>
+<th><strong>分离式通信的一个总线传输周期</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 申请分配阶段：主设备获得总线的使用权</td>
+<td>1. 主模块发出地址和命令，总线被占用</td>
+<td>1. 主模块申请占用总线，使用完后，立即放弃总线使用权</td>
+</tr>
+<tr>
+<td>2. 寻址阶段：主设备发出地址找到从设备</td>
+<td>2. 从模块准备数据，并不占用总线，总线处于被主模块仍旧占用的空闲状态</td>
+<td>2. 上一步骤结束后，从设备准备即将发出的数据，若已准备好，则申请占用总线，成为主模块，将各种信息送至总线上</td>
+</tr>
+<tr>
+<td>3. 传数阶段：从设备在准备就绪的情况下，发送/接受数据</td>
+<td>3. 从模块向主模块发送数据，总线不再空闲。</td>
+<td></td>
+</tr>
+<tr>
+<td>4. 结束阶段：主模块与从模块撤销相关信息</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="存储系统"><a href="#存储系统" class="headerlink" title="存储系统"></a>存储系统</h1><p><strong>存储器<font color="blue">（按照存储介质分类）</font></strong></p>
+<ul>
+<li>半导体存储器：按照01输入，来表示高低电频（ex.计算机的内存芯片、u盘）</li>
+<li>磁表面存储器：靠磁头读出、写入</li>
+<li>光盘存储器：利用光烧制，利用光写出</li>
+</ul>
+<p><strong>存储器<font color="blue">（依照作用功能分类）</font></strong></p>
+<ul>
+<li>主存储器（半导体存储器）<ul>
+<li>RAM：SRAM+DRAM</li>
+<li>ROM：MROM+PROM+EPROM+EEPROM</li>
+</ul>
+</li>
+<li>Flash Memory：可作为便携式存储器（ex.U-disk），也可作为计算机的硬盘，它是SSD的核心材料<font color="#aaa">SSD全名Solid-state drive固态硬盘</font></li>
+<li>高速缓冲存储器（Cache）</li>
+<li>辅助存储器</li>
+</ul>
+<p><strong>存储器的层次结构</strong></p>
+<p><font color="#aaa">对存储体+MDR+MAR的这种主存结构进行了更细部的划分说明</font></p>
+<img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175004.png" width=50%/>
+
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200525211923534.png"></p>
+<ul>
+<li>不同存储层次结构的搭配，使对程序员来说这个整体拥有主存的容量、缓存的速度和价格。</li>
+<li><font color="red">缓存-主存层次</font>主要是为了解决CPU和主存间<font color="blue">速度</font>不匹配问题，因此用硬件来做。所使用地址就是主存储器的地址。<font color="#aaa">缓存是靠内容进行查找，即是给出了地址也只是个编号。</font></li>
+<li><font color="red">主存-辅存层次</font>主要是为了解决<font color="blue">容量</font>问题，采软硬件相结合。其构成的成体称为”虚拟存储器“，匹对的地址为虚地址。</li>
+</ul>
+<h2 id="主存储器"><a href="#主存储器" class="headerlink" title="主存储器"></a>主存储器</h2><iframe frameborder= "no" border= "0" marginwidth= "0" marginheight= "0" width=100% height=860 src= "https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/17395278/share/2020-6-16/1592239820/main.svg"></iframe>
+
+<p><strong>半导体存储芯片</strong></p>
+<img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200522175007.png" width=50%/>
+
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>译码器</td>
+<td>对要访问的存储单元地址进行译码，译码之后才能选定指定的存储单元</td>
+</tr>
+<tr>
+<td></td>
+<td>将地址线传输来的二进制数据转换成对应的存储器单元编号，再辅以控制信号，就可以寻找到对应地址进行驱动。</td>
+</tr>
+<tr>
+<td>读写控制电路</td>
+<td>控制读写的方向。<br><font color="#aaa">若是写入，就将MDR的数据送到MAR指定的存储体地址中。若是读出，则存储体中指定的数据就会被送到MDR中读出。</font></td>
+</tr>
+<tr>
+<td>片选线</td>
+<td>给指定的地址，提供一组有效的芯片选择</td>
+</tr>
+</tbody></table>
+<p><strong>RAM：<a href="/2020/06/07/RandomAccessMemory/" target="_blank">Random Access Memory详细说明</a></strong></p>
+<p><strong>寻址</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>主存</strong><br>（该主存地址线为24位）</th>
+<th align="center"><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616005328163.png" alt="image-20200616005328163"></th>
+<th align="center"><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616005401497.png" alt="image-20200616005401497"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>字长</strong></td>
+<td align="center">4位的16进制 = 32位</td>
+<td align="center">2位的16进制 = 8位</td>
+</tr>
+<tr>
+<td align="center"><strong>按字节寻址的范围</strong></td>
+<td align="center">2<sup>24</sup> = 16M</td>
+<td align="center">16M</td>
+</tr>
+<tr>
+<td align="center"><strong>按字寻址的范围</strong></td>
+<td align="center">2<sup>24</sup>/4 = 4M</td>
+<td align="center">2<sup>24</sup>/2 = 4M</td>
+</tr>
+</tbody></table>
+<p><font color="#aaa"><b>∵</b>主存是按字节编址    <b>∴</b>地址的范围=按字节寻址的范围</font></p>
+<p><strong>技术指标</strong></p>
+<ul>
+<li>存储容量</li>
+<li>存储速度：通过<font color="red">存取时间</font>、<font color="red">存取周期</font>、<font color="red">存取带宽</font>来判断</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>存取时间</td>
+<td>存储器的访问时间（读出时间、写入时间）</td>
+</tr>
+<tr>
+<td><p id="存取周期">存取周期</p></td>
+<td><font color="blue">连续</font>两次<font color="blue">独立</font>的存储器操作所需要的<font color="blue">最小间隔时间</font><br/><font color="#aaa">一般来说存取周期要比存取时间长，周期=找地址时间+存取时间+复原时间</font></td>
+</tr>
+<tr>
+<td>存储带宽</td>
+<td>单位时间能向存储器写入/读取多少位的数据（单位：位/秒）</td>
+</tr>
+</tbody></table>
+<hr>
+<details>
+    <summary>Question<br>&emsp;若有地址线（单向）14根，数据线4根，请问该芯片的容量为多少？（用nK × n位表示)</summary>
+    <br>&emsp;ANS: MAR=14，MDR=4，主存容量为16K × 4位。 <font color="red">不会的话请回看计算机系统概论中“主机的基本构成”和“机器性能指标”部分</font>
+</details>
+
+<details>
+    <summary>Question2<br>&emsp;假设有n根输入线，译码驱动方式分别采用线选法和重合法，则输出线的数量分别会是多少？</summary>
+    <br>&emsp;ANS: 线选法为2<sup>n</sup>，重合法为2<sup>n/2</sup>×2 = 2<sup>1+n/2</sup></font>
+</details>
+
+
+<hr>
+<p><font color = "red">请自行阅读并完成《计算机组成原理》例4.1、4.2以掌握：  </font></p>
+<ol>
+<li>如何根据主存地址空间的分配范围计算出容量</li>
+<li>如何选择存储芯片</li>
+<li>如何画cpu与存储芯片连接逻辑图（数据线、地址线、读写控制线的连接）</li>
+<li>课本可能有点难啃，但了解清楚后就会觉得很多东西都豁然开朗了，称赞下自己是个小天才叭ヽ( ’ ω ’  )ノ！</li>
+</ol>
+<h2 id="存储器的校验（海明码）"><a href="#存储器的校验（海明码）" class="headerlink" title="存储器的校验（海明码）"></a>存储器的校验（海明码）</h2><p><strong>纠错理论</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>编码的最小距离</td>
+<td>任意两组代码之间二进制位数的最少差异。 <br>ex. {000,010,001,100,110,111,101}最小距离=1，{000,011,101,110}最小距离=2，{0000,1111}最小距离=4</td>
+</tr>
+</tbody></table>
+<p>编码的检错、纠错能力和编码的最小距离有关：<font color="red">L-1 = D+C（D≥C）</font></p>
+<p>L：length 编码的最小距离，D：detection 检错的位数，C：correction 纠错的位数</p>
+<p><strong>海明码</strong></p>
+<p>采用奇偶校验+分组校验（非划分）</p>
+<ul>
+<li><p>奇偶校验：添加1位1 or 0的校验位，使序列满足校验需求的奇偶性。以判断该序列是否有错</p>
+<ul>
+<li>奇校验：让原有数据序列中（包括要加上的一位校验位）1的个数为奇数</li>
+<li>偶校验：让原有数据序列中（包括要加上的一位校验位）1的个数为偶数</li>
+</ul>
+</li>
+<li><p>非划分的分组校验：组和组之间有重叠 ，以判断出错的位置 <font color="#aaa">//若有错，基本就错1位</font></p>
+<p>​    P1 P2 P3 = 000，表示组1组2组3都无差错</p>
+<p>​    P1 P2 P3 = 001，表示组3 - 组3∪组2 - 组3∪组1的部分有错</p>
+<p>​    P1 P2 P3 = 011，表示组2 ∩ 组3有错</p>
+</li>
+</ul>
+<p>信息位n和校验位k应满足：<font color="red">2<sup>k</sup> ≥ n+k+1</font> <font color = "#aaa">//检测结果需要指出这n+k位是哪一位错，还有1位是没有错，所以总状态数为n+k+1，这些状态我们是用k位的2进制数进行编码 ex. xxx1,xx1x,x1xx,1xxx</font></p>
+<p><font color="red">海明码部分的详情内容建议自行参阅《计算机组成原理》</font></p>
+<hr>
+<details>
+    <summary>Quiz1：分别求出按配偶原则和配偶原则配置0011的汉明码</summary>
+    &emsp;ANS：1000011，0101011
+</details>
+
+<details>
+    <summary>Quiz2：若已知接受到的汉明码为0100111（按配偶原则配置），试问要求传送的信息是什么？</summary>
+    &emsp;ANS：0101
+</details>
+
+<details>
+    <summary>Quiz3：写出按偶校验配置的汉明码0101101的纠错过程</summary>
+    &emsp;ANS：P4P2P1=100，第4位错，可不纠。
+</details>
+
+
+<hr>
+<h2 id="提高访存速度的措施"><a href="#提高访存速度的措施" class="headerlink" title="提高访存速度的措施"></a>提高访存速度的措施</h2><p>存储器的速度 &lt; CPU的速度，但CPU的数据、指令以及保存运行结果都需要依赖到内存，造成了“存储墙”的影响，为了解决该问题，可采用措施：</p>
+<ol>
+<li>采用高速器件</li>
+<li>采用层次结构：Cache-主存（Cache是由静态RAM做的，速度快，集成度低，功耗大）</li>
+<li>调整主存结构</li>
+</ol>
+<p><strong>高性能存储芯片</strong></p>
+<ul>
+<li>SDRAM（同步DRAM）</li>
+<li>RDRAM</li>
+<li>带Cache的DRAM</li>
+</ul>
+<p><strong>调整主存结构</strong></p>
+<ul>
+<li><p>单体多字</p>
+<p>存储体中包含多个机器字，以提高带宽。</p>
+<p>详细说明：一个存储体中包含了4个机器字，每1个机器字都是1条机器指令。cpu每次访问，就会将这4个值一起放入ACC中，下次再使用时就可以直接从数据寄存器中取出数据。从而，带宽提高了4倍→每隔1/4个存取周期就可以执行1条指令。</p>
+<p>Cons：4个机器字是以整体的方式进行存取，若遇到转移指令或操作数不连续的情况，会造成4条指令中只有1条有用其余无用的浪费。<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200604151600875.png" alt="image-20200604151600875"></p>
+</li>
+</ul>
+<p>多体并行</p>
+<ul>
+<li><p>高位交叉</p>
+<p>编址格式：体号（前两位）+体内地址（后四位）。体号决定存储体，体内地址决定存储体内的存储单元。可同时访问不同的体，实现并行。</p>
+<p>编址顺序：依<font color = "blue">顺序编址</font>，即竖向编址。</p>
+<p>Pros：由于体内的地址是连续的，有利于存储器的扩充。</p>
+<p>Cons：按照程序、数据连续存取的特征，会造成某一个存储体特别繁忙（正所谓一体有难，三体点赞٩(๑òωó๑)۶）</p>
+</li>
+<li><p>低位交叉</p>
+<p>编址格式：体内地址（前四位）+体号（后两位）</p>
+<p>编址顺序：<font color = "blue">各个体轮流进行编址</font>，即横向编址。</p>
+<p>features：在不改变存取周期的前提下，增加存储器带宽。一个存取周期内会以流水线方式来轮流访问不同的存储体，一次总线操作启动一个存储体。</p>
+</li>
+</ul>
+<hr>
+<details>
+    <summary>Question：设四体低位交叉存储器，存取周期为T，总线传输周期为τ，为实现流水线的方式存取，问T和τ应满足什么样的关系？若需要连续读4个字需要多长时间？若该存储器为高位交叉存储器，连续读4个字又需要多久？</summary>
+    <br>&emsp;ANS：T=4τ，低位交叉存储器连续读4个字的时间为T+(4-1)τ，高位交叉的时间为4T<br>
+    <img src="https://raw.githubusercontent.com/bessieyr/asset/master/img/20200604192853.png" width="50%"/>
+    <div align="center" style="color:#aaa; font-size:14px">低位交叉存储器流水线工作方式示意图</div>
+</details>
+
+
+<hr>
+<h2 id="高速缓冲存储器"><a href="#高速缓冲存储器" class="headerlink" title="高速缓冲存储器"></a>高速缓冲存储器</h2><p>目的：作为主存和CPU间的缓冲，容量小速度快</p>
+<p>主存：块号+块内地址</p>
+<p>Cache：标记（记录主存的块号，用以CPU判定该块是否有被命中至Cache中）+块号+块内地址</p>
+<p>Cache命中率，跟容量和块长有关</p>
+<p>效率$e=\frac{\text{访问cache时间}}{\text{平均访问时间}}\cdot100%$</p>
+<p>令访问cache时间为t<sub>c</sub>，访问主存时间为t<sub>m</sub>，命中率为h，则$e=\frac{tc}{ht_{c}+(1-h)t_{m}}$，效率范围为$\frac{t_{c}}{t_{m}}\sim 1$</p>
+<p><strong>Cache的基本结构</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200605172137.png" alt="image-20200605113531942"></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>主存Cache地址映射变换机构</td>
+<td>映射用于寻找哪个标记可以存入块号，变换用于寻找哪个标记拥有该块号</td>
+</tr>
+<tr>
+<td>Cache替换机构</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Cache的读写操作</p>
+<p>写操作需要满足数据的一支</p>
+<p>write through直写法：始终保持CPU和存储的一至，可能会造成重复写入</p>
+<p>write after：退出缓存时再写入CPU</p>
+<p>Cache的改进</p>
+<p>增加级数</p>
+<p>分开存储 for 流水 or 统一存储 地址+指令</p>
+<p>映射</p>
+<p>直接相联映射：1个主存块只能映射到固定的1个Cache块中。内存按Cache的大小分区，区号写入Cache的标记中。Cache利用率低、速度块</p>
+<p>全相联映射：1个主存快可映射至任意1个Cache块中。成本高，Cache利用率高，速度慢。</p>
+<p>组相联映射：1个主存快能映射至固定Cache组中的任意1块。折中。</p>
+<p>替换算法</p>
+<p>先进先出算法（FIFO：first in first out）</p>
+<p>近期最少使用算法（LRU：last resently used）</p>
+<h2 id="辅助存储器"><a href="#辅助存储器" class="headerlink" title="辅助存储器"></a>辅助存储器</h2><p>非重点，os考，计组不考</p>
+<p>磁盘，磁头：磁盘旋转，给定的磁道旋转到磁头下方，磁头开始读写数据</p>
+<p>记录密度</p>
+<ul>
+<li>道密度：径向上有多少单位磁道D<sub>t</sub></li>
+<li>位密度：单位磁道上保存了多少的二进制信息D<sub>b</sub></li>
+</ul>
+<p>数据传输率D<sub>r</sub>=D<sub>b</sub>×V位密度和旋转速度</p>
+<h1 id="输入输出系统"><a href="#输入输出系统" class="headerlink" title="输入输出系统"></a>输入输出系统</h1><p>早期</p>
+<ul>
+<li>分散连接</li>
+<li>CPU和I/O设备串行：程序查询方式 //I/O设备输入输出时，CPU必须运行相应的程序或停滞等待状态</li>
+</ul>
+<p>接口模块和DMA阶段（DMA：Direct Memory Access）</p>
+<ul>
+<li>总线连接</li>
+<li>并行：<ul>
+<li>中断方式</li>
+<li>DMA方式</li>
+</ul>
+</li>
+</ul>
+<p>通道结构阶段（类似于小型的功能更强的DMA控制器）</p>
+<ul>
+<li>拥有自己的通道程序，通过执行通道程序来控制连接于通道的I/O设备，和主机直接进行数据传输</li>
+</ul>
+<p>I/O处理机</p>
+<ul>
+<li>数据传输独立性更强</li>
+</ul>
+<p>组成</p>
+<ul>
+<li>I/O指令<ul>
+<li>操作码（I/O标志）+命令码（CPU的操作码）+（I/O设备orI/O寄存器又称I/O端口的地址）</li>
+</ul>
+</li>
+<li>通道指令<ul>
+<li>指出数组首地址、传送字数、操作命令</li>
+</ul>
+</li>
+</ul>
+<p>I/O设备与主机的联系（编址–选址–传送–联络–连接）</p>
+<ol>
+<li><p>编址方式</p>
+<ul>
+<li>统一编址，用取数存数指令</li>
+<li>不统一编址，用专门的I/O指令</li>
+</ul>
+</li>
+<li><p>联络方式</p>
+<ol>
+<li>立即响应</li>
+<li>异步响应</li>
+</ol>
+</li>
+<li><p>连接方式</p>
+<ol>
+<li>辐射式（即发散式）：主机接多个外设，增加I/O就需要增加一套控制电路，每台设备都配有一套控制线路，和一组信号线，不便于增删设备</li>
+<li>总线连接</li>
+</ol>
+</li>
+</ol>
+<p>I/O设备与主机信息传送的控制方式</p>
+<ol>
+<li><p>程序查询方式<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200611220134737.png" alt="image-20200611220134737"><br>CPU会反复等待I/O准备完毕，CPU和I/O串行</p>
+</li>
+<li><p>程序中断方式</p>
+<ul>
+<li>I/O工作处于准备期时，CPU不查询，直到需要主机交换信息，外部设备才会主动发出中断现行程序请求。<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200611221242907.png" alt="image-20200611221242907"></li>
+</ul>
+</li>
+<li><p>DMA方式</p>
+<ul>
+<li><p>主存和I/O间有一条直接的数据通道，周期挪用（窃取）来实现I/O与主存间的传送</p>
+</li>
+<li><p>dma方式的存取周期中cpu虽然无法访问内存，不能使用总线，但仍可以执行处理运算。</p>
+</li>
+<li><p>无需保存现场、恢复现场，无需执行中断程序，无需用软件完成数据的输入和输出</p>
+</li>
+</ul>
+</li>
+<li><p>比较：I/O系统的自治能力越来越强<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200611224348606.png" alt="image-20200611224348606"></p>
+</li>
+</ol>
+<p>用总线对主机和外部设备进行连接</p>
+<h2 id="I-O接口"><a href="#I-O接口" class="headerlink" title="I/O接口"></a>I/O接口</h2><p>接口的功能</p>
+<ul>
+<li>实现设备的选择（设备选择线，传送设备/端口的地址，在I/O接口进行匹配，单向线，看是否是对应的接口-设备选择电路）</li>
+<li>数据缓冲以达到速度匹配</li>
+<li>数据串-并格式转换</li>
+<li>电平转换</li>
+<li>传送控制命令（命令线-命令寄存器、命令译码器）</li>
+<li>反应设备状态（状态线-设备状态标记=完成触发器D+工作触发器B+中断请求触发器INTR+屏蔽触发器MASK）<br>屏蔽触发器：看当前主机工作的重要性判断是否发出中断请求</li>
+<li>（数据线：输入输出-数据缓冲寄存器）</li>
+</ul>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612104601880.png" alt="image-20200612104601880"></p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612105045864.png" alt="image-20200612105045864"></p>
+<p>DBR：data buffer register</p>
+<p>接口类型（分类）</p>
+<ul>
+<li>传送方式：并行接口、串行</li>
+<li>功能选择的灵活性：可编程接口、不可编程</li>
+<li>按通用性：通用接口、专用接口</li>
+<li>按数据传送的控制方式：中断接口、DMA接口//程序查询不需接口</li>
+</ul>
+<h2 id="程序查询方式"><a href="#程序查询方式" class="headerlink" title="程序查询方式"></a>程序查询方式</h2><p>接口电路：</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612114654731.png" alt="image-20200612114654731"></p>
+<h2 id="程序中断方式"><a href="#程序中断方式" class="headerlink" title="程序中断方式"></a>程序中断方式</h2><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612115134568.png" alt="image-20200612115134568"></p>
+<p>中断方式的接口电路</p>
+<ul>
+<li>配置中断请求触发器和中断屏蔽触发器<ul>
+<li>INTR（interrupt）中断请求触发器：INTR = 1有请求</li>
+<li>MASK中断屏蔽触发器：MATK = 1被屏蔽</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612120340624.png" alt="image-20200612120340624"></li>
+<li></li>
+</ul>
+</li>
+<li>排队器<ul>
+<li>硬件的排队电路放置位置 =&gt; 链式排队器（菊花链？？？？）<ol>
+<li>集中放在CPU内部</li>
+<li>放在每一个接口电路中，组成一个链</li>
+</ol>
+</li>
+<li>软件方式进行排队，通过查询的方法，从高优先级到低优先级进行查询的过程（后续第八章介绍）</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612121121845.png" alt="image-20200612121121845"><ul>
+<li>优先级：INTR1&gt;INTR2&gt;INTR3&gt;INTR4</li>
+<li>​    当没有中断请求时，输出’是1</li>
+<li>当设备有中断请求INTR=1，$\overline{INTR}$=0，INTR’=0，其余之后的输出’都会是0</li>
+<li>紫线=0，黄线=1</li>
+<li>硬件设计的基本器件是与非门，不使用与门</li>
+</ul>
+</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612123520816.png" alt="image-20200612123520816"><ul>
+<li>这样就只有有中断请求的输出会是1</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>中断向量地址<ul>
+<li>入口地址<ul>
+<li>由软件产生：第八章</li>
+<li>硬件向量法：由硬件产生向量地址（排队器输出得到），在有向量地址找到入口地址</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200613112713210.png" alt="image-20200613112713210"></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>程序中断方式接口电路的组成<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200612125600811.png" alt="image-20200612125600811"></li>
+</ul>
+</li>
+<li>I/O中断处理过程<ul>
+<li>CPU响应中断条件：允许中断触发器EINT=1</li>
+<li>响应的时间：当D=1，MASK=0（允许接口提出中断服务请求），在每条指令执行阶段的结束前，CPU发中断查询信号（将EINT=1）</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200613114655941.png" alt="image-20200613114655941"></li>
+</ul>
+</li>
+<li>中断服务程序的流程<ol>
+<li>保护现场<ol>
+<li>程序断点的保护：中断隐指令，硬件要自行完成操作，并非一条真的指令，在第九章</li>
+<li>寄存器内存的保护：进桟指令，因为中断返回后，主程序可能好需要这些值进行操作</li>
+</ol>
+</li>
+<li>中断服务</li>
+<li>恢复现场：出栈指令</li>
+<li>中断返回：中断返回指令</li>
+</ol>
+</li>
+<li>单重和多重中断<ul>
+<li>单重</li>
+<li>多重：允许更高优先级中断原本的中断（套娃！）</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200613115826351.png" alt="image-20200613115826351"></li>
+</ul>
+</li>
+<li>主程序和服务程序抢占CPU<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200613120308624.png" alt="image-20200613120308624"></li>
+<li>宏观上CPU和I/O并行工作</li>
+<li>微观上CPU中断现行程序</li>
+</ul>
+</li>
+</ul>
+<p>##　ＤＭＡ方式</p>
+<ul>
+<li><p>DMA程序和程序中断，DMA无需经过CPU</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200613123405259.png" alt="image-20200613123405259"></li>
+</ul>
+</li>
+<li><p>DMA与主存交换数据的方式</p>
+<ol>
+<li>直接停止CPU访问主存</li>
+<li>周期（内存访问周期）挪用/窃取<ul>
+<li>DMA占用一个或几个周期完成数据传输，在数据传输间隔DMA放弃对总线的占用</li>
+<li>CPU不妨问主存-&gt;访存使用权直接配给DMA</li>
+<li>CPU正在访存-&gt;DMA不访存</li>
+<li>CPU和DMA同时请求访存-&gt;DMA优先因DMA上连接的是高速设备，若不响应，可能造成数据流失</li>
+</ul>
+</li>
+<li>交替访问</li>
+</ol>
+</li>
+<li><p>DMA接口功能</p>
+<ol>
+<li>向CPU申请DMA传送</li>
+<li>处理总线控制权的转交</li>
+<li>管理系统总线、控制数据传送</li>
+<li>确定数据传送的首地址和长度，修正传送过程中数据地址和长度</li>
+<li>DMA传送结束时，给出操作完成信号</li>
+</ol>
+</li>
+<li><p>DMA接口组成</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614091644746.png" alt="image-20200614091644746"></li>
+<li>AR：Address//储存对应存放的内存位置</li>
+<li> WC：Word Counter//每传输一组数据+1</li>
+<li>DAR：Device Address Register（设备地址寄存器，供设备电路选择使用表达是否存在这个DMA接口，可以保存各种编号用来表示传输数据的地址）</li>
+<li>BR：Buffer（即DBR）</li>
+<li>DREQ：device request</li>
+<li>DACK+HLDA应答信号，HLDA是总线的应答</li>
+</ul>
+</li>
+<li><p>DMA工作过程</p>
+<ul>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614094732506.png" alt="image-20200614094732506"></p>
+</li>
+<li><p>DMA传送过程</p>
+<ol>
+<li>预处理：预置如下信息<ul>
+<li>通知DMA控制逻辑传送方向入or出</li>
+<li>设备地址-&gt;DAR</li>
+<li>主存地址-&gt;AR</li>
+<li>传送字数-&gt;WC</li>
+</ul>
+</li>
+<li>数据传输过程<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614095001260.png" alt="image-20200614095001260"></li>
+</ul>
+</li>
+<li>后处理<ul>
+<li>检验送入主存的数是否正确</li>
+<li>是否继续用DMA</li>
+<li>测试传送过程是否正确，错则转诊断程序</li>
+<li><font color="blue">由中断服务程序完成</font></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>DMA接口与系统的连接方式</p>
+<ul>
+<li>具有公共请求线的DMA请求，类似链式</li>
+<li>独立的DMA接口，类似独立请求</li>
+</ul>
+</li>
+<li><p>DMA方式与程序中断方式的比较</p>
+</li>
+<li><table>
+<thead>
+<tr>
+<th></th>
+<th>中断方式</th>
+<th>DMA方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数据传送</td>
+<td>由中断程序完成，需要CPU参与</td>
+<td>硬件</td>
+</tr>
+<tr>
+<td>响应时间</td>
+<td>指令执行结束</td>
+<td>存取周期结束</td>
+</tr>
+<tr>
+<td>处理异常情况</td>
+<td>能</td>
+<td>不能</td>
+</tr>
+<tr>
+<td>中断请求</td>
+<td>为了传送数据</td>
+<td>为了后处理</td>
+</tr>
+<tr>
+<td>优先级</td>
+<td>低</td>
+<td>高</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>DMA接口类型</p>
+<ul>
+<li>选择型：有多个设备连接，但CPU运行到输入输出指令到数据准备以及数据传输都只有一个设备运行</li>
+<li>多路型：数据准备阶段可以多个设备并行准备，但数据传输时也只能有一个设备和内存进行传输<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614101702231.png" alt="image-20200614101702231"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="第二部分：CPU-ALU"><a href="#第二部分：CPU-ALU" class="headerlink" title="第二部分：CPU-ALU"></a>第二部分：CPU-ALU</h1><h1 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h1><p>主要了解ALU的计算方式</p>
+<h2 id="无符号数和有符号数的表示"><a href="#无符号数和有符号数的表示" class="headerlink" title="无符号数和有符号数的表示"></a>无符号数和有符号数的表示</h2><p><strong>原码</strong>表示法</p>
+<ul>
+<li><p>整数 //-2<sup>n</sup>＜x＜2<sup>n</sup>  //逗号分隔数值与符号</p>
+<ul>
+<li>x = +1110 → [x]<sub>原</sub> = 0,1110</li>
+<li>x = -1110 → [x]<sub>原</sub> = 2<sup>4</sup>+1110 = 1,1110</li>
+</ul>
+</li>
+<li><p>小数 //-1 &lt; x &lt; 1 //小数点分隔符号与数值</p>
+<ul>
+<li>x = +0.1100 → [x]<sub>原</sub> = 0.1100</li>
+<li>x = -0.1100 → [x]<sub>原</sub> = 1.1100</li>
+</ul>
+</li>
+<li><details>
+    <summary>question：求x = 0的原码</summary><br>
+    &emsp;ANS：假设机器数的数值长度是4位，x = 0时可以用正数、负数、整数、小数的表示。    
+    <br>&emsp;&emsp;&emsp;&emsp;[x]<sub>原</sub>: ①[+0]<sub>原</sub> = 0.0000 ②[-0]<sub>原</sub> = 1.0000 ③[+0.0000]<sub>原</sub> = 0,0000 ④[-0.0000]<sub>原</sub> = 1,0000
+</details>
+
+</li>
+</ul>
+<p><strong>补数</strong>：用于将减法能转换成加法计算</p>
+<ul>
+<li><p>补数的基本概念</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614134424689.png" alt="image-20200614134424689"><ul>
+<li>记作1011&equiv;0101（mod 2<sup>4</sup>）//负数与补数相加=模，这里的模是2<sup>4</sup></li>
+<li>-0.1001&equiv;1.0111 (mod 2)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>正数的补码：最大值就是2<sup>n</sup>-1，所以会得到如下范围定义，最小可表示到-2<sup>n</sup>，同时+0和-0的补码表示相同，2<sup>n</sup>和-2<sup>n</sup>相同</p>
+<ul>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614163457164.png" alt="image-20200614163457164"></p>
+</li>
+<li><p>正数的补数即本身</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614135608956.png" alt="image-20200614135608956"></li>
+</ul>
+</li>
+<li><p>由于一个数的补数可能是它本身，也可能是负数，因此再加上一位的模来表示正负，逗号分隔补数的符号位</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614140056002.png" alt="image-20200614140056002"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>小数补码：范围(1, -1]，mod为2</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614153642969.png" alt="image-20200614153642969"></li>
+<li>mod 4小数前有两位，mod 8有3位</li>
+</ul>
+</li>
+<li><p>补数的快捷方式：真值为负值时，补码除了符号位取1，其余每位取反，末位加一（<font color="red">取反加一</font>）</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614154149704.png" alt="image-20200614154149704"><br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615152637333.png" alt="image-20200615152637333"></li>
+<li><font color="red">补码转换原码可以用补数的补数的思路！！！</font>符号位变一下就可得到真值！！！太酷了这个！！！</li>
+</ul>
+</li>
+<li><p>练习</p>
+</li>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614160528750.png" alt="image-20200614160528750"></p>
+<ul>
+<li>70=2<sup>6</sup>+2<sup>2</sup>+2=1000110</li>
+<li>答案： <ul>
+<li>0,1000110 //<font color="red">注意正值符号位的0！！</font></li>
+<li>1,011010</li>
+<li>0.1110</li>
+<li>1.0010</li>
+<li>0.0000 </li>
+<li>0.0000 //<font color="red">由于补码得到的10.0000前面的1会溢出不见，所以在-0.0000的补码上会跟0.0000相同，但是如果是原码则会不同，-0.0000的原码是1.0000</font></li>
+<li>1.0000 //<font color="red">-1.0000在小数补码的(1, -1]的区间内有补码，但无原码！！</font></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>反码</strong>：用是除符号位外，单纯的取反</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614171626870.png" alt="image-20200614171626870"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614171705732.png" alt="image-20200614171705732"><ul>
+<li>2<sup>-n</sup>就是最后那个加一，由于不做，所以要反向扣回来！</li>
+</ul>
+</li>
+<li>[0.0000]<sub>反</sub>=0.0000，[-0.0000]<sub>反</sub>=1.1111</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614172901548.png" alt="image-20200614172901548"></li>
+<li><font color="red">[y]<sub>补</sub>→[-y]<sub>补</sub>：连同符号位在内，每位取反末位加1（[y]<sub>补</sub>→[-y]<sub>补</sub>就是补数+正值不变的过程）</font></li>
+</ul>
+<p><strong>移码</strong>：<font color="red">只有整数形式的定义！因用于浮点数据表示的接码部分。</font>能比补码等更直观地直接比较其真值的大小。-2<sup>n<sup>的补码是n+1个符号位的1因此存在！</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614174629745.png" alt="image-20200614174629745"></li>
+<li>移码和补码的符号位刚好相反，其他都一样</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614175253624.png" alt="image-20200614175253624"></li>
+</ul>
+<h2 id="定点与浮点表示"><a href="#定点与浮点表示" class="headerlink" title="定点与浮点表示"></a>定点与浮点表示</h2><p><strong>定点</strong></p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200614180249796.png" alt="image-20200614180249796"></li>
+</ul>
+<p><strong>浮点数</strong></p>
+<ul>
+<li><p>N=S×r<sup>j</sup>，S：尾数，r：尾数的基值，j：阶码</p>
+</li>
+<li><p>计算机中尾数的值均是≤1</p>
+</li>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615124310665.png" alt="image-20200615124310665"></p>
+</li>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615124848099.png" alt="image-20200615124848099"></p>
+</li>
+<li><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615125736099.png" alt="image-20200615125736099"></p>
+<ul>
+<li>s<sup>m</sup>-1类比科学记数法，正值扩张，负值缩小。1-2<sup>-n</sup>代表小数范围</li>
+</ul>
+</li>
+<li><details>
+    <summary>Question：设机器字长为24位，欲表示±3万的十进制数，在保证数的最大精度的前提下，除阶符数符各一位外，阶码、尾码各取几位？</summary>
+    <br>&emsp;&emsp;ANS：<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615133328176.png"/>
+</details>
+</li>
+<li><p>浮点数规格化</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615133835530.png" alt="image-20200615133835530"></li>
+<li>证明上方结论<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615134359639.png" alt="image-20200615134359639"></li>
+</ul>
+</li>
+<li><p>课本例题</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615143014202.png" alt="image-20200615143014202"></li>
+</ul>
+</li>
+<li><p>机器零</p>
+<ul>
+<li>当阶码为零或者位数为零时，机器“判0”，比如在浮点机中就会表示为：0,0000；0.00…00</li>
+</ul>
+</li>
+</ul>
+<h2 id="定点运算"><a href="#定点运算" class="headerlink" title="定点运算"></a>定点运算</h2><p><strong>移位运算</strong></p>
+<ul>
+<li>意义：移动<font color="blue">相对于符号位</font>的位置</li>
+<li>移位原则<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615152812280.png" alt="image-20200615152812280"></li>
+<li>例题<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615153803265.png" alt="image-20200615153803265"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615162857845.png" alt="image-20200615162857845"></li>
+</ul>
+</li>
+<li>实现移位的硬件电路<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615162407535.png" alt="image-20200615162407535"><ul>
+<li>真值为正时符号位不变，构成一个循环，左移最高位丢掉 那个向下的箭头就是丢弃的意思，最低位补0 把0用箭头给它，其他类似</li>
+<li>这里的丢1是指真值、原码、补码等一律丢的都是1，如果丢的对应真值是0就不会出错</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>逻辑位移：不存在符号数，整体移动，而算数位移存在不动的符号位</li>
+</ul>
+<p><strong>加减运算</strong></p>
+<ul>
+<li><p>算法</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615163943707.png" alt="image-20200615163943707"><br><font color="red">公式的证明要会！对于+B或-B补数都是mod 2<sup>n+1</sup>+X，因此两者相同</font></li>
+</ul>
+</li>
+<li><p>例题</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615164840191.png" alt="image-20200615164840191"><br><font color="red">此处设题有漏洞，假设了机器字长为4位，符号位是1位，要强化注意对机器数的概念！</font></li>
+<li>[B]<sub>补</sub>→[-B]<sub>补</sub>的方法见上面的反码部分！（包含符号位在内每位取反，末位加1）<br>符号位溢出部分直接省略不计！<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200615172609308.png" alt="image-20200615172609308"></li>
+</ul>
+</li>
+<li><p>溢出判断</p>
+<ol>
+<li>1位符号位判溢出：最高有效位的进位$\bigoplus$符号位的进位 = 1 即溢出<ul>
+<li>若数值部分进位，原符号位0的会变成1，原符号位1的会变成0 → 符号位与原本的相反 → 溢出</li>
+<li>若符号位进位，原符号必定是从1变成0 (10) → 溢出</li>
+<li>若数值部分和符号位都进位，原符号位1还会是1 → 不算溢出</li>
+<li>有无溢出看得就是符号位是否相反</li>
+<li>ps黄字确实有写错的部分，例2的A-B答案不是10，000……</li>
+</ul>
+</li>
+<li>2位符号位判溢出<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616105830006.png" alt="image-20200616105830006"></li>
+<li>两符号位不同即溢出</li>
+</ul>
+</li>
+<li>硬件<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616111058358.png" alt="image-20200616111058358"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616111142131.png" alt="image-20200616111142131"></li>
+<li>A：ACC。G<sub>A</sub>的A是Add，S是Subtract，表示是做加法还是减法。</li>
+<li>取反就加个反相器就行了。补数之后再加上个1。A和X都是n+1位</li>
+<li></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>乘法运算</strong></p>
+<ul>
+<li>运算由加和移位实现<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616120056767.png" alt="image-20200616120056767"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616120038120.png" alt="image-20200616120038120"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616120012700.png" alt="image-20200616120012700"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616115931941.png" alt="image-20200616115931941"></li>
+<li>硬件<ul>
+<li>需要3个寄存器，2个具有移位功能，抱持累加和的高低位以及乘商寄存器需要移位</li>
+<li>还要1个全加器</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>原码乘法：加上符号位的处理<ul>
+<li>公式：[x]<sub>原</sub> · [y]<sub>原</sub> = x<sub>0</sub>$\bigoplus$ y<sub>0</sub>· (0.x<sub>1</sub>x<sub>2</sub>x<sub>3</sub>…x<sub>n</sub>) (0.y<sub>1</sub>y<sub>2</sub>y<sub>3</sub>…y<sub>n</sub>) = x<sub>0</sub>$\bigoplus$ y<sub>0</sub>· x*y*    //x*是x的绝对值，y*是y的绝对值</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616144420403.png" alt="image-20200616144420403"><br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200616144447478.png" alt="image-20200616144447478"></li>
+<li>硬件<ul>
+<li>Q寄存器的高位部分会逐渐被累加和的低位部分占据</li>
+<li>计数器用来记录移位次数，n位的数字需要移位n次</li>
+<li>S是符号位</li>
+<li>G<sub>M</sub>：乘法标志</li>
+<li>做一次加法就做一次移位，加法和移位是由乘数的最低位控制</li>
+<li>当乘数最末位的值是1时控制门打开，被乘数从X通过控制门送到加法器</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>除法运算</strong></p>
+<ul>
+<li>恢复余数法：为了实现减法操作，引入了y的补码，<font color="blue">逻辑左移</font><ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618140426268.png" alt="image-20200618140426268"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618140355439.png" alt="image-20200618140355439"></li>
+</ul>
+</li>
+<li>不恢复余数法/加减交替法：先用-y去加溢出的话直接移位之后在拿+y补，不理解的话直接拿除法算式计算一边<ul>
+<li>当上商0时，(x*-y*)&lt;&lt;1+y* = 2(x*-y*)+y*，也就同于恢复余数法中的x*&lt;&lt;1-y*</li>
+<li>上商1时</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618145739607.png" alt="image-20200618145739607"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618150928226.png" alt="image-20200618150928226"></li>
+</ul>
+</li>
+</ul>
+<h2 id="浮点四则运算"><a href="#浮点四则运算" class="headerlink" title="浮点四则运算"></a>浮点四则运算</h2><p><strong>加减法运算</strong></p>
+<p>x = $S_{x}\cdot2^{j_{x}}$，y = $S_{y}\cdot2^{j_{y}}$</p>
+<ol>
+<li>对阶：<ol>
+<li>求阶差</li>
+<li>通过右移方式使阶码j<sub>x</sub>=j<sub>y</sub> //不能左移，左移可能会造成最高位的溢出导致数据出错，右移只会影响精度</li>
+</ol>
+</li>
+<li>尾数求和</li>
+<li>规格化：为了尽可能地提高计算机中浮点数的表示精度<ul>
+<li>定义，|S|尾数的范围在1/基值~1之间<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618154803748.png" alt="image-20200618154803748"></li>
+</ul>
+</li>
+<li>对于规格化数通常采用以下的方法而不使用定义，但会存在两个点的特例-1/2&amp;-1<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618155035007.png" alt="image-20200618155035007"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618155339085.png" alt="image-20200618155339085"></li>
+<li>左规右规  <ul>
+<li>由于补数为负数时是相反当为1.1..时其实是-0.0..，因此需要左移放大</li>
+<li>符号位两位是为了判断溢出，符号位不同就是溢出，就需要右规</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618155733112.png" alt="image-20200618155733112"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>舍入<ol>
+<li>0舍1入法</li>
+<li>恒置“1”法</li>
+</ol>
+</li>
+<li>溢出判断</li>
+</ol>
+<p><strong>例题</strong></p>
+<p>这个例题很重要有很多运算关键点！①补码移位要如何添加 ②移位后阶码如何改变 ③补码的形式：x的补码是针对于尾数部分的，因此尾数会因负值而改变，前面阶码照抄就好，但在专门计算阶码时仍需注意阶值为负的情形与正的有所区别</p>
+<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618172747558.png" alt="image-20200618172747558"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618172814196.png" alt="image-20200618172814196"></li>
+</ul>
+<p><strong>乘除法</strong>：补码方便加减，原码实现乘除，所以浮点乘除不那么重要，408考纲不含这个，老师说自学！</p>
+<h2 id="算数逻辑单元（本节可能不重要？不太清楚）"><a href="#算数逻辑单元（本节可能不重要？不太清楚）" class="headerlink" title="算数逻辑单元（本节可能不重要？不太清楚）"></a>算数逻辑单元（本节可能不重要？不太清楚）</h2><p><strong>ALU电路</strong></p>
+<p>ALU是组合逻辑电路，无记忆结果功能，所以需要再A<sub>i</sub>B<sub>i</sub>端连接寄存器</p>
+<p>F表示输出，K控制所做的运算类型</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618181250492.png" alt="image-20200618181250492"></p>
+<p><strong>快速进行链</strong></p>
+<ol>
+<li>并行加法器<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618182026232.png" alt="image-20200618182026232"><ul>
+<li>输入端：AB为输入，C为从低位来进位</li>
+<li>输出端：S为对应加法的和的结果的1位，另一个C为向高位的进位</li>
+<li>如果输入的为1、00或者111，那么对应S的值就是1<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618181917610.png" alt="image-20200618181917610"></li>
+<li>当2个或以上的输入为1时就会产生进位<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618182011623.png" alt="image-20200618182011623"></li>
+<li>这种输入-&gt;输出的机器FA称为全加器</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618183319030.png" alt="image-20200618183319030"><br>因此d<sub>i</sub>=A<sub>i</sub>B<sub>i</sub>称为本地进位，t<sub>i</sub>=A<sub>i</sub>+B<sub>i</sub>被称为传送条件当它为1时会将C<sub>i-1</sub>的值传送到C<sub>i</sub></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618183626497.png" alt="image-20200618183626497"></li>
+</ul>
+</li>
+<li>串行进位链：传送进位的电路，在加法器中可以独立出“进位产生”的这部分电路<ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618184006941.png" alt="image-20200618184006941">（by笛摩根定律，给跪了我知道这个定律但完全想不到去使用！）</li>
+<li>通过上面的表达式就可以建构电路<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618184200703.png" alt="image-20200618184200703"></li>
+<li>如果一个与非门的延迟时间为t，按上图所构成的4位全加器产生进位的全部时间为8t<br>n位全加器就需要2nt</li>
+</ul>
+</li>
+<li>并行进位链（先行进位/跳跃进位）：提高进位的速度，进位时间为2.5t<ul>
+<li>用“与或非门”<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618204000697.png" alt="image-20200618204000697"></li>
+<li>组与组间串行连接，组内并行进位<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618204056573.png" alt="image-20200618204056573"></li>
+<li>大组与大组间串行连接，组内分批同时进位<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200618204120543.png" alt="image-20200618204120543"><ul>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200619124017906.png" alt="image-20200619124017906"></li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200619124957160.png" alt="image-20200619124957160"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h1 id="第三部分：CPU-CU"><a href="#第三部分：CPU-CU" class="headerlink" title="第三部分：CPU-CU"></a>第三部分：CPU-CU</h1><h1 id="控制器"><a href="#控制器" class="headerlink" title="控制器"></a>控制器</h1><h2 id="机器指令"><a href="#机器指令" class="headerlink" title="机器指令"></a>机器指令</h2><p><strong>指令格式</strong></p>
+<p>操作码+地址码</p>
+<ol>
+<li>操作码：长度可固定也可改变<ul>
+<li>扩展操作码技术：减少1种1111的操作码作为拓展标志，从而拓展出最多2<sup>4</sup>条地址数</li>
+</ul>
+</li>
+<li>地址码<ul>
+<li>通过减少地址字段的个数，使每个地址字段能占更多位，从而扩大寻址范围</li>
+<li>例如：假设指令字长为32位，其中操作码占八位<ul>
+<li>四地址指令：每个地址字段各占6位，寻址范围=2<sup>6</sup>=64，四次访存<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200620171826188.png" alt="image-20200620171826188"></li>
+<li>三地址指令：有计数器PC存放当前欲执行指令地址，并自动生成下一条指令地址</li>
+<li>二地址指令：中间结果保存在ACC而非主存中，3次访存</li>
+<li>一地址指令：地址字段为24位，寻址范围可达=2<sup>24</sup>=16KB，ACC即存放参与运算的操作数又存放中间结果，2次访存</li>
+<li>零地址：空操作、停机等等，只有操作码而无地址</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>指令字长</strong></p>
+<p>取决于：操作码长度+操作数地址长度+操作码地址个数</p>
+<p>字长可固定，也可按照字节的倍数进行变化</p>
+<h2 id="操作数的类型和操作种类"><a href="#操作数的类型和操作种类" class="headerlink" title="操作数的类型和操作种类"></a>操作数的类型和操作种类</h2><p><strong>操作数类型</strong></p>
+<ul>
+<li><p>地址：for跳转指令</p>
+</li>
+<li><p>数字</p>
+</li>
+<li><p>字符</p>
+</li>
+<li><p>逻辑数：for逻辑运算</p>
+</li>
+</ul>
+<p><strong>数据在存储器中的存放方式</strong></p>
+<ol>
+<li>从任意位置开始存储：不浪费存储资源但访问速度慢</li>
+<li>从一个存储字的起始位置开始存储：访问速度快，但浪费了太多存储资源</li>
+<li>边界对齐方式：从地址的整数倍开始访问，折中</li>
+</ol>
+<p><strong>操作种类</strong></p>
+<ol>
+<li>数据传送</li>
+<li>算数逻辑操作</li>
+<li>移位操作：算数移位、逻辑移位、循环移位</li>
+<li>转移<ol>
+<li>有条件跳转</li>
+<li>无条件跳转</li>
+<li>调用和返回</li>
+<li>陷阱指令：出现异常时，由CPU自动执行的隐指令</li>
+</ol>
+</li>
+<li>输入输出</li>
+</ol>
+<p><a href="https://wenku.baidu.com/view/c087cea0f524ccbff12184a3.html">汇编指令大全</a></p>
+<h2 id="寻址方式"><a href="#寻址方式" class="headerlink" title="寻址方式"></a>寻址方式</h2><ol>
+<li>指令的寻址<ol>
+<li>顺序寻址：(PC)+1→PC //这边的1其实是1条指令的长度</li>
+<li>跳跃寻址：由移转指令指出</li>
+</ol>
+</li>
+<li>指令中数据的寻址<br><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200621152617486.png" alt="image-20200621152617486"><ul>
+<li>形式地址并不一定是操作数的真实地址，要根据寻址特征经过一系列的寻址运算才能变有效地址</li>
+<li>寻址特征：寻址的方式</li>
+<li>寻址方式：请自行看课本！</li>
+</ul>
+</li>
+</ol>
+<h2 id="RISC技术"><a href="#RISC技术" class="headerlink" title="RISC技术"></a>RISC技术</h2><p>28原则</p>
+<p>RISC：精简指令计算机，Reduced Instruction Set Computer</p>
+<ul>
+<li>选择使用频度高的简单指令，来完成复杂指令的功能 → 加快执行速度</li>
+<li>指令长度固定、指令格式种类少、寻址方式少</li>
+<li>只有LOAD/STORE指令访存，其他只能在寄存器中</li>
+<li>CPU中有多个通用寄存器</li>
+<li>采用流水线方式来在一个时钟周期内完成一条指令</li>
+<li>采用逻辑组合实现控制器</li>
+</ul>
+<p>CISC：复杂指令计算机，Complex…</p>
+<ul>
+<li>指令系统庞大</li>
+<li>指令长度不固定、指令格式种类多、寻址方式多</li>
+<li>访存指令不受限制</li>
+<li>CPU中设有专用寄存器</li>
+<li>大多数指令需要多个时钟周期完成</li>
+<li>采用微程序控制器</li>
+</ul>
+<p><strong>比较</strong></p>
+<ul>
+<li>RISC更能充分利用VLSI芯片面积</li>
+<li>RISC提高运行速度，且便于实现指令流水</li>
+<li>RISC便于设计可降低成本，提高可靠性</li>
+<li>RISC不易实现指令系统兼容</li>
+</ul>
+<h1 id="CPU的结构和功能"><a href="#CPU的结构和功能" class="headerlink" title="CPU的结构和功能"></a>CPU的结构和功能</h1><h2 id="CPU的结构"><a href="#CPU的结构" class="headerlink" title="CPU的结构"></a>CPU的结构</h2><p>cpu的功能：对指令进行解释，包含了控制器的功能+运算器的功能，主要可划分为5大部分——指令控制（PC、IR：Instruction register）、操作控制（CU时序电路）、时间控制（CU）、处理中断（中断系统）、数据加工（ALU）</p>
+<p>控制器的功能：</p>
+<ul>
+<li>取指令→指令控制</li>
+<li>分析指令</li>
+<li>执行指令→操作控制，各种操作命令要有先后顺序，因此还有时间控制</li>
+<li>控制程序输入及结果输出</li>
+<li>总线管理</li>
+<li>处理异常情况和特殊请求→处理中断</li>
+</ul>
+<p>运算器的功能：实现算数运算and逻辑运算→数据加工</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200625091226290.png" alt="image-20200625091226290"></p>
+<p><strong>CPU寄存器的分类</strong></p>
+<ol>
+<li>用户可见寄存器<ol>
+<li>通用寄存器</li>
+<li>数据寄存器</li>
+<li>地址寄存器</li>
+<li>条件码寄存器 //条件码：是否需要跳转等等</li>
+</ol>
+</li>
+<li>依控制和状态寄存器进行分类<ol>
+<li>控制寄存器<img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200625091828066.png" alt="image-20200625091828066"></li>
+<li>状态寄存器<ul>
+<li>状态寄存器：用于存放条件码</li>
+<li>PSW寄存器（Program State Word寄存器）：用于存放程序状态字，为了在程序中断后还能回到断点继续执行给定程序，在程序中断或转子程序时，就要保存程序的运行现场和程序的断点，把软硬件状态相关的寄存器集合成一个大的寄存器，这就是程序状态字</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p><strong>控制单元CU和中断系统</strong></p>
+<ol>
+<li>CU产生全部指令的微操作命令序列（在第4篇介绍）<ul>
+<li>组合逻辑设计：硬连线逻辑</li>
+<li>微程序设计：存储逻辑</li>
+</ul>
+</li>
+<li>中断系统 //后续介绍</li>
+</ol>
+<p><strong>ALU</strong> //第六章已介绍</p>
+<h2 id="指令周期"><a href="#指令周期" class="headerlink" title="指令周期"></a>指令周期</h2><p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629094958145.png" alt="image-20200629094958145"></p>
+<p>NOP指令没有执行阶段</p>
+<p>间接寻址需要取操作数的地址和取操作数两次访存，因此执行周期会较长，会专门加一个间址周期</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629095814902.png" alt="image-20200629095814902"></p>
+<p>具有中断周期的指令周期</p>
+<p>指令周期的流程</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629101551476.png" alt="image-20200629101551476"></p>
+<p>CPU的访存</p>
+<ol>
+<li>取指令：取址周期</li>
+<li>取地址：间址周期</li>
+<li>存取操作数或结果：执行周期</li>
+<li>保存程序断点：中断周期</li>
+</ol>
+<p>CPU工作周期的标志</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629103918456.png" alt="image-20200629103918456"></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>FE</td>
+<td>取址周期</td>
+</tr>
+<tr>
+<td>IND</td>
+<td>间址周期</td>
+</tr>
+<tr>
+<td>EX</td>
+<td>执行周期</td>
+</tr>
+<tr>
+<td>INT</td>
+<td>中断周期</td>
+</tr>
+</tbody></table>
+<p><strong>指令周期数据流</strong></p>
+<p><strong>取址</strong></p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629110133188.png" alt="image-20200629110133188"></p>
+<p><strong>间址周期数据流</strong></p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629113846394.png" alt="image-20200629113846394"></p>
+<p>间址最开始会是在MDR或者IR中给出地址</p>
+<p><strong>执行周期数据流</strong></p>
+<p>不同指令的执行操作差异大，会在第9章详细介绍</p>
+<p><strong>中断周期数据流</strong></p>
+<ol>
+<li><p>保存断点：先需要由CU控制断点会保存在内存的哪个位置。CU会发出写命令。中断指令要返回的地址是多少保存在PC中，所以会由PC给到MDR再存入内存</p>
+</li>
+<li><p>形成中断服务程序的入口地址：中断服务程序的入口地址会由CU给出直接写入到PC中（这部分会在8.4节详细介绍）</p>
+</li>
+</ol>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200629114829003.png" alt="image-20200629114829003"></p>
+<h2 id="指令流水"><a href="#指令流水" class="headerlink" title="指令流水"></a>指令流水</h2><p><strong>提高机器速度</strong></p>
+<ol>
+<li>提高访存速度：高速芯片、Cache、多体并行</li>
+<li>提高I/O和主机间的传送速度：中断、DMA、通道、I/O处理机、多总线</li>
+<li>提高运行器速度：高速芯片、改进算法、快速进位链</li>
+<li>提高整个处理机的处理能力：改进系统结构、开发系统并行性</li>
+</ol>
+<p><strong>系统并行性</strong></p>
+<p>并行</p>
+<ul>
+<li>并发：同一时间段</li>
+<li>同时：同时</li>
+</ul>
+<p>并行性的等级</p>
+<ul>
+<li>过程级：两个程序并行（粗粒度）</li>
+<li>指令级：两条指令之间在同一时刻都处于被解释的状态（细粒度）</li>
+</ul>
+<p>指令的串行执行</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200630095149996.png" alt="image-20200630095149996"></p>
+<p>//但这样取指令部件忙的时候，执行指令就会处于空闲状态，总有一个部件会空闲，利用率低</p>
+<p>指令的二级流水</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200630095311259.png" alt="image-20200630095311259"></p>
+<p>//在理想情况下，流水线处于满负荷的运行状态，指令周期减半，速度提高一倍</p>
+<p><strong>影响指令流水效率加倍的因素</strong></p>
+<ol>
+<li>执行时间&gt;取址时间 //取指时间是固定的，但执行时间会因为指令的复杂程度而提高，可以再取指令部件和执行指令部件中增加一个缓冲区，用于缓冲取指，执行部件完成后就可以去缓冲区取指令执行</li>
+<li>条件转移指令对指令流水的影响 //上条指令执行结束后，才能确定下条指令的地址，造成时间损失</li>
+</ol>
+<p><strong>指令的六级流水</strong></p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200720203259874.png" alt="image-20200720203259874"></p>
+<p>完成1条指令时间=6个时间单位</p>
+<p>串行执行所需时间=6×9=54</p>
+<p>六级流水=6+9-1=14 </p>
+<p><strong>影响指令流水线性能的因素</strong></p>
+<ol>
+<li>结构相关：不同指令在同一时刻争用同一部件造成资源冲突<ul>
+<li>解决方法：<ul>
+<li>停顿</li>
+<li>将指令存储器和数据存储器分开</li>
+<li>指令预取技术</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数据相关：不同指令重叠操作时，可能改变操作数的读写访问顺序<ul>
+<li>先写后读相关RAW</li>
+<li>先读后写相关WAR</li>
+<li>先写后写相关WAW</li>
+<li><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200720204226704.png" alt="image-20200720204226704"></li>
+<li>解决方法：后推法（推后读or推后写），采用旁路技术（输出端生成结果后直接送到第二条指令进行运算，无需等待）</li>
+</ul>
+</li>
+<li>控制相关（转移指令可能会造成指令的损失）</li>
+</ol>
+<p><strong>流水线性能</strong></p>
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>INFORMATION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>吞吐率</td>
+<td>单位时间内流水线所完成指令或输出结果的数量<br>· 最大吞吐率<br>· 实际吞吐率</td>
+</tr>
+<tr>
+<td>加速比S<sub>p</sub></td>
+<td>流水线速度与非流水线速度之比</td>
+</tr>
+<tr>
+<td>效率</td>
+<td>流水线各功能段的<font color="blue">利用率</font></td>
+</tr>
+</tbody></table>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200722205012780.png" alt="image-20200722205012780"></p>
+<p>若不能理解，请看上面的六级流水图</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200722205415227.png" alt="image-20200722205415227"></p>
+<p>速度与时间成反比</p>
+<p><img src="C:\Users\AAA\AppData\Roaming\Typora\typora-user-images\image-20200722205729763.png" alt="image-20200722205729763"></p>
+<p>从流水线时空图看就是占有的面积/时间和空间轴围城的面积</p>
+<p><strong>流水线的多发技术</strong></p>
+<h1 id="中断系统"><a href="#中断系统" class="headerlink" title="中断系统"></a>中断系统</h1>]]></content>
+      <tags>
+        <tag>课程笔记</tag>
+      </tags>
+  </entry>
+</search>
