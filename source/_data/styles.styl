@@ -1,0 +1,69 @@
+//55px ≈ 3.5rem
+//
+.headband {
+  display: none
+}
+//
+.site-meta .brand{
+  display: none
+}
+.custom-logo-image {
+  background: white;
+  max-width: initial;
+  height: 3.5em
+  @media mq-mobile {height: 2em;} 
+  @media mq-tablet {height: 2.5em;} 
+}
+//
+.main-menu a{
+  font-size: 18px
+}
+.main-menu i{
+  color: #f56627
+  font-size: 22px
+}
+//
+.tag-cloud-title {
+    display: none
+}
+@keyframes bounce{10%{transform:translateY(2px);} 80%{transform:translateY(-10px);} 100%{transform:translateY(-6px);}}
+@-webkit-keyframes bounce{10%{transform:translateY(2px);} 80%{transform:translateY(-10px);} 100%{transform:translateY(-6px);}}
+.tag-cloud-tags a{
+  background-image: url('https://i.pinimg.com/564x/3f/c1/fb/3fc1fb7a79c8761c9f12055dc5dba19b.jpg')
+  border-radius: 10px
+  padding: 10px 10px
+  width: 210px
+  line-height: 100px
+  font-weight: bold
+  letter-spacing: 3px
+  border: inset 4.5px #0eb5ef
+  box-shadow: inset 0px 0px 20px 0.2px #0eb5ef
+  //opacity: 0.9
+  transition: all 0.2s linear;
+  &:hover{
+    box-shadow: inset 0px 0px 10px 0px #222
+    border: 3.5px solid  #f56627
+    animation: bounce 0.3s 1 normal ease-out forwards;
+    -webkit-animation: bounce 0.3s 1 normal ease-out forwards;
+  }  
+}
+//
+.collection-title .collection-header{
+  font-weight: normal
+  color: #f56627
+}
+.collection-title .collection-header small{
+  font-weight: bold
+  color: white
+}
+.collection-header a{
+  padding: 0px 14px 3px 8px
+  background-color: #62d1f8 
+  border: 4px solid white
+  border-radius: 30px
+  transition: all 0.3s linear
+  &:hover{
+    background-color: #ed5cad
+    box-shadow: inset -80px 0px 0px 5px rgba(white, 0.6);
+  }
+}
