@@ -17,6 +17,8 @@ mathjax:
 
 [pip安装第三方包报错：There was a problem confirming the ssl certificate - YinMan - 博客园 (cnblogs.com)](https://www.cnblogs.com/yinhaiping/p/13375375.html)
 
+[Exception: Traceback (most recent call last): .... pip install 安装报错_移步换景的博客-CSDN博客](https://blog.csdn.net/qq_43538025/article/details/104159231) （PS：检查网络问题）
+
 **本次安装使用的第三方包**
 
 pip install [pyuserinput](https://pypi.org/project/PyUserInput/0.1.9/)
@@ -50,7 +52,7 @@ listener.start()
 
 # 鼠标坐标显示 #
 try:
-    while True
+    while True:
         print("Press Ctrl-C to end")
         x,y = pyautogui.position() #返回鼠标的坐标
         posStr="Position:"+str(x).rjust(4)+','+str(y).rjust(4)
