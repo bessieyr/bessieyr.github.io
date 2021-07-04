@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="OkyZCMPMiFbsWINL9QYN7T1HjnhKPhWix6_ofySVMGI">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ronyeaf.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="存储原理 集成度 芯片引脚 功耗 价格 速度 刷新 主要用途    SRAM 触发器 低（电路复杂）单元电路&#x3D;6个晶体管 多 大 高 快 无 缓存Cash   DRAM 电容 高单元电路&#x3D;1晶体管+1电容 少$\Rightarrow$封装体积小行地址、列地址分别传送∴ 地址线的条数&#x2F;&#x3D;2 小 低 慢 需要 主存   单元电路体积小、电路简单→单位芯片上能集成较多的基本单元电路→集成度高 静">
+<meta property="og:type" content="article">
+<meta property="og:title" content="随机存取存储器（RAM）">
+<meta property="og:url" content="https://ronyeaf.github.io/2020/06/07/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/RandomAccessMemory/index.html">
+<meta property="og:site_name" content="Ronyeaf">
+<meta property="og:description" content="存储原理 集成度 芯片引脚 功耗 价格 速度 刷新 主要用途    SRAM 触发器 低（电路复杂）单元电路&#x3D;6个晶体管 多 大 高 快 无 缓存Cash   DRAM 电容 高单元电路&#x3D;1晶体管+1电容 少$\Rightarrow$封装体积小行地址、列地址分别传送∴ 地址线的条数&#x2F;&#x3D;2 小 低 慢 需要 主存   单元电路体积小、电路简单→单位芯片上能集成较多的基本单元电路→集成度高 静">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200525185808.png">
+<meta property="article:published_time" content="2020-06-07T18:18:34.000Z">
+<meta property="article:modified_time" content="2021-07-04T10:20:03.167Z">
+<meta property="article:author" content="青如玉">
+<meta property="article:tag" content="课程笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200525185808.png">
+
+<link rel="canonical" href="https://ronyeaf.github.io/2020/06/07/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/RandomAccessMemory/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>随机存取存储器（RAM） | Ronyeaf</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta custom-logo">
+      <div class="site-meta-headline">
+        <a href="/" >
+          <img class="custom-logo-image" src="/images/logo.png" alt="Ronyeaf">
+        </a>
+      </div>
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Ronyeaf</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://ronyeaf.github.io/2020/06/07/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/RandomAccessMemory/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="青如玉">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ronyeaf">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          随机存取存储器（RAM）
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-06-07 18:18:34" itemprop="dateCreated datePublished" datetime="2020-06-07T18:18:34+00:00">2020-06-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-07-04 10:20:03" itemprop="dateModified" datetime="2021-07-04T10:20:03+00:00">2021-07-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <table>
+<thead>
+<tr>
+<th></th>
+<th>存储原理</th>
+<th>集成度</th>
+<th>芯片引脚</th>
+<th>功耗</th>
+<th>价格</th>
+<th>速度</th>
+<th>刷新</th>
+<th>主要用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SRAM</td>
+<td>触发器</td>
+<td>低<font color="#aaa">（电路复杂）</font><br>单元电路=6个晶体管</td>
+<td>多</td>
+<td>大</td>
+<td>高</td>
+<td>快</td>
+<td>无</td>
+<td>缓存Cash</td>
+</tr>
+<tr>
+<td>DRAM</td>
+<td>电容</td>
+<td>高<br>单元电路=1晶体管+1电容</td>
+<td>少$\Rightarrow$封装体积小<br>行地址、列地址分别传送<br>∴ 地址线的条数/=2</td>
+<td>小</td>
+<td>低</td>
+<td>慢</td>
+<td>需要</td>
+<td>主存</td>
+</tr>
+</tbody></table>
+<p><font color="#aaa">单元电路体积小、电路简单→单位芯片上能集成较多的基本单元电路→集成度高</font></p>
+<p><strong>静态RAM（SRAM）</strong></p>
+<p>基本存储电路为触发器，利用<font color="blue">双稳态触发器</font>存放一位二进制数，若干个触发器组成存储元件。并有行地址选择与列地址选择作为开关，当电路导通时就可以进行读/写操作。</p>
+<p><strong>动态RAM（DRAM）</strong></p>
+<p>利用<font color="blue">电容</font>来储存二进制数，由于电容会漏电，隔段时间后电容上的电荷信号会消失，需要采用刷新/再生放大器来对电容中的保存的信息进行重现。</p>
+<ul>
+<li><p><strong>分类</strong></p>
+<ul>
+<li>单管动态RAM：当电容充电时，数据线有电流，表示“1”，放电时，数据线无电流，表示存放的是“0”。</li>
+<li>三管动态RAM：读/写 选择/数据线分开运作，且存在一个预充电信号，使读数据线初始为“1”。<ul>
+<li>读出时，电容作为开关使用。当电容充电，电路接地–&gt;读数据线会变为“0”。因此，读出数据和原本存入的数据相反，还需要在通过读出放大器进行反相再送往数据总线。</li>
+<li>写入部分的电路和单管动态RAM的电路基本相同，写入数据与原本输入的数据一致，电容充电时就表示“1”，放电时为“0”。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>刷新</strong>：每次刷新，只与<font color="blue">行地址</font>有关，刷新的是动态RAM中一行所有的基本单元电路。<font color="#aaa">给出行地址以后，某一行就会被选中，这一行所有基本单元的信息都会被送到读数据线上，读数据线与写数据线间每一列都存在刷新放大器，通过刷新放大器，就可以完成对一整行的数据刷新。</font></p>
+<ol>
+<li>集中式刷新：把刷新时间集中在一个相对集中时间段里面进行操作。在集中刷新时间段中，无论是CPU还是I/O都无法和动态RAM进行信息交换，因而称这段时间为区域<font color="red">” 死区“</font>。<br>存取周期=刷新一行的时间</li>
+<li>分散刷新：拉长存取周期的时间，<font color="blue">无死区</font>。但会存在过度刷新，同时因加长了读写周期，导致芯片性能下降。<br>存取周期=读写时间+刷新一行的时间</li>
+<li>异步刷新：结合了集中式和分散刷新，拉长了刷新一行的时间间隔。<br>刷新一行的时间间隔=读写时间+1个存取周期的集中刷新(死区)<br><img src="https://cdn.jsdelivr.net/gh/bessieyr/asset/img/20200525185808.png">若将刷新安排在指令译码阶段（CPU和I/O不访存的时候），就可避免死区的影响。</li>
+</ol>
+<p>☆【举例比较刷新方法】：假设动态RAM刷新时间间隔为2ms，存储芯片为128×128。（128行的矩阵需要128个存取周期）</p>
+<ul>
+<li>集中式刷新：存取周期为0.5μs。死区为64μs，<font color="red">死亡时间率</font>=$\frac{\text{128个存取周期}}{\text{4000个存取周期}}$=3.2%</li>
+<li>分散刷新：存取周期为1μs。2ms内每行会刷新15.6次（2ms÷128÷1μs）。</li>
+<li>异步刷新：存取周期为0.5s。每隔15.6μs刷新1行，15.6μs中会有0.5μs是死区。</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag"># 课程笔记</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/06/03/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/C++/" rel="prev" title="C++">
+      <i class="fa fa-chevron-left"></i> C++
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/11/14/%E8%BE%93%E5%87%BA/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A%E7%B3%BB%E7%BB%9F/" rel="next" title="作业系统">
+      作业系统 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="青如玉"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">青如玉</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">categories</span>  <!-- <span class="site-state-item-name">tags</span> -->
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:ronyeaf@gmail.com" title="E-Mail → mailto:ronyeaf@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fas fa-feather-alt"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">青如玉</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+  <script data-pjax>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'd42b67d495ed439d5984',
+      clientSecret: '052cf56d6954e6313364b0427cea3811299b716d',
+      repo        : 'ronyeaf.github.io',
+      owner       : 'ronyeaf',
+      admin       : ['ronyeaf'],
+      id          : '26b2d8fa0fd32fa58cc46758086189e1',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+    </div>
+</body>
+</html>
